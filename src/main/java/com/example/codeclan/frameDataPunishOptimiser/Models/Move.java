@@ -1,18 +1,14 @@
 package com.example.codeclan.frameDataPunishOptimiser.Models;
 
+import java.util.ArrayList;
+
 public class Move {
     private String input;
-    private int startup;
-    private String active;
-    private int recovery;
-    private int frameAdvantage;
+    private ArrayList<MoveDetails> moveDetails;
 
-    public Move(String input, int startup, String active, int recovery, int frameAdvantage) {
+    public Move(String input) {
         this.input = input;
-        this.startup = startup;
-        this.active = active;
-        this.recovery = recovery;
-        this.frameAdvantage = frameAdvantage;
+        this.moveDetails = new ArrayList<MoveDetails>();
     }
 
     public String getInput() {
@@ -23,37 +19,15 @@ public class Move {
         this.input = input;
     }
 
-    public int getStartup() {
-        return startup;
+    public ArrayList<MoveDetails> getMoveDetails() {
+        return moveDetails;
     }
 
-    public void setStartup(int startup) {
-        this.startup = startup;
+    public void setMoveDetails(ArrayList<MoveDetails> moveDetails) {
+        this.moveDetails = moveDetails;
     }
 
-    public String getActive() {
-        return active;
+    public void addMoveDetails(MoveDetails moveDetails){
+        this.moveDetails.add(moveDetails);
     }
-
-    public void setActive(String active) {
-        this.active = active;
-    }
-
-    public int getRecovery() {
-        return recovery;
-    }
-
-    public void setRecovery(int recovery) {
-        this.recovery = recovery;
-    }
-
-    public int getFrameAdvantage() {
-        return frameAdvantage;
-    }
-
-    public void setFrameAdvantage(int frameAdvantage) {
-        this.frameAdvantage = frameAdvantage;
-    }
-
-
 }
