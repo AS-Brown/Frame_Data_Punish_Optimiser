@@ -1,14 +1,47 @@
 package com.example.codeclan.frameDataPunishOptimiser.Models;
 
-import java.util.ArrayList;
+import com.fasterxml.jackson.annotation.JsonBackReference;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
+
+@Entity
+@Table(name = "games")
 public class Game {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    @Column(name = "name")
     private String name;
-    private ArrayList<Char> characters;
+    @JsonIgnoreProperties("game")
+    @OneToMany(mappedBy = "game", fetch = FetchType.LAZY)
+    private List<Individual> individuals;
 
     public Game(String name) {
         this.name = name;
-        this.characters = new ArrayList<Char>();
+        this.individuals = new ArrayList<Individual>();
+    }
+
+    public Game(){
+
+    }
+
+    public List<Individual> getIndividuals() {
+        return individuals;
+    }
+
+    public void setIndividuals(List<Individual> individuals) {
+        this.individuals = individuals;
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -19,15 +52,4 @@ public class Game {
         this.name = name;
     }
 
-    public ArrayList<Char> getCharacters() {
-        return characters;
-    }
-
-    public void setCharacters(ArrayList<Char> characters) {
-        this.characters = characters;
-    }
-
-    public void addCharacters(Char character){
-        this.characters.add(character);
-    }
 }
