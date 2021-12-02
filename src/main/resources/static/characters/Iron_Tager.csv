@@ -1,0 +1,46 @@
+Move,Damage,Startup,Active,Recovery,FrameAdvantage,Level ,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
+5A,400,7,3,11,1,2,S,100,80,B,,,13,14,
+5B,540,10,3,14,0,3,L,90,89,F,,,16,17,
+5C,1000,15,7,15,-3,4,L,100,92,B,,,18,23,
+2A,350,8,3,10,1,2,S,100,80,B,,,13,14,
+2B,580,11,3,9,5,3,L,90,89,F,,,16,17,
+2C,1100,15,2,37,-20,4,L,90,82,B,11-14 H,,18,19,
+6A,800,19,7,37,-27,3,L,90,89,B,16-26~58 Guard HBP,,16,"17, Slide 20",Guard ends until end of active frames
+6B,620,16,2,18,-3,3,L,90,89,B,,,16,17,
+6C,1500,28,2,33,-18,4,N,80,84,B,,,18,33,Bonus Proration 110%
+3C,810,13,3,22,-8,4,L,80,82,F,,,18,58,
+j.A,400,7,3,9,,2,N,80,80,H,,,13,14,
+j.B,700,10,16,20,,3,L,80,89,H,,,16,17,
+j.C,1050,13,5,12,,4,L,80,92,H,,,18,22,
+j.2C,1200,18,2,18,,4,L,80,92,H,,,18,19,Fatal Counter
+Forward Throw,1500,7,3,23,,4,N,100,50,T,,,,,
+Back Throw,1500,7,3,23,,4,N,100,50,T,,,,,
+Air Throw,1500,7,3,26,,4,N,100,50,T,,,,,
+Counter Assault,0,16,2,31,-14,4,VS,50,92,B,1-20 All,,18,19,
+Crush Trigger,1000,20,1,25,0,,N,80,60,B,,,24,60,
+Crush Trigger Charged,1000,30,1,25,0,,L,80,100,B,,,24,60,
+5D,Normal: 1100 OD: 1200,23,7,20,-6,5,L,100,84,B,OD: 15-26 Guard BP,,20,"40, Slide 15",
+2D,1200,26,10,18,2,5,L,90,84,F,OD: 12-35 Guard FP,,20,"32, Slide 10","On hit/block, Tager goes into recovery animation 18F. Guard Point lasts until Recovery. Fatal"
+4D,Normal: 800 OD: 1200,13,4,14,-1,3,L,100,89,B,OD: 5-12 Guard BP,,16,30,
+j.D,Normal: 1120 OD: 1200,23,4,35,,5,L,80,94,H,OD: 6-26 Guard HP,,20,38,
+A Sledge,1200,20,3,18,-4,3,N,80,89,B,1-23 Guard P,,,44,"On hit/block, can cancel into Hammer on 23. On whiff, can cancel into Hammer on 32?"
+B Sledge,1300,35,4,20,-7,3,N,80,89,B,1-39 P Guard P<br/>11-29 Guard HBP,,,50,Guard point lasts until 1F after active frames end
+B Sledge Max Charge,1500,56,4,20,-7,3,N,80,89,B,1-60 P Guard P<br/>11-50 Guard HBP,,,,
+Hammer,1370,22,6,30,-17,4,VS,70,92,B,1-21 Guard HBP,,,54,
+Gigantic Tager Driver,"0, 2500",6,1,29,,4,VS,100,60,T,3-6 All,,,100,"On successful throw, can cancel into Gadget last 5F"
+Wedge,"0, 1200",30,4,30,,,N,60,100,T,6-30 All,,,200,Minimum Damage 100%
+Wedge Followup,"0, 1400",,,,,4,VS,,92,,,,,100,Minimum Damage 100%
+Air Driver,2700,6,3,12,,4,VS,100,60,T,,,,100,Minimum Damage 100%
+Gadget Finger,100,7,8,16,,0,L,100,80,,,,,,Tager is +10 on hit
+Spark Bolt,1500,12,Until Offscreen,47,-1,4,L,80,82,P2,,,18+16 Hitstop,"80+18 Hitstop, Wall 35",
+Anti Air Spark Bolt,1500,12,Until Offscreen,Total 47,-1,4,L,80,82,P2,,,18+16 Hitstop,"80+18 Hitstop, Wall 25",
+Crimson Punish,"800, 1500",15,3,16,,4,L,80,92,H,,,,,Can only be done once per jump
+Auto Guard,,,,39,,,,,,,6-21~95 Guard HBP,,,,Guard Point lasts until button is released
+Auto Guard > Attack,1370,13,6,30,-17,4,VS,70,92,B,1-12 Guard HBP,,,54,
+Atomic Collider,"0, 2250",17,3,19,,4,L,100,82,T,4-15 H,,,62,Active for 4F after releasing button
+Genesic Emerald Tager Buster,Normal: 4260 OD: 5220,5,3,41,,,,,,T,1-6 All,,,,
+Magna Tech Wheel,"220*19, 1800",19,"4,2*18 (15) 3",72,-56,4,,80,82,B,1-58 Guard All,,,"60*19, 80",15% Minimum Damage
+MTW OD,"180*31, 1800",19,"4,2*30 (15) 3",72,-56,4,,80,82,B,1-82 Guard All,,,"60*31, 80",15% Minimum Damage
+Terra Break,Normal: 3600 OD: 4200,34,9,35,-25,4,,80,82,B,1-13 All,,,80,
+EA,"Normal: 600, 0, 70*21, 1150 AF: 600, 0, 75*30, 3300",10,3,34,-10,100,,100,,B,Fast 1-22 All<br/>Slow 1-12 All,,26,,10% Minimum Damage
+Astral,16000,21,4,76,,,,,,,1-?? All,,,,

@@ -1,0 +1,57 @@
+Move,Damage,Startup,Active,Recovery,FrameAdvantage,Level ,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
+5A,300,7,2,12,-2,1,N,100,77,B,,,11,12,
+5B,300,6,2,12,-2,1,N,100,77,B,,,11,14,
+5C,630,11,2,20,-5,3,L,100,89,B,,,16,17,
+2A,300,6,2,14,-4,1,N,90,77,F,,,11,12,
+2B,560,10,7,24,-14,3,L,90,89,F,,,16,17,
+2C,700,17,2,23,-8,3,L,100,89,F,,,16,21,
+6A,420*2,12,2 (4) 2,20,-8,2,L,100,85,B,7-13 H,,13,19,
+6B,700,26,4,17,-4,3,N,80,89,H,4-29 F,,16,17,Bonus Proration 110%. Fatal Counter
+6C,910,,3,29,-14,4,L,90,92,B,,,18,"40, Wall 40",Bonus Proration 110%. Fatal Counter
+6C Max Charge,1300,,3,29,-14,4,L,90,92,B,,,18,19,Fatal Counter
+3C,"300*2, 600",10,1 (4) 2 (12) 5,18,-6,3,L,90,89,F,,,16,40,
+j.A,300,6,2,9,,1,N,80,77,H,,,11,12,
+j.B,500,9,6,15,,2,L,80,85,H,,,13,17,
+j.2B,600,14,2,18,,3,L,80,89,H,,,13,14,
+j.C,700,11,3,20,,3,L,80,89,H,,,13,19,
+Taunt,100*2,11,5(10)5,15,-10,0,N,100,20,B,,,9,30,
+5D,800,19,8,24,,4,N,80,89,H,,,14,"35, Slide 15","On hit/block, has 2F recovery before transitioning to followups, landing recovery reduced to 3"
+2D,800,13,10,12,,4,N,80,89,H,,,14,35,"On hit/block, has 2F recovery before transitioning to followups"
+4D,1000,25,Until L,8,,4,N,80,89,H,,,14,35,"On hit/block, has 2F recovery before transitioning to followups, landing recovery reduced to 3. Fatal"
+j.D,900,11,12,20,,4,N,80,89,H,,,14,35,"On hit/block, has 2F recovery before transitioning to followups, landing recovery reduced to 3"
+j.2D,850,15,Until L,24,,4,N,80,82,H,,,14,"35, Slide 10","On hit/block, has 2F recovery before transitioning to followups, landing recovery reduced to 3"
+j.4D,"550, 800",4,Until L (15) 10,9,,4,N,80,89,H,,,14,35,"On hit/block of 2nd hit, has 2F recovery before transitioning to followups, landing recovery reduced to 3"
+j.8D,930,10,10+4L,9,,4,N,80,89,H,,,14,35,
+Forward D > Stop,,,,30,,,,,,,,,,,
+Upwards D > Stop,,,,31,,,,,,,,,,,
+Downwards D > Stop,,,,31,,,,,,,,,,,
+Forward D > Turn Ground,,,,24,,,,,,,,,,,Can pass through oppoonent 2-16
+Forward D > Turn Air,,,,21,,,,,,,,,,,Can pass through oppoonent 2-16
+Upward D > Turn,,,,24,,,,,,,,,,,Can pass through oppoonent 2-16
+Downards D > Turn Ground,,,,30,,,,,,,,,,,Can pass through oppoonent 2-14
+Downards D > Turn Air,,,,16,,,,,,,,,,,Can pass through oppoonent 2-14
+D > Jump,,,,16,,,,,,,,,,,
+Trick Edge,950,3,Until L,24,,4,N,80,89,H,,,18,19,"On hit/block, has 2F recovery before transitioning to followups"
+Forward Throw,1500,7,3,23,,4,N,100,50,T,,,,60,
+Back Throw,1500,7,3,23,,4,N,100,50,T,,,,60,
+Air Throw,1500,7,3,26,,4,N,100,50,T,,,,100,
+Counter Assault,0,13,4,30,,4,VS,50,92,B,1-20 All,,18,19,
+Crush Trigger,1000,20,1,25,0,,N,80,60,B,,,24,60,
+Crush Trigger Charged,1000,30,1,25,0,,L,80,100,B,,,24,60,
+Kitty Litter Special,,30,,Total 52,,,,,,,,,,,
+Chibi, Fish, Hammer,500,30,Until Offscreen,,,,S,,,P1,,,,,
+Baseball,500,30,Until Offscreen (120) Until Offscreen,,,,S,,,P1,,,,,Disappears after touching opponent
+Bomb,500*2,30,Until Offscreen,,,,S,,,P1,,,,,
+Bowling Ball,500*2,56,Until Offscreen,Total 79,,1,S,90,80,P1,,,11+0,14+0,
+Cat Jump,,,,42,,,,,,,,,,,Can cancel into actions on 19
+Cat Spirit One!,400*N,12,2,19,-4,3,L,100,89,B,,,16,22,Press button for more hits (max 9). Followup hits will have startup 9 and 2 active frames. Can cancel in Drives on hit/block. Can cancel into Swipe at Item on hit/block/whiff
+Slashy Slashy,110*3,8,"[2,2,6]*3",15,,2,L,100,,B,,,13,25,Press button for more hits
+Cat Spirit Two!,"300*4, 1000",9,4 (3) 4 (3) 4 (3) 4 (3) 4,24,,2,L,100,85,H,,,13,"17*4, 36",Release button to stop attack and go into recovery. Can cancel into Drive on hit/block
+Cat Spirit Encore!,1000,11,3,20,-6,3,N,80,89,F,,,16,40,"On whiff, has recovery 33F"
+Cat Spirit Three!,800,35,,,,3,"N, L",90,89,B,,,16,17,
+Sticky Kitty,,,,,,,,,,,,,,,
+Hexa Edge,"Normal: 720*4, 2160 OD: 720*4, 100*16, 2160",7,2 (6) 2 (4) 2 (6) 2 (18) 2,43,-26,4,N,80,82,B,1-14 All,,18,"60*4, 55",
+Imma Beat The Crap Outta You!,"Normal: 0, 4000 : 0, 4800",16,10,50,,4,VS,100,"100, 20",T,1-15 All<br/>16-25 FT,,,1000,Misses vs crouching opponents. Minimum Damage 25%
+Unison Nyaibu!,"Normal: 800, 100*8, 800*4 OD: 800, 100*28, 800*5",9,3,,,4,N,80,80,H,1-11 All,,18,"60, Slide 30",Minimum Damage 15%
+EA,"Normal: 600, 440, 0, 40*18, 1200 AF: 600, 440, 0, 60*18, 1200*3",10,3,34,-10,,L,100,100,B,Fast: 1-12 All<br/>Slow: 1-22 All,,26,,Minimum Damage 10%
+Astral,21000,Until Wall+3,Until L,54,,1,L,,,H,,,,,

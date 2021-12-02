@@ -1,0 +1,28 @@
+
+Move,Damage,Startup,Active,Recovery,FrameAdvantage,Level,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
+5A,300,6,3,10,-1,1,N,100,77,B,,,11,14,
+5B,550,10,3,15,-1,3,L,100,89,B,,,16,17,
+5C,800,16,6,12,-1,3,L,100,89,BP,,,16,"17, Slide 30",
+2A,300,6,3,10,-1,1,N,100,77,F,,,11,14,
+2B,520,9,5,18,-6,3,L,90,89,F,,,16,17,
+2C,500,14,3 (9) 3,16,-2,3,L,90,89,F,,,16,30,
+3C,860,21,3,21,-6,3,L,90,89,F,10-20 H,,16,40,
+6A,750,24,3,19,-4,4,N,90,92,B,,,18,34,
+6B,650,12,3,21,-7,3,L,90,79,B,5-14 H,,16,17,
+6C,1200,22,6,22,-9,4,L,90,82,H,5-41 FT,,18,19,Fatal Counter
+Counter Assault,0,22,3,30,-14,4,VS,50,92,B,1-20 All,,18,19,
+Crush Trigger,1000,20,1,25,0,,N,80,60,BP,,,24,60,
+Crush Trigger Charged,1000,30,1,25,0,,L,80,100,BP,,,24,60,
+5D,"Lv0: 450, 900<br/>Lv1,2: 600, 900",30,9,14,-5,3,L,90,"69, 100",H,"Lv0: Active Frames PT<br/>Lv1,2: Active Frames All",,20,50,"When attack is blocked, Bullet goes into recovery. Recovery for ground forward/backward dash is until landing + 7. Recovery for all other versions is 13F"
+6D level 0,"Lv0: 800",38,7,14,0,Lv0: 3<br/>Lv1: 4<br/>Lv2: 5,N,80,89,H,18-40 FT,,Lv0: 20<br/>Lv1/2: 24,60,Invincibility listed is on fastest startup from neutral. Invincibilty lasts from when Bullet starts moving forward until end of active frames. Bonus Proration 110
+6D level 1/2,"1000",38,7,14,4,Lv0: 3<br/>Lv1: 4<br/>Lv2: 5,N,80,89,H,18-40 FT,,Lv0: 20<br/>Lv1/2: 24,60,Invincibility listed is on fastest startup from neutral. Invincibilty lasts from when Bullet starts moving forward until end of active frames. Bonus Proration 110
+2D level 0,800,42,3,18,0,Lv0: 3<br/>Lv1: 4<br/>Lv2: 5,L,80,89,F,22-44 FT,,Lv0: 20<br/>Lv1/2: 24,60,Invincibility listed is on fastest startup from neutral. Invincibilty lasts from when Bullet starts moving forward until end of active frames. Bonus Proration 110
+2D level 1/2,"1000",42,3,18,4,Lv0: 3<br/>Lv1: 4<br/>Lv2: 5,L,80,89,F,22-44 FT,,Lv0: 20<br/>Lv1/2: 24,60,Invincibility listed is on fastest startup from neutral. Invincibilty lasts from when Bullet starts moving forward until end of active frames. Bonus Proration 110
+Reversal Throw,"400, 1500",14,2,38,-23,"3, 4",VS,70,52,B,1-15 All,,16,100,
+Flint Shooter level 0,"700",19,Until Offscreen,0,-5,3,N,80,89,P1,,,16+2 Hitstop,22+2 Hitstop,
+Flint Shooter level 1,"700, 350",19,Until Offscreen,-2,3,N,80,89,P1,,,16+2 Hitstop,22+2 Hitstop,
+Flint Shooter level 2,"700, 350*2",19,Until Offscreen,0,3,N,80,89,P1,,,16+2 Hitstop,22+2 Hitstop,
+Flint Shooter Charged,Level 0: 900 Level 1: 700*2 Level 2: 800*2,25,9,58,3,4,N,80,92,P1,,,18+0 Hitstop,"Lv0: 38+0 Hitstop<br/>Lv1,2: 38*2+0 Hitstop",
+Combo Super,"400*3, 800*2, 300*7, 1200",12,3*3,29,-15,"4*3, 3*9, 5",N,80,80,B,1 All,,18*3,90,
+EA,"Normal: 600, 0, 300, 120*6, 1500 AF: 600, 0, 300, 180*14, 2600",10,3,34,-10,100,,100,,B,Fast 1-22 All<br/>Slow 1-12 All,,26,,10% Minimum Damage
+Astral,11000,25,3,31,-12,5,,,,B,,,20,,

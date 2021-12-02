@@ -1,0 +1,75 @@
+Move,Damage,Startup,Active,Recovery,Frame Adv,Level ,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untech,Notes
+5A,300,6,4,9,-2,1,N,100,80,B,,,11,12,
+5B,600,8,5,18,-11,2,L,100,85,B,,,13,16,
+5C,750,12,3,21,-7,3,L,100,89,B,,,16,17,
+2A,300,7,3,9,-1,1,N,100,80,F,,,11,12,
+2B,530,10,3,20,-9,2,L,90,85,F,,,13,14,
+2C,800,10,3,32,-18,3,L,90,89,B,10-12 H,,16,22,
+3C,790,13,3,24,-10,3,L,90,79,F,,,16,17,
+6A,650,26,3,20,-6,3,N,80,89,B,,,16,17,Bonus Proration 110%
+6B,760,14,4,22,-9,3,L,90,79,B,8-17 H,,16,27,
+6C,700,17,3,18,-4,3,L,90,89,B,,,16,60,
+6C dashing,700,7,3,18,-4,3,L,90,89,B,,,16,60,Fatal Counter. Bonus Proration 110
+j.A,300,7,6,7,,1,N,80,80,H,,,11,12,
+j.B,630,9,3,18,,2,L,80,85,H,,,13,17,
+j.BB,770,7,3,19,,2,L,80,85,H,,,13,17,
+j.C,850,12,4,26,,3,L,80,89,H,,,16,17,
+Forward Throw,500*3,7,3,23,,3,N,100,50,T,,,,60,
+Back Throw,1500,7,3,23,,4,N,100,50,T,,,,,
+Air Throw,1500,7,3,23+3L,,3,N,100,50,T,,,,,
+Counter Assault,0,13,3,32,-16,4,VS,50,92,B,1-20 All,,18,19,
+Crush Trigger,1000,20,1,25,0,,N,80,60,B,,,24,60,
+Crush Trigger Charged,1000,30,1,25,0,,L,80,100,B,,,24,60,
+5D,730,25,5,29,0,3,L,100,89,B,,,16,17,"Frame Adv listed assumes 5D Crest hits aftewards. If Crest does not hit, then Frame Adv -18"
+5D OD,730,23,5,29,0,3,L,100,89,B,,,16,17,"Frame Adv listed assumes 5D Crest hits aftewards. If Crest does not hit, then Frame Adv -18"
+5D Crest,740,49,3,,,1,N,80,89,P1,,,11+9 Hitstop,21+9 Hitstop,
+5D Crest OD,740*2,49,3 (7) 3,,,1,N,80,89,P1,,,11+9 Hitstop,21+9 Hitstop,
+2D,760,30,6,17,-5,3,L,90,89,B,,,16,17,
+2D OD,760,27,6,17,-5,3,L,90,89,B,,,16,17,
+2D Crest,740,113,3,,,1,N,80,89,P1,,,11+9 Hitstop,21+9 Hitstop,
+2D Crest OD,740*2,113,3(7)3,,,1,N,80,89,P1,,,11+9 Hitstop,21+9 Hitstop,
+6D,850,25,6,24,-11,4,L,90,92,H,6-44 FT,,18,26,
+6D OD,850,23,6,24,-11,4,L,90,92,H,6-42 FT,,18,26,
+6D Crest,740,78,3,,,1,N,80,89,P1,,,11+9 Hitstop,21+9 Hitstop,
+6D Crest OD,740*2,78,3 (7) 3,,,1,N,80,89,P1,,,11+9 Hitstop,21+9 Hitstop,
+j.D,800,23,5,23,,3,L,80,89,H,,,16,35,
+j.D OD,800,21,5,23,,3,L,80,89,H,,,16,35,
+j.D Crest,740,141,3,,,1,N,80,89,P1,,,11+9 Hitstop,21+9 Hitstop,
+j.D Crest OD,740*2,141,3 (7) 3,,,1,N,80,89,P1,,,11+9 Hitstop,21+9 Hitstop,
+Type: Shooter Breunor A,800,15,30,44,-8,2,L,80,85,P1,,,13+8 Hitstop,20+8 Hitstop,
+Type: Shooter Breunor B,800,27,122,48,0,2,L,80,85,P1,,,13+8 Hitstop,20+8 Hitstop,
+Type: Shooter Breunor A Shot Followup,800,16,30,Total 42,-5,2,L,80,85,P1,,,13+8 Hitstop,20+8 Hitstop,"If followup shot touches first shot, it becomes a powered up shot"
+Type: Shooter Breunor B Shot Followup,800,16,126,Total 42,-5,2,L,80,85,P1,,,13+8 Hitstop,20+8 Hitstop,
+Type: Shooter Breunor Powered Up,1200,1,103,,,3,S,80,85,P2,,,16+11 Hitstop,"36+11 Hitstop, Slide 10",
+Type: Shooter Breunor Air A,800,17,Until Ground/Offscreen,56,,2,L,80,85,P1,,,13+8 Hitstop,20+8 Hitstop,
+Type: Shooter Breunor Air B,800,26,Until Ground/Offscreen,56,,2,L,80,85,P1,,,13+8 Hitstop,20+8 Hitstop,
+Type: Shooter Breunor Air Followup,800,13,Until Ground/Offscreen,48,,2,L,80,85,P1,,,13+8 Hitstop,20+8 Hitstop,
+Type: Assaulter Griflet,880*2,13,3 (12) 9,12,-33,4,VS,60,72,B,1-15 All,,18,45,Enhanced version cancels into DP Followup on 46 on hit. Frame Adv -18 if opponent blocks Enhanced DP's crest
+Type: Assaulter Griflet Air,880*2,10,3 (12) 6,12,,4,VS,60,72,H,1-12 All,,18,45,Enhanced version cancels into DP Followup on 46 on hit
+Type: Assaulter Griflet Crest,800,56,6,,,1,L,60,100,P1,,,11+9 Hitstop,40+9 Hitstop,
+Type: Assaulter Griflet Crest Air,800,53,6,,,1,L,60,100,P1,,,11+9 Hitstop,40+9 Hitstop,
+Type: Assaulter Griflet Followup,600,22,8,40,,4,L,60,100,P1,,,,"60, Ground 60",
+Type: Slasher Mordred,1000,16,4,22,-7,4,L,90,82,B,,,18,40,"On block, Es goes into recovery for 24."
+Type: Slasher Mordred Enhanced,1000,16,4,22,+3,4,L,90,82,B,,,18,40,"On block, Es goes into recovery for 24."
+Type: Slasher Mordred Crest,800,8~22,6,,,1,L,70,100,P1,,,11+9 Hitstop,40+9 Hitstop,Crest activates as soon as Rush attack becomes active
+Type: Slasher Mordred Followup,1000,11,4,23+7L,-16,4,L,80,82,B,,,18,55,Fatal Counter
+Type: Slasher Mordred Followup Enhanced,1000,11,4,23+7L,+4,4,L,80,82,B,,,18,55,Fatal Counter
+Type: Slasher Mordred Followup Crest,800,19,4,,,1,L,70,100,P1,,,11+9 Hitstop,55+9 Hitstop,
+Type: Slasher Gawain, 1000,27,4,13,-3,4,N,90,82,H,9-30 FT,,18,40,
+Type: Slasher Gawain Enhanced, 1000,27,4,13,4,4,N,90,82,H,9-30 FT,,18,40,
+Type: Slasher Gawain Charged,1300,36,3,13,3,4,N,90,82,H,9-38 FT,,18,40,Fatal Counter
+Type: Slasher Gawain Charged Enhanced,1300,36,3,13,10,4,N,90,82,H,9-38 FT,,18,40,Fatal Counter
+Type: Slasher Gawain Crest,800,12,,,,1,L,70,100,P1,,,11+9 Hitstop,40+9 Hitstop,Crest activates 12F after slash becomes active
+Type: Assaulter Erec,"0, 3000",28,12,24,,,N,80,70,HT,,,,100,
+Type: Enchanter Bors,,,,36,,,,,,,,,,,
+Type: Assaulter Tristan,600,10,12,8,,2,L,80,90,H,,,13,20,Can cancel into Air Stomp 2 on 41
+Type: Assaulter Tristan 2,600,10,6,7,,2,L,80,90,H,,,13,25,Can cancel into Air Stomp 3 on 16
+Type: Assaulter Tristan 3,900,15,4,12,,3,L,80,90,H,,,16,60,
+Type: Shooter Palamedes,2200,9,Until Offscreen,35,-10,4,VS,70,72,P2,1-2 P<br/>3 All<br/> 4-12 P,,18+6 Hitstop,40+6 Hitstop,Minimum Damage 30%
+Type: Shooter Palamedes OD,"2200, 220*N",9,Until Offscreen,35,,4,VS,70,72,P2,1-2 P<br/>3 All<br/> 4-12 P,,18+1 Hitstop,40+1 Hitstop,Minimum Damage 30%
+Type: Shooter Palamedes Air,2200,9,Until Offscreen,15,,4,VS,70,72,P2,1-2 P<br/>3 All<br/> 4-12 P,,18+6 Hitstop,40+6 Hitstop,Minimum Damage 30%
+Type: Shooter Palamedes Air OD,"2200, 220*N",9,Until Offscreen,15,,4,VS,70,72,P2,1-2 P<br/>3 All<br/> 4-12 P,,18+1 Hitstop,40+1 Hitstop,Minimum Damage 30%
+Type: Slasher Galahad,"Normal: 1000, 2500 OD: 1000, 150*6, 2500",21,9,24,-14,4,VS,100,70,B,1-23 All,,18,,Minimum Damage 30%
+Type: Enchanter Percival,,,,4+16,,,,,,,1-End All,,,,
+EA,"Normal: 600*5 AF: 600*5, 550*5",10,3,34,-10,100,,100,,B,Fast: 1-12 All<br/>Slow: 1-22 All,,26,,
+Astral,30000,18,3,64,-26,5,,,,B,1-18 All,,,,
