@@ -1,75 +1,76 @@
 Move,Damage,Startup,Active,Recovery,FrameAdvantage,Level ,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
-5A,300,6,3,9,0,1,N,100,77,B,,,11,12,
-5B,600,8,5,14,-2,3,L,100,89,B,,,16,17,Hitbox fully extended on 10
-5C,500*2,12,"3,3",18,-2,4,L,100,92,B,,,18,19,
-2A,300,7,3,9,0,1,N,100,77,F,,,11,12,
-2B,550,11,5,15,-6,2,L,90,85,F,,,13,14,Hitbox fully extended on 13
-2C,800,12,7,25,-15,3,L,90,89,B,7-14 H,,16,26,
-6A,800,26,3,21,-7,3,N,80,89,B,,,16,17,Bonus Proration 110%
-6B,690,10,3,22,-8,3,L,90,79,B,,,16,17,Bonus Proration 110%
-6C,1110,20,8,28,-17,4,L,90,82,B,,,18,30,Fatal Counter
-3C,700,9,3,19,-5,3,L,90,79,F,,,16,38,
-j.A,160*3,7,"3,3,3",9,,1,N,80,92,H,,,11,12,j.A > j.A immediately goes into the active frames
-j.B,600,10,5,16,,2,L,80,85,H,,,13,17,Hits crossup on 13-14F
-j.C,800,12,6,20,,3,L,80,89,H,,,16,19,
-Forward Throw,1500,7,3,23,,4,N,100,50,T,,,,60,
-Back Throw,1500,7,3,23,,4,N,100,50,T,,,,60,
-Air Throw,1500,7,3,26,,4,N,100,50,T,,,,80,
-Counter Assault,0,13,6,30,-17,4,VS,50,92,B,1-20 All,,18,19,
-Crush Trigger,1000,20,1,25,0,,N,80,60,B,,,24,60,
-Crush Trigger Charged,1000,30,1,25,0,,L,80,100,B,,,24,60,
-Summon/Unsummon,,,,22,,,,,,,,,,,
-Air Summon,,,,25,,,,,,,,,,,
-Air Unsummon,,,,24,,,,,,,,,,,
-6D,560,17,3,16,,2,N,100,,BD,1-End Guard P,,13+10 Hitstop,14+10,
-6D OD,560,17,3,11,,2,N,100,,BD,1-End Guard P,,13+10 Hitstop,14+10,
-2D,"620, 780",25,3 (12) 3,33,,1,N,100,,BD,1-End Guard HBFP,,"11+6, 11+7","20+6, 20+7",
-2D OD,"620, 780",25,3 (12) 3,15,,1,N,100,,BD,1-End Guard HBFP,,"11+6, 11+7","20+6, 20+7",
-4D,850,16,9,30,,4,N,80,82,BD,1-End Guard P,,18+12,"30, 50 after Wall",Bonus Proration 110%
-4D,850,16,9,13,,4,N,80,82,BD,1-End Guard P,,18+12,"30, 50 after Wall",Bonus Proration 110%
-j.8D,900,15,3,16,,4,L,80,,HD,1-End Guard P,,18+12,,Relius has total animation 36
-j.8D OD,900,15,3,9,,4,L,80,,HD,1-End Guard P,,18+12,,Relius has total animation 36
-j.2D,900,18,3,16,,4,L,80,,HD,1-End Guard P,,18+12,,Relius has total animation 36
-j.2D OD,900,18,3,8,,4,L,80,,HD,1-End Guard P,,18+12,,Relius has total animation 36
-j.6D,900,16,4,16,,4,L,80,,HD,1-End Guard P,,18+12,,Relius has total animation 36
-j.6D OD,900,16,4,8,,4,L,80,,HD,1-End Guard P,,18+12,,Relius has total animation 36
-Led Ley,,,,35,,,,,,,1-31 HBFP,,,,Can pass through opponent 1-31
-Gad Leis,680x2,21,3 (6) 2,21,-4,4,,100,82,B,,,18,35,Fatal Counter
-Id Lauger,1000,16,6,36,-23,4,L,100,,B,,,18,45,"If Ignis is available, can cancel into Ignis Followups on hit (not on block)"
-Air Id Lauger,1000,14,3,15,,4,L,100,,H,,,18,42,"If Ignis is available, can cancel into Ignis Followups on hit (not on block)"
-Val Tus,660*3,32,3 (6) 3 (15) 3,30,,5,L,100,94,BD,1-End Guard P,,20+13,30,Relius has total animation 36
-Val Tus OD,660*3,32,3 (6) 3 (15) 3,21,,5,L,100,94,BD,1-End Guard P,,20+13,30,Relius has total animation 36
-Val Tus (Ignis Deployed),660*3,22~43,3 (6) 3 (15) 3,30,,5,L,100,94,BD,1-End Guard P,,20+13,30,Relius has total animation 36
-Val Tus (Ignis Deployed) OD,660*3,22~43,3 (6) 3 (15) 3,21,,5,L,100,94,BD,1-End Guard P,,20+13,30,Relius has total animation 36
-Geara Kaas,700*6",42,2,42,,3,N,80,"100, 60",TD,1-End Guard P,,,,"Relius has total animation 45. If Ignis is airborne, then this attack is an air throw"
-Geara Kaas OD,420*11,42,2,24,,3,N,80,"100, 60",TD,1-End Guard P,,,,"Relius has total animation 45. If Ignis is airborne, then this attack is an air throw"
-Geara Kaas (Ignis Deployed),700*6,32,2,42,,3,N,80,"100, 60",TD,1-End Guard P,,,,"Relius has total animation 45. If Ignis is airborne, then this attack is an air throw"
-Geara Kaas (Ignis Deployed) OD,420*11,32,2,24,,3,N,80,"100, 60",TD,1-End Guard P,,,,"Relius has total animation 45. If Ignis is airborne, then this attack is an air throw"
-Geara Nose,920,31,9,Normal: 30<br/>OD: 13,,4,N,90,82,BD,1-End Guard P,,,Normal: 30<br/>OD: 60,Relius has total animation 36
-Geara Nose (Ignis Deployed),920,68,9,30,,4,N,90,82,BD,1-End Guard P,,,Normal: 30<br/>OD: 60,Relius has total animation 36
-Geara Nose (Ignis Deployed) OD,920,68,9,13,,4,N,90,82,BD,1-End Guard P,,,Normal: 30<br/>OD: 60,Relius has total animation 36
-Val Lanto,1050,19,18,26,,3,N,90,89,BD,1-End Guard P,,,"Normal: 40, 25 Slide<br/>OD: 40, 40 Slide","Relius has total animation 39. Startup listed assumes Ignis is not already out. If ignis is out, then startup reduced by 3F."
-Val Lanto OD,1050,19,18,8,,3,N,90,89,BD,1-End Guard P,,,"Normal: 40, 25 Slide<br/>OD: 40, 40 Slide","Relius has total animation 39. Startup listed assumes Ignis is not already out. If ignis is out, then startup reduced by 3F."
-Val Lanto (Ignis Deployed),1050,16,18,26,,3,N,90,89,BD,1-End Guard P,,,"Normal: 40, 25 Slide<br/>OD: 40, 40 Slide","Relius has total animation 39. Startup listed assumes Ignis is not already out. If ignis is out, then startup reduced by 3F."
-Val Lanto (Ignis Deployed) OD,1050,16,18,8,,3,N,90,89,BD,1-End Guard P,,,"Normal: 40, 25 Slide<br/>OD: 40, 40 Slide","Relius has total animation 39. Startup listed assumes Ignis is not already out. If ignis is out, then startup reduced by 3F."
-Val Lyra,1200,35,3,54,,4,N,90,92,BD,1-End Guard P,,18+3,40+3,Relius has total animation 36. Fatal Counter
-Val Lyra OD,1200,35,3,21,,4,N,90,92,BD,1-End Guard P,,18+3,40+3,Relius has total animation 36. Fatal Counter
-Bel Lafino,280*N,30,Until L+3,33,,4,L,80,92,HD,1-End Guard P,,18+3,50+3,Relius has total animation 45
-Bel Lafino OD,280*N,30,Until L+1,11,,4,L,80,92,HD,1-End Guard P,,18+3,50+3,Relius has total animation 45
-Id Haas,1000,37,9,18,,4,L,100,92,HD,1-End Guard P,,18+8,Normal: 36+8<br/>OD: 60+8,"Relius has total animation 36 on the ground, 45 in the air"
-Id Haas OD,1000,37,9,11,,4,L,100,92,HD,1-End Guard P,,18+8,Normal: 36+8<br/>OD: 60+8,"Relius has total animation 36 on the ground, 45 in the air"
-Id Naiads,300*N,37,Until L+1,33,,4,L,100,92,HD,1-End Guard P,,18+2,"Normal: 25+2<br/>OD: 25*N+2, 60+2","Relius has total animation 43 on the ground, 45 in the air"
-Id Naiads OD,300*N,37,Until L+1,11,,4,L,100,92,HD,1-End Guard P,,18+2,"Normal: 25+2<br/>OD: 25*N+2, 60+2","Relius has total animation 43 on the ground, 45 in the air"
-Id Zain,1000,39,3,32,,4,L,100,72,HD,,,,Normal: 30<br/>OD: 60,"Relius has total animation 48 on the ground, 51 in the air"
-Id Zain OD,1000,39,3,23,,4,L,100,72,HD,,,,Normal: 30<br/>OD: 60,"Relius has total animation 48 on the ground, 51 in the air"
-Geara Lugia A,840,42,12,Total 58,5,3,L,100,89,P1,,,16+5 Hitstop,30+5 Hitstop,
-Geara Lugia B,840,34,12,Total 58,-3,3,L,100,89,P1,,,16+5 Hitstop,30+5 Hitstop,
-Geara Lugia C,840,26,12,Total 58,-11,3,L,100,89,P1,,,16+5 Hitstop,30+5 Hitstop,
-Req Vinum,"Normal: 400, 200*6<br/>OD: 400, 200*12",11,9,62,-33,4,N,80,72,P2,1-10 All,,18+0 Hitstop,40+0,
-Duo Bios (Relius),,,,70,113,,,,,,,,,,Frame Adv listed is when opponent blocks until there is a hole in Ignis's attacks Normal: after blocking 8 hits. OD: after blocking 21 hits
-Duo Bios (Relius) OD,,,,70,170,,,,,,,,,,Frame Adv listed is when opponent blocks until there is a hole in Ignis's attacks Normal: after blocking 8 hits. OD: after blocking 21 hits
-Duo Bios (Ignis),"300*10, 1000",26,,48,,4,N,80,82,BD,1-End Guard All,,"20+4*10, 20+20","20+4*8, 32+4, 44+4, 60+20",Active frames are 3 (12) 3 (12) 3 (9) 3 (12) 3 (12) 3 (12) 3 (9) 6 (23) 5 (26) 5 (38) 6
-Duo Bios (Ignis) OD,"300*3, 150*16, 300*2, 300, 300, 1000",26,See notes,48,,4,N,80,82,BD,1-End Guard All,,"20+2*3, 20+1*20, 20+20","20+2*3, 20+1*18, 32+1, 44+1, 120+20",Active frames are 3 (12) 3 (12) 3 (14) 4 (4) 2 (6) 4 (4) 3 (6) 4 (4) 3 (10) 1 [(4) 1]*9 (4) 6 (9) 6 (23) 5 (26) 5 (38) 6
-Vol Tedo,"Normal: 1000, 3200<br/>OD: 1000, 4300",11,3,38,,4,N,80,,BD,,,,200,
-EA,"Normal: 600, 300*5, 0, 960 AF: 600, 300*5, 0, 2300",10,3,34,-10,,L,100,100,B,Fast: 1-12 All<br/>Slow: 1-22 All,,26,,Minimum Damage 10%
-Astral,30000,20,4,87,-81,0,L,,,BD,,,9+0,,
+5A,300,6,3,9,0,1,N,100,77,B,0,0,11,12,
+5B,600,8,5,14,-2,3,L,100,89,B,0,0,16,17,Hitbox fully extended on 10
+5C,500*2,12,"3,3",18,-2,4,L,100,92,B,0,0,18,19,
+2A,300,7,3,9,0,1,N,100,77,F,0,0,11,12,
+2B,550,11,5,15,-6,2,L,90,85,F,0,0,13,14,Hitbox fully extended on 13
+2C,800,12,7,25,-15,3,L,90,89,B,7-14 H,0,16,26,
+6A,800,26,3,21,-7,3,N,80,89,B,0,0,16,17,Bonus Proration 110%
+6B,690,10,3,22,-8,3,L,90,79,B,0,0,16,17,Bonus Proration 110%
+6C,1110,20,8,28,-17,4,L,90,82,B,0,0,18,30,Fatal Counter
+3C,700,9,3,19,-5,3,L,90,79,F,0,0,16,38,
+j.A,160*3,7,"3,3,3",9,0,1,N,80,92,H,0,0,11,12,j.A > j.A immediately goes into the active frames
+j.B,600,10,5,16,0,2,L,80,85,H,0,0,13,17,Hits crossup on 13-14F
+j.C,800,12,6,20,0,3,L,80,89,H,0,0,16,19,
+Forward Throw,1500,7,3,23,0,4,N,100,50,T,0,0,0,60,
+Back Throw,1500,7,3,23,0,4,N,100,50,T,0,0,0,60,
+Air Throw,1500,7,3,26,0,4,N,100,50,T,0,0,0,80,
+Counter Assault,0,13,6,30,-17,4,VS,50,92,B,1-20 All,0,18,19,
+Crush Trigger,1000,20,1,25,0,0,N,80,60,B,0,0,24,60,
+Crush Trigger Charged,1000,30,1,25,0,0,L,80,100,B,0,0,24,60,
+Summon/Unsummon,0,0,0,22,0,0,0,0,0,0,0,0,0,0,
+Air Summon,0,0,0,25,0,0,0,0,0,0,0,0,0,0,
+Air Unsummon,0,0,0,24,0,0,0,0,0,0,0,0,0,0,
+6D,560,17,3,16,0,2,N,100,0,BD,1-End Guard P,0,13+10 Hitstop,14+10,
+6D OD,560,17,3,11,0,2,N,100,0,BD,1-End Guard P,0,13+10 Hitstop,14+10,
+2D,"620, 780",25,3 (12) 3,33,0,1,N,100,0,BD,1-End Guard HBFP,0,"11+6, 11+7","20+6, 20+7",
+2D OD,"620, 780",25,3 (12) 3,15,0,1,N,100,0,BD,1-End Guard HBFP,0,"11+6, 11+7","20+6, 20+7",
+4D,850,16,9,30,0,4,N,80,82,BD,1-End Guard P,0,18+12,"30, 50 after Wall",Bonus Proration 110%
+4D,850,16,9,13,0,4,N,80,82,BD,1-End Guard P,0,18+12,"30, 50 after Wall",Bonus Proration 110%
+j.8D,900,15,3,16,0,4,L,80,0,HD,1-End Guard P,0,18+12,0,Relius has total animation 36
+j.8D OD,900,15,3,9,0,4,L,80,0,HD,1-End Guard P,0,18+12,0,Relius has total animation 36
+j.2D,900,18,3,16,0,4,L,80,0,HD,1-End Guard P,0,18+12,0,Relius has total animation 36
+j.2D OD,900,18,3,8,0,4,L,80,0,HD,1-End Guard P,0,18+12,0,Relius has total animation 36
+j.6D,900,16,4,16,0,4,L,80,0,HD,1-End Guard P,0,18+12,0,Relius has total animation 36
+j.6D OD,900,16,4,8,0,4,L,80,0,HD,1-End Guard P,0,18+12,0,Relius has total animation 36
+Led Ley,0,0,0,35,0,0,0,0,0,0,1-31 HBFP,0,0,0,Can pass through opponent 1-31
+Gad Leis,680x2,21,3 (6) 2,21,-4,4,0,100,82,B,0,0,18,35,Fatal Counter
+Id Lauger,1000,16,6,36,-23,4,L,100,0,B,0,0,18,45,"If Ignis is available, can cancel into Ignis Followups on hit (not on block)"
+Air Id Lauger,1000,14,3,15,0,4,L,100,0,H,0,0,18,42,"If Ignis is available, can cancel into Ignis Followups on hit (not on block)"
+Val Tus,660*3,32,3 (6) 3 (15) 3,30,0,5,L,100,94,BD,1-End Guard P,0,20+13,30,Relius has total animation 36
+Val Tus OD,660*3,32,3 (6) 3 (15) 3,21,0,5,L,100,94,BD,1-End Guard P,0,20+13,30,Relius has total animation 36
+Val Tus (Ignis Deployed),660*3,22,3 (6) 3 (15) 3,30,0,5,L,100,94,BD,1-End Guard P,0,20+13,30,Relius has total animation 36
+Val Tus (Ignis Deployed) OD,660*3,22,3 (6) 3 (15) 3,21,0,5,L,100,94,BD,1-End Guard P,0,20+13,30,Relius has total animation 36
+Geara Kaas,700*6",42,2,42,0,3,N,80,"100, 60",TD,1-End Guard P,0,0,0,"Relius has total animation 45. If Ignis is airborne, then this attack is an air throw"
+Geara Kaas OD,420*11,42,2,24,0,3,N,80,"100, 60",TD,1-End Guard P,0,0,0,"Relius has total animation 45. If Ignis is airborne, then this attack is an air throw"
+Geara Kaas (Ignis Deployed),700*6,32,2,42,0,3,N,80,"100, 60",TD,1-End Guard P,0,0,0,"Relius has total animation 45. If Ignis is airborne, then this attack is an air throw"
+Geara Kaas (Ignis Deployed) OD,420*11,32,2,24,0,3,N,80,"100, 60",TD,1-End Guard P,0,0,0,"Relius has total animation 45. If Ignis is airborne, then this attack is an air throw"
+Geara Nose,920,31,9,30,0,4,N,90,82,BD,1-End Guard P,0,0,Normal: 30<br/>OD: 60,Relius has total animation 36
+Geara Nose OD,920,31,9,13,0,4,N,90,82,BD,1-End Guard P,0,0,Normal: 30<br/>OD: 60,Relius has total animation 36
+Geara Nose (Ignis Deployed),920,68,9,30,0,4,N,90,82,BD,1-End Guard P,0,0,Normal: 30<br/>OD: 60,Relius has total animation 36
+Geara Nose (Ignis Deployed) OD,920,68,9,13,0,4,N,90,82,BD,1-End Guard P,0,0,Normal: 30<br/>OD: 60,Relius has total animation 36
+Val Lanto,1050,19,18,26,0,3,N,90,89,BD,1-End Guard P,0,0,"Normal: 40, 25 Slide<br/>OD: 40, 40 Slide","Relius has total animation 39. Startup listed assumes Ignis is not already out. If ignis is out, then startup reduced by 3F."
+Val Lanto OD,1050,19,18,8,0,3,N,90,89,BD,1-End Guard P,0,0,"Normal: 40, 25 Slide<br/>OD: 40, 40 Slide","Relius has total animation 39. Startup listed assumes Ignis is not already out. If ignis is out, then startup reduced by 3F."
+Val Lanto (Ignis Deployed),1050,16,18,26,0,3,N,90,89,BD,1-End Guard P,0,0,"Normal: 40, 25 Slide<br/>OD: 40, 40 Slide","Relius has total animation 39. Startup listed assumes Ignis is not already out. If ignis is out, then startup reduced by 3F."
+Val Lanto (Ignis Deployed) OD,1050,16,18,8,0,3,N,90,89,BD,1-End Guard P,0,0,"Normal: 40, 25 Slide<br/>OD: 40, 40 Slide","Relius has total animation 39. Startup listed assumes Ignis is not already out. If ignis is out, then startup reduced by 3F."
+Val Lyra,1200,35,3,54,0,4,N,90,92,BD,1-End Guard P,0,18+3,40+3,Relius has total animation 36. Fatal Counter
+Val Lyra OD,1200,35,3,21,0,4,N,90,92,BD,1-End Guard P,0,18+3,40+3,Relius has total animation 36. Fatal Counter
+Bel Lafino,280*N,30,Until L+3,33,0,4,L,80,92,HD,1-End Guard P,0,18+3,50+3,Relius has total animation 45
+Bel Lafino OD,280*N,30,Until L+1,11,0,4,L,80,92,HD,1-End Guard P,0,18+3,50+3,Relius has total animation 45
+Id Haas,1000,37,9,18,0,4,L,100,92,HD,1-End Guard P,0,18+8,Normal: 36+8<br/>OD: 60+8,"Relius has total animation 36 on the ground, 45 in the air"
+Id Haas OD,1000,37,9,11,0,4,L,100,92,HD,1-End Guard P,0,18+8,Normal: 36+8<br/>OD: 60+8,"Relius has total animation 36 on the ground, 45 in the air"
+Id Naiads,300*N,37,Until L+1,33,0,4,L,100,92,HD,1-End Guard P,0,18+2,"Normal: 25+2<br/>OD: 25*N+2, 60+2","Relius has total animation 43 on the ground, 45 in the air"
+Id Naiads OD,300*N,37,Until L+1,11,0,4,L,100,92,HD,1-End Guard P,0,18+2,"Normal: 25+2<br/>OD: 25*N+2, 60+2","Relius has total animation 43 on the ground, 45 in the air"
+Id Zain,1000,39,3,32,0,4,L,100,72,HD,0,0,0,Normal: 30<br/>OD: 60,"Relius has total animation 48 on the ground, 51 in the air"
+Id Zain OD,1000,39,3,23,0,4,L,100,72,HD,0,0,0,Normal: 30<br/>OD: 60,"Relius has total animation 48 on the ground, 51 in the air"
+Geara Lugia A,840,42,12,58,5,3,L,100,89,P1,0,0,16+5 Hitstop,30+5 Hitstop,
+Geara Lugia B,840,34,12,58,-3,3,L,100,89,P1,0,0,16+5 Hitstop,30+5 Hitstop,
+Geara Lugia C,840,26,12,58,-11,3,L,100,89,P1,0,0,16+5 Hitstop,30+5 Hitstop,
+Req Vinum,"Normal: 400, 200*6<br/>OD: 400, 200*12",11,9,62,-33,4,N,80,72,P2,1-10 All,0,18+0 Hitstop,40+0,
+Duo Bios (Relius),0,0,0,70,113,0,0,0,0,0,0,0,0,0,Frame Adv listed is when opponent blocks until there is a hole in Ignis's attacks Normal: after blocking 8 hits. OD: after blocking 21 hits
+Duo Bios (Relius) OD,0,0,0,70,170,0,0,0,0,0,0,0,0,0,Frame Adv listed is when opponent blocks until there is a hole in Ignis's attacks Normal: after blocking 8 hits. OD: after blocking 21 hits
+Duo Bios (Ignis),"300*10, 1000",26,0,48,0,4,N,80,82,BD,1-End Guard All,0,"20+4*10, 20+20","20+4*8, 32+4, 44+4, 60+20",Active frames are 3 (12) 3 (12) 3 (9) 3 (12) 3 (12) 3 (12) 3 (9) 6 (23) 5 (26) 5 (38) 6
+Duo Bios (Ignis) OD,"300*3, 150*16, 300*2, 300, 300, 1000",26,See notes,48,0,4,N,80,82,BD,1-End Guard All,0,"20+2*3, 20+1*20, 20+20","20+2*3, 20+1*18, 32+1, 44+1, 120+20",Active frames are 3 (12) 3 (12) 3 (14) 4 (4) 2 (6) 4 (4) 3 (6) 4 (4) 3 (10) 1 [(4) 1]*9 (4) 6 (9) 6 (23) 5 (26) 5 (38) 6
+Vol Tedo,"Normal: 1000, 3200<br/>OD: 1000, 4300",11,3,38,0,4,N,80,0,BD,0,0,0,200,
+EA,"Normal: 600, 300*5, 0, 960 AF: 600, 300*5, 0, 2300",10,3,34,-10,0,L,100,100,B,Fast: 1-12 All<br/>Slow: 1-22 All,0,26,0,Minimum Damage 10%
+Astral,30000,20,4,87,-81,0,L,0,0,BD,0,0,9+0,0,

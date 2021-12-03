@@ -1,59 +1,58 @@
 Move,Damage,Startup,Active,Recovery,FrameAdvantage,Level ,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
-5A,300,5,3,9,0,1,N,100,77,B,,,11,12,
-5B,500,8,3,12,2,3,L,100,89,B,,,16,17,
-5C,490*2,11,2 (11) 2,20,-2,3,L,100,89,B,,,"16, 19",22,
-2A,300,7,2,10,0,1,N,100,77,F,,,11,12,
-2B,480,9,3,19,-8,2,L,90,85,F,,,13,14,
-2C,720,13,4,25,-12,3,L,100,89,F,,,16,17,
-6A,550,9,3,24,-10,3,L,90,79,B,5-11 H,,16,28,
-6B,650,24,3,12,4,4,L,90,92,B,13-26 FT,,18,36,Fatal Counter
-6B Feint,,,,31,,,,,,,,,,,Can cancel into throw 24-31
-6C,"500, 300, 650",13,2 (8) 3 (17) 2,31,-12,5,L,90,94,B,,,20,30,
-3C,700,10,2,30,-13,4,L,90,92,F,,,18,19,
-j.A,300,7,3,9,,1,N,80,77,H,,,11,12,
-j.B,380*2,10,4 (2) 2,14,,2,L,80,85,H,,,13,16,
-j.C,"350*2, 550",11,2 (3) 2 (4) 2,18,,"2,2,3",L,80,89,H,,,"13, 13, 16",22,
-5D,620,13,4,18,-3,4,L,100,82,BP,,,18,19,Bigger Hitbox during OD
-2D,680,40,15,61,5,4,L,90,82,P1,,,18+8,36+8,Bonus Proration 110%
-2D OD,350*3,40,3*5,61,11,4,L,90,82,P1,,,18+8,36+8,Bonus Proration 110%. Max 3 hits
-6D,350,18,3,24,-8,4,L,100,100,B,,,18,60,"Fatal Counter. If within range, does followup"
-6D Followup,"300*2, 550",,,,,"3*2,4",L,,82,,,,,60,
-6D Followup OD,"250*4, 550",,,,,"3*4,4",L,,82,,,,,60,
-4D,600,10,6,24,-16,2,L,100,85,B,,,13,Normal: 26<br/>OD: 28,Can block during last 8F of recovery
-j.D,660,20,4,23,,4,L,80,82,H,,,,,Bigger Hitbox during OD
-j.2D,640,15,8,7,,3,L,80,79,H,,,,30,
-Forward Throw,1500,7,3,23,,4,N,100,50,T,,,,100,
-Back Throw,"300, 1200",7,3,23,,4,N,100,50,T,,,,"100, Slide 10",
-Air Throw,"300, 1200",7,3,26,,4,N,100,50,T,,,,"100, Slide 10",
-Counter Assault,0,13,4,35,-20,4,VS,50,92,B,1-20 All,,18,19,
-Crush Trigger,1000,20,1,25,0,,N,80,60,B,,,24,60,
-Crush Trigger Charged,1000,30,1,25,0,,L,80,100,B,,,24,60,
-Snakebite,520,16,3,13,-4,3,L,90,89,B,,,20,25,"Goes into followup on ground hit. On block, immediately goes into recovery animation (24F)"
-Snakebite Followup,"300, 1000",,,,,3,L,100,89,,,,,,
-Retaliating Fang,"0, 196*14",25,3,43,,1,VS,100,80,T,,,,60,
-Agonizing Fang,800,19,3,18,-4,3,N,80,89,B,,,16,17,
-Cleaving Fang,"400*2, 1100",11,3,25,,3,L,100,79,F,,,,"30*2, 40, Wall 40",
-Cleaving Fang CCC,"400*2, 250*3, 1100",11,3,25,,3,L,100,79,F,,,,"30*5, 40, Wall 40",
-
-Gleaming Fang,"0, 2400",10,10,39,-4,5,N,100,"100, 70",B,1-21 P<br/>4 All,,25+10?,60+10?,Fatal Counter. Only does followup hit if first hit hits opponent (not blocked). Can pass through opponent 1-42. Minimum Damage 15%. On block immediately goes into recovery animation (39F)
-Gleaming Fang OD,"0, 1000, 0, 2400",10,12 (22) 4,36,-4,5,N,100,"100*2, 70",B,1-21 P<br/>4 All,,25+10?,60+10?,Fatal Counter. Only does followup hit if first hit hits opponent (not blocked)
-Air Gleaming Fang,"0, 2400",7,0,21,,5,N,"100, 90","100, 70",H,1-Until L P<br/>4 All,,25+10?,60+10?,Fatal Counter. Only does followup hit if first hit hits opponent (not blocked)
-Air Gleaming Fang OD,"0, 1000, 2400",7,0,20,,5,N,"100, 90","100*2, 70",H,1-Until L P<br/>4 All,,25+10?,60+10?,Fatal Counter. Only does followup hit if first hit hits opponent (not blocked)
-Divine Twin Blades,"1100*2, 1800",7,"4,8 (15) 6",48,-35,4,VS,80,,"B*2, H",1-10 All,,18,48,
-Divine Twin Blades OD,1000*5,5,"4,4,4 (15) 6 (14) 4",30,-35,4,VS,80,,"B*4, H",1-10 All,,,60,Only does final hit if opponent gets hit by preceding hit
-Air Divine Twin Blades,"1100*2, 1800",11,"4,8 (15) 6",21,,4,L,90,,H,1-14 All,,,,
-Air Divine Twin Blades OD,1000*5,11,"4,4,4 (15) 6 (14) 4",8,,4,L,90,,H,1-14 All,,,60,Only does final hit if opponent gets hit by preceding hit
-Serpent's Laceration Low,"800, 500, 1000, 2000",15,2,28,-13,3,L,90,89,F,13-16 All,,,"90, Wall 40, Slide 10",Minimum Damage 15% final hit has Minimum Damage 10%
-Serpent's Laceration Low OD,"800, 400*14, 1000, 2500",15,2,28,-13,3,L,90,"89, 98*16",F,13-16 All,,,90,Minimum Damage 15% final hit has Minimum Damage 10%
-Serpent's Laceration Overhead,"800, 200*4, 1000, 2500",15,2,16,-1,3,N,90,89,B,13-16 All,,,"90, Wall 40",First and Last hits have Minimum Damage 15%. Other hits have Minimum Damge 10%
-Serpent's Laceration Overhead OD,"800, 400*14, 1000, 2500",15,2,16,-1,3,N,90,"89, 98*16",B,13-16 All,,,"90, Wall 40",Minimum Damage 15% final hit has Minimum Damage 10%
-Venomous Bite (catch),,,,187,,,,,,,1-112 Guard HBF,,,,
-Venomous Bite (attack),"Normal: 2800 OD: 80*5, 2800",,6,,,5,L,,Normal: 94<br/>OD: 96,,,,,90,Minimum Damage 100%
-Serpent's Cursed Sting,"800*2, 250*N, 800, see notes",17,4,34,-17,5,VS,80,"94*2, 89",B,1-23 All,,20,,"Second part does does hits equal to the amount of heat Terumi has / 5 rounded up. Minimum 3 hits. Drains all of Terumi's Heat on hit. Finisher depends on amount of meter Terumi has when he hit the opponent. 0~24 Heat finisher has base damage 1500, minimum damage 10%. 25~49 Heat finisher has base damage 1500*2, minimum damage 10%. 50 Heat finisher has base damage 1500, 4000. minimum damage 20% for first hit, 10% for second hit"
-Serpent's Cursed Sting OD,"800*2, 250*N, 800, see notes",17,4,34,-17,5,VS,80,"94*2, 89",B,1-23 All,,,100,"Second part does does hits equal to the amount of heat Terumi has / 5 rounded up. Minimum 3 hits. Drains all of Terumi's Heat on hit, drains 5 Heat from opponent and gives 1 Heat to Terumi for each hit done. Finisher depends on amount of meter Terumi has when he hit the opponent. 0~24 Heat finisher has base damage 3000, minimum damage 10%; 25~49 Heat finisher has base damage 1000*3, 2000, minimum damage 10%; 50 Heat finisher has base damage 1000, 2000, 3000. minimum damage 20% for first hit and third hit, 10% for second hit"
-Screeches of the Condemned,"800*4, 2000, 3500",27,Until Offscreen,103,0,5,L,,,P*,1-41 All,,,100,Fires second chain 21F after first chain if first chain hits/blocked. Chains guard break.
-Screeches of the Condemned OD,"800*8, 3000, 4000",27,Until Offscreen,103,0,5,L,,,P*,1-41 All,,,100,Last 2 hits have minimum damage 15%. All other hits have minimum damage 20%. Fires second chain 21F after first chain if first chain hits/blocked. Chains guard break.
-Screeches of the Condemned AntiAir,"800*4, 2000, 3500",27,Until Offscreen,103,,5,L,,,P*,1-44 All,,,100,Fires second chain 21F after first chain if first chain hits/blocked. Chains guard break.
-Screeches of the Condemned AntiAir OD,"800*8, 3000, 4000",27,Until Offscreen,103,,5,L,,,P*,1-44 All,,,100,Last 2 hits have minimum damage 15%. All other hits have minimum damage 20%. Fires second chain 21F after first chain if first chain hits/blocked. Chains guard break.
-EA,"Normal: 600, 400*6 AF: 600, 1200, 500*8",10,3,34,-10,,L,100,100,B,Fast: 1-12 All<br/>Slow: 1-22 All,,26,,Minimum Damage 10%
-Astral,20000,21,16,76,-22,5,L,,,P*,,,20+13,,
+5A,300,5,3,9,0,1,N,100,77,B,0,0,11,12,
+5B,500,8,3,12,2,3,L,100,89,B,0,0,16,17,
+5C,490*2,11,2 (11) 2,20,-2,3,L,100,89,B,0,0,"16, 19",22,
+2A,300,7,2,10,0,1,N,100,77,F,0,0,11,12,
+2B,480,9,3,19,-8,2,L,90,85,F,0,0,13,14,
+2C,720,13,4,25,-12,3,L,100,89,F,0,0,16,17,
+6A,550,9,3,24,-10,3,L,90,79,B,5-11 H,0,16,28,
+6B,650,24,3,12,4,4,L,90,92,B,13-26 FT,0,18,36,Fatal Counter
+6B Feint,0,0,0,31,0,0,0,0,0,0,0,0,0,0,Can cancel into throw 24-31
+6C,"500, 300, 650",13,2 (8) 3 (17) 2,31,-12,5,L,90,94,B,0,0,20,30,
+3C,700,10,2,30,-13,4,L,90,92,F,0,0,18,19,
+j.A,300,7,3,9,0,1,N,80,77,H,0,0,11,12,
+j.B,380*2,10,4 (2) 2,14,0,2,L,80,85,H,0,0,13,16,
+j.C,"350*2, 550",11,2 (3) 2 (4) 2,18,0,"2,2,3",L,80,89,H,0,0,"13, 13, 16",22,
+5D,620,13,4,18,-3,4,L,100,82,BP,0,0,18,19,Bigger Hitbox during OD
+2D,680,40,15,61,5,4,L,90,82,P1,0,0,18+8,36+8,Bonus Proration 110%
+2D OD,350*3,40,3*5,61,11,4,L,90,82,P1,0,0,18+8,36+8,Bonus Proration 110%. Max 3 hits
+6D,350,18,3,24,-8,4,L,100,100,B,0,0,18,60,"Fatal Counter. If within range, does followup"
+6D Followup,"300*2, 550",0,0,0,0,"3*2,4",L,0,82,0,0,0,0,60,
+6D Followup OD,"250*4, 550",0,0,0,0,"3*4,4",L,0,82,0,0,0,0,60,
+4D,600,10,6,24,-16,2,L,100,85,B,0,0,13,Normal: 26<br/>OD: 28,Can block during last 8F of recovery
+j.D,660,20,4,23,0,4,L,80,82,H,0,0,0,0,Bigger Hitbox during OD
+j.2D,640,15,8,7,0,3,L,80,79,H,0,0,0,30,
+Forward Throw,1500,7,3,23,0,4,N,100,50,T,0,0,0,100,
+Back Throw,"300, 1200",7,3,23,0,4,N,100,50,T,0,0,0,"100, Slide 10",
+Air Throw,"300, 1200",7,3,26,0,4,N,100,50,T,0,0,0,"100, Slide 10",
+Counter Assault,0,13,4,35,-20,4,VS,50,92,B,1-20 All,0,18,19,
+Crush Trigger,1000,20,1,25,0,0,N,80,60,B,0,0,24,60,
+Crush Trigger Charged,1000,30,1,25,0,0,L,80,100,B,0,0,24,60,
+Snakebite,520,16,3,13,-4,3,L,90,89,B,0,0,20,25,"Goes into followup on ground hit. On block, immediately goes into recovery animation (24F)"
+Snakebite Followup,"300, 1000",0,0,0,0,3,L,100,89,0,0,0,0,0,
+Retaliating Fang,"0, 196*14",25,3,43,0,1,VS,100,80,T,0,0,0,60,
+Agonizing Fang,800,19,3,18,-4,3,N,80,89,B,0,0,16,17,
+Cleaving Fang,"400*2, 1100",11,3,25,0,3,L,100,79,F,0,0,0,"30*2, 40, Wall 40",
+Cleaving Fang CCC,"400*2, 250*3, 1100",11,3,25,0,3,L,100,79,F,0,0,0,"30*5, 40, Wall 40",
+Gleaming Fang,"0, 2400",10,10,39,-4,5,N,100,"100, 70",B,1-21 P<br/>4 All,0,25+10?,60+10?,Fatal Counter. Only does followup hit if first hit hits opponent (not blocked). Can pass through opponent 1-42. Minimum Damage 15%. On block immediately goes into recovery animation (39F)
+Gleaming Fang OD,"0, 1000, 0, 2400",10,12 (22) 4,36,-4,5,N,100,"100*2, 70",B,1-21 P<br/>4 All,0,25+10?,60+10?,Fatal Counter. Only does followup hit if first hit hits opponent (not blocked)
+Air Gleaming Fang,"0, 2400",7,0,21,0,5,N,"100, 90","100, 70",H,1-Until L P<br/>4 All,0,25+10?,60+10?,Fatal Counter. Only does followup hit if first hit hits opponent (not blocked)
+Air Gleaming Fang OD,"0, 1000, 2400",7,0,20,0,5,N,"100, 90","100*2, 70",H,1-Until L P<br/>4 All,0,25+10?,60+10?,Fatal Counter. Only does followup hit if first hit hits opponent (not blocked)
+Divine Twin Blades,"1100*2, 1800",7,"4,8 (15) 6",48,-35,4,VS,80,0,"B*2, H",1-10 All,0,18,48,
+Divine Twin Blades OD,1000*5,5,"4,4,4 (15) 6 (14) 4",30,-35,4,VS,80,0,"B*4, H",1-10 All,0,0,60,Only does final hit if opponent gets hit by preceding hit
+Air Divine Twin Blades,"1100*2, 1800",11,"4,8 (15) 6",21,0,4,L,90,0,H,1-14 All,0,0,0,
+Air Divine Twin Blades OD,1000*5,11,"4,4,4 (15) 6 (14) 4",8,0,4,L,90,0,H,1-14 All,0,0,60,Only does final hit if opponent gets hit by preceding hit
+Serpent's Laceration Low,"800, 500, 1000, 2000",15,2,28,-13,3,L,90,89,F,13-16 All,0,0,"90, Wall 40, Slide 10",Minimum Damage 15% final hit has Minimum Damage 10%
+Serpent's Laceration Low OD,"800, 400*14, 1000, 2500",15,2,28,-13,3,L,90,"89, 98*16",F,13-16 All,0,0,90,Minimum Damage 15% final hit has Minimum Damage 10%
+Serpent's Laceration Overhead,"800, 200*4, 1000, 2500",15,2,16,-1,3,N,90,89,B,13-16 All,0,0,"90, Wall 40",First and Last hits have Minimum Damage 15%. Other hits have Minimum Damge 10%
+Serpent's Laceration Overhead OD,"800, 400*14, 1000, 2500",15,2,16,-1,3,N,90,"89, 98*16",B,13-16 All,0,0,"90, Wall 40",Minimum Damage 15% final hit has Minimum Damage 10%
+Venomous Bite (catch),0,0,0,187,0,0,0,0,0,0,1-112 Guard HBF,0,0,0,
+Venomous Bite (attack),"Normal: 2800 OD: 80*5, 2800",0,6,0,0,5,L,0,Normal: 94<br/>OD: 96,0,0,0,0,90,Minimum Damage 100%
+Serpent's Cursed Sting,"800*2, 250*N, 800, see notes",17,4,34,-17,5,VS,80,"94*2, 89",B,1-23 All,0,20,0,"Second part does does hits equal to the amount of heat Terumi has / 5 rounded up. Minimum 3 hits. Drains all of Terumi's Heat on hit. Finisher depends on amount of meter Terumi has when he hit the opponent. 0~24 Heat finisher has base damage 1500, minimum damage 10%. 25~49 Heat finisher has base damage 1500*2, minimum damage 10%. 50 Heat finisher has base damage 1500, 4000. minimum damage 20% for first hit, 10% for second hit"
+Serpent's Cursed Sting OD,"800*2, 250*N, 800, see notes",17,4,34,-17,5,VS,80,"94*2, 89",B,1-23 All,0,0,100,"Second part does does hits equal to the amount of heat Terumi has / 5 rounded up. Minimum 3 hits. Drains all of Terumi's Heat on hit, drains 5 Heat from opponent and gives 1 Heat to Terumi for each hit done. Finisher depends on amount of meter Terumi has when he hit the opponent. 0~24 Heat finisher has base damage 3000, minimum damage 10%; 25~49 Heat finisher has base damage 1000*3, 2000, minimum damage 10%; 50 Heat finisher has base damage 1000, 2000, 3000. minimum damage 20% for first hit and third hit, 10% for second hit"
+Screeches of the Condemned,"800*4, 2000, 3500",27,Until Offscreen,103,0,5,L,0,0,P*,1-41 All,0,0,100,Fires second chain 21F after first chain if first chain hits/blocked. Chains guard break.
+Screeches of the Condemned OD,"800*8, 3000, 4000",27,Until Offscreen,103,0,5,L,0,0,P*,1-41 All,0,0,100,Last 2 hits have minimum damage 15%. All other hits have minimum damage 20%. Fires second chain 21F after first chain if first chain hits/blocked. Chains guard break.
+Screeches of the Condemned AntiAir,"800*4, 2000, 3500",27,Until Offscreen,103,0,5,L,0,0,P*,1-44 All,0,0,100,Fires second chain 21F after first chain if first chain hits/blocked. Chains guard break.
+Screeches of the Condemned AntiAir OD,"800*8, 3000, 4000",27,Until Offscreen,103,0,5,L,0,0,P*,1-44 All,0,0,100,Last 2 hits have minimum damage 15%. All other hits have minimum damage 20%. Fires second chain 21F after first chain if first chain hits/blocked. Chains guard break.
+EA,"Normal: 600, 400*6 AF: 600, 1200, 500*8",10,3,34,-10,0,L,100,100,B,Fast: 1-12 All<br/>Slow: 1-22 All,0,26,0,Minimum Damage 10%
+Astral,20000,21,16,76,-22,5,L,0,0,P*,0,0,20+13,0,

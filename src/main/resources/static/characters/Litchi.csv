@@ -1,81 +1,81 @@
 Move,Damage,Startup,Active,Recovery,FrameAdvantage,Level ,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
-5A,300,6,3,9,0,1,N,100,77,B,,,11,12,
-5B,500,8,3,14,0,3,L,100,89,B,,,16,19,
-5B [m],650,11,3,22,-6,4,L,100,92,B,,,18,19,
-5C,700,14,3,30,-16,3,L,100,89,BP,,,16,17,
-5C [m],550*2,17,3 (3) 3,23,-7,4,L,100,92,B,,,18,19,
-2A,300,7,3,9,0,1,N,100,77,F,,,11,12,
-2B,450,12,2,22,-10,2,L,90,85,F,,,13,14,
-2B [m],600,17,2,28,-13,3,L,90,89,F,,,16,17,
-2C,650,12,3,19,-5,3,L,100,89,B,,,16,17,
-2C [m],800,14,3,28,-14,3,L,100,79,B,,,16,30,
-6A,550,22,3,18,-2,4,N,90,92,B,,,18,26,
-6A [m],700,25,3,20,-2,4,N,90,92,B,,,20,42,
-6B,660,17,4,22,-8,3,L,100,89,B,,,16,17,
-6B Feint,,,,24,,,,,,,,,,,
-6B [m],850,17,4,19,-2,5,L,100,84,B,,,20,"30, Wall 44",
-6B [m] Feint,,,,26,,,,,,,,,,,
-6C,540*2,11,2 (25) 3,13,1,3,L,90,89,"B, H",,,16,41,Bonus Proration 110%
-6C [m],350*4,23,3*4,27,-10,5,L,100,94,B,,,20,38,
-4B,600,14,3,20,-6,3,L,80,89,B,7-16 H,,16,42,
-4B [m],750,16,3,28,-12,4,L,80,82,B,8-18 H,,18,40,
-3C,650,15,3,21,-7,3,L,100,89,F,,,,40,
-3C [m],800,20,12,15,-8,4,L,90,92,F,,,,40,
-j.A,300,7,4,9,,1,N,80,77,H,,,11,12,
-j.B,650,9,4,12,,3,L,80,89,H,,,16,20,
-j.B [m],650,11,3,18,,3,L,80,89,H,,,16,17,
-j.C,750,12,3,22,,3,L,80,89,H,,,16,56,
-j.C [m],850,15,4,14+4L,,3,L,80,89,H,,,16,17,
-5D Set,,,,27,,,,,,,,,,,Staff is planted on 9
-2D Set,,,,23,,,,,,,,,,,Staff is planted on 9
-5D Recall,,,,46,,,,,,,,,,,Can cancel into blocking and other actions on 21
-2D Recall,,,,30,,,,,,,,,,,Can cancel into blocking and other actions on 21
-6D,600,15,9 (4) 5,17,3,5,L,100,84,B,,,"20, 24","31, Wall 50",
-4D,800,22,9,16,-6,4,N,80,92,H,,,18,"40, Slide 30",Bonus Proration 110%
-j.D Set,800,14,Until Ground,49,,3,L,80,89,,,,16,17,
-j.D Recall,,11,,30,,,,,,,,,,,Can cancel into blocking and other actions on 27
-j.2D,600,17,Until L (8) 2,8,7,3,L,80,89,"H, F",,,16,17,
-Staff Launch Vert,400*2,,,,,3,N,80,89,P1,,,16+0 Hitstop,30+0 Hitstop,
-Staff Launch Hori,500,,,,,3,N,80,89,P1,,,16+0 Hitstop,32+0 Hitstop,
-Forward Throw,"0, 1500",7,3,23,,3,N,100,50,T,,,,40,
-Back Throw,1500,7,3,23,,3,N,100,50,T,,,,62,
-Air Throw,1500,7,3,26,,3,N,100,50,T,,,,,
-Counter Assault,0,13,2,36,-19,4,VS,50,92,B,1-20 All,,18,19,
-Crush Trigger,1000,20,1,25,0,,N,80,60,B,,,24,60,
-Crush Trigger Charged,1000,30,1,25,0,,L,80,100,B,,,24,60,
-Haku,700,11,3,20,-6,3,L,90,89,F,,,16,34,
-Hatsu,800,10,4,38,-25,3,L,100,89,B,,,16,47,
-Air Hatsu,800,5,4,14,,3,L,100,89,H,,,16,47,
-Chun,900,26,3,22,-8,3,N,90,89,H,,,16,41,
-Air Chun,900,26,3,14,,3,N,90,89,H,,,16,41,
-Kote,,,,16,,,,,,,,,,,
-Air Kote,,,,20,,,,,,,,,,,
-Tsubame,"460*3, 1300",11,"3,2,24, Until L",58,,4,VS,,82,P1*,1-15 All,,18+1,56+1,
-Straight Through Stance,,,,54,,5,,80,94,,7-48 Guard HBP,,,,
-Straight Through Attack Up,1000,7,8,40,-2,5,L,80,94,BD*,,,20+9 Hitstop,"35+9 Hitstop, Wall 40",
-Straight Through Attack Forward,1000,7,8,40,-2,5,L,80,94,BD*,,,20+9 Hitstop,30+9 Hitstop,
-Straight Through Attack Down,1000,7,8,40,-2,5,L,80,94,FD*,,,20+9 Hitstop,40+9 Hitstop,Fatal
-Straight Through Cancel,,,,14,,,,,,,,,,,
-Kanchan,450*3,16,"2,2,3",17,-3,"2,2,3",L,90,79,B,4-16 B,,"13,13,16","34*2, 45, Wall 34",
-Kanchan (crossup),450*3,37,"2,2,3",17,1,"2,2,5",L,90,79,B,4-16 B,,"13,13,20","34*2, 45, Wall 34",Can pass through opponent 13-35
-4 Winds Horiz,350*4,27,8*4,44,41,4,L,80,92,P1,,,12+2 Hitstop,28+2 Hitstop,
-4 Winds Vert,350*7,27,"8*5, 6, 8",38,,4,L,80,92,P1,,,12+2 Hitstop,42+2 Hitstop,
-Ren Chan B,600,14,Until Ground,45,-15,3,N,80,89,P1,,,12+4 Hitstop,40+4 Hitstop,
-Ren Chan C,600,24,Until Ground,49,-9,3,N,80,89,P1,,,12+4 Hitstop,40+4 Hitstop,
-Jump to Staff A,,,,,,,,,,,,,,,Can pass through opponent until reaching staff/ground
-Jump to Staff B,600,7,33,47,,3,L,90,89,P1,,,16+11,28+11,Can pass through opponent until reaching staff/ground
-Jump to Staff C,,,,22,,,,,,,,,,,Can pass through opponent until reaching staff/ground
-Ride Staff > A,700,10,2,17,-2,3,L,90,92,H,,,16,35,Can pass through opponent while on staff
-Ride Staff > B,800,11,4,20,-7,3,L,100,89,H,,,16,47,Can pass through opponent
-Ride Staff > C,900,17,3,16,0,4,N,90,92,H,,,18,41,
-Ride Staff > D,600*2,8,7 (6) 3,9,5,3,L,90,89,"H, F",,,16,40,Can pass through opponent until L
-Additinal Backdash,,,,43,,,,,,,1-9 All,,,,Can cancel into air actions 20-until L
-All Terminals,"500, 300*12, 2400",14,6,27,-16,4,N,80,96*14,B,1-19 All,,16,,"With Staff equipped, hold D to plant staff"
-All Terminals OD,"500, 300*7, 100*8, 150*16, 300*2, 1800",14,6,27,-16,4,N,80,"96*8, 99*24, 96*2",B,1-19 All,,16,,"With Staff equipped, hold D to plant staff"
-All Green,2000,8,12,43,7,4,N,80,92,P2,1-7 All,,18+4 Hitstop,40+4 Hitstop,
-All Green OD,"520*9, 2000",8,"6, 3*7, 18, 21",43,,4,N,92,92,P2,1-7 All,,18+4 Hitstop,60+4 Hitstop,
-Thirteen Orphans 5D,350*13,12,"1,2*12",46,,3,N,100,69*13,P*,1-7 All,,16+3 Hitstop,35+3 Hitstop,
-Thirteen Orphans 2D,300*13,26+11,see notes,Total 63,,3,N,100,69*13,P*,1-7 All,,16+3 Hitstop,30+3 Hitstop,Active Frames 2 (6) 2 (8) 2 (8) 2 (8) 2 (6) 2 (8) 2 (8) 2 (8) 2 (6) 2 (8) 2 (8) 2 (8) 2
-OD Staff,600,13,8,23,,3,N,80,89,P1,,,16+6 Hitstop,36+6 Hitstop,startup/active/recovery values are for the staff. Litchi is free to move.
-EA,"Normal: 600, 100*7, 1634 AF: 600, 100*13, 3610",10,3,34,-10,100,,100,,B,Fast: 1-12 All<br/>Slow: 1-22 All,,26,,10% Minimum Damage
-Astral,20000,26,Until L,75,,4,,,,H,,,,,
+5A,300,6,3,9,0,1,N,100,77,B,0,0,11,12,
+5B,500,8,3,14,0,3,L,100,89,B,0,0,16,19,
+5B [m],650,11,3,22,-6,4,L,100,92,B,0,0,18,19,
+5C,700,14,3,30,-16,3,L,100,89,BP,0,0,16,17,
+5C [m],550*2,17,3 (3) 3,23,-7,4,L,100,92,B,0,0,18,19,
+2A,300,7,3,9,0,1,N,100,77,F,0,0,11,12,
+2B,450,12,2,22,-10,2,L,90,85,F,0,0,13,14,
+2B [m],600,17,2,28,-13,3,L,90,89,F,0,0,16,17,
+2C,650,12,3,19,-5,3,L,100,89,B,0,0,16,17,
+2C [m],800,14,3,28,-14,3,L,100,79,B,0,0,16,30,
+6A,550,22,3,18,-2,4,N,90,92,B,0,0,18,26,
+6A [m],700,25,3,20,-2,4,N,90,92,B,0,0,20,42,
+6B,660,17,4,22,-8,3,L,100,89,B,0,0,16,17,
+6B Feint,0,0,0,24,0,0,0,0,0,0,0,0,0,0,
+6B [m],850,17,4,19,-2,5,L,100,84,B,0,0,20,"30, Wall 44",
+6B [m] Feint,0,0,0,26,0,0,0,0,0,0,0,0,0,0,
+6C,540*2,11,2 (25) 3,13,1,3,L,90,89,"B, H",0,0,16,41,Bonus Proration 110%
+6C [m],350*4,23,3*4,27,-10,5,L,100,94,B,0,0,20,38,
+4B,600,14,3,20,-6,3,L,80,89,B,7-16 H,0,16,42,
+4B [m],750,16,3,28,-12,4,L,80,82,B,8-18 H,0,18,40,
+3C,650,15,3,21,-7,3,L,100,89,F,0,0,0,40,
+3C [m],800,20,12,15,-8,4,L,90,92,F,0,0,0,40,
+j.A,300,7,4,9,0,1,N,80,77,H,0,0,11,12,
+j.B,650,9,4,12,0,3,L,80,89,H,0,0,16,20,
+j.B [m],650,11,3,18,0,3,L,80,89,H,0,0,16,17,
+j.C,750,12,3,22,0,3,L,80,89,H,0,0,16,56,
+j.C [m],850,15,4,18,0,3,L,80,89,H,0,0,16,17,
+5D Set,0,0,0,27,0,0,0,0,0,0,0,0,0,0,Staff is planted on 9
+2D Set,0,0,0,23,0,0,0,0,0,0,0,0,0,0,Staff is planted on 9
+5D Recall,0,0,0,46,0,0,0,0,0,0,0,0,0,0,Can cancel into blocking and other actions on 21
+2D Recall,0,0,0,30,0,0,0,0,0,0,0,0,0,0,Can cancel into blocking and other actions on 21
+6D,600,15,9 (4) 5,17,3,5,L,100,84,B,0,0,"20, 24","31, Wall 50",
+4D,800,22,9,16,-6,4,N,80,92,H,0,0,18,"40, Slide 30",Bonus Proration 110%
+j.D Set,800,14,Until Ground,49,0,3,L,80,89,0,0,0,16,17,
+j.D Recall,0,11,0,30,0,0,0,0,0,0,0,0,0,0,Can cancel into blocking and other actions on 27
+j.2D,600,17,Until L (8) 2,8,7,3,L,80,89,"H, F",0,0,16,17,
+Staff Launch Vert,400*2,0,0,0,0,3,N,80,89,P1,0,0,16+0 Hitstop,30+0 Hitstop,
+Staff Launch Hori,500,0,0,0,0,3,N,80,89,P1,0,0,16+0 Hitstop,32+0 Hitstop,
+Forward Throw,"0, 1500",7,3,23,0,3,N,100,50,T,0,0,0,40,
+Back Throw,1500,7,3,23,0,3,N,100,50,T,0,0,0,62,
+Air Throw,1500,7,3,26,0,3,N,100,50,T,0,0,0,0,
+Counter Assault,0,13,2,36,-19,4,VS,50,92,B,1-20 All,0,18,19,
+Crush Trigger,1000,20,1,25,0,0,N,80,60,B,0,0,24,60,
+Crush Trigger Charged,1000,30,1,25,0,0,L,80,100,B,0,0,24,60,
+Haku,700,11,3,20,-6,3,L,90,89,F,0,0,16,34,
+Hatsu,800,10,4,38,-25,3,L,100,89,B,0,0,16,47,
+Air Hatsu,800,5,4,14,0,3,L,100,89,H,0,0,16,47,
+Chun,900,26,3,22,-8,3,N,90,89,H,0,0,16,41,
+Air Chun,900,26,3,14,0,3,N,90,89,H,0,0,16,41,
+Kote,0,0,0,16,0,0,0,0,0,0,0,0,0,0,
+Air Kote,0,0,0,20,0,0,0,0,0,0,0,0,0,0,
+Tsubame,"460*3, 1300",11,"3,2,24, Until L",58,0,4,VS,0,82,P1*,1-15 All,0,18+1,56+1,
+Straight Through Stance,0,0,0,54,0,5,0,80,94,0,7-48 Guard HBP,0,0,0,
+Straight Through Attack Up,1000,7,8,40,-2,5,L,80,94,BD*,0,0,20+9 Hitstop,"35+9 Hitstop, Wall 40",
+Straight Through Attack Forward,1000,7,8,40,-2,5,L,80,94,BD*,0,0,20+9 Hitstop,30+9 Hitstop,
+Straight Through Attack Down,1000,7,8,40,-2,5,L,80,94,FD*,0,0,20+9 Hitstop,40+9 Hitstop,Fatal
+Straight Through Cancel,0,0,0,14,0,0,0,0,0,0,0,0,0,0,
+Kanchan,450*3,16,"2,2,3",17,-3,"2,2,3",L,90,79,B,4-16 B,0,"13,13,16","34*2, 45, Wall 34",
+Kanchan (crossup),450*3,37,"2,2,3",17,1,"2,2,5",L,90,79,B,4-16 B,0,"13,13,20","34*2, 45, Wall 34",Can pass through opponent 13-35
+4 Winds Horiz,350*4,27,8*4,44,41,4,L,80,92,P1,0,0,12+2 Hitstop,28+2 Hitstop,
+4 Winds Vert,350*7,27,"8*5, 6, 8",38,0,4,L,80,92,P1,0,0,12+2 Hitstop,42+2 Hitstop,
+Ren Chan B,600,14,Until Ground,45,-15,3,N,80,89,P1,0,0,12+4 Hitstop,40+4 Hitstop,
+Ren Chan C,600,24,Until Ground,49,-9,3,N,80,89,P1,0,0,12+4 Hitstop,40+4 Hitstop,
+Jump to Staff A,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Can pass through opponent until reaching staff/ground
+Jump to Staff B,600,7,33,47,0,3,L,90,89,P1,0,0,16+11,28+11,Can pass through opponent until reaching staff/ground
+Jump to Staff C,0,0,0,22,0,0,0,0,0,0,0,0,0,0,Can pass through opponent until reaching staff/ground
+Ride Staff > A,700,10,2,17,-2,3,L,90,92,H,0,0,16,35,Can pass through opponent while on staff
+Ride Staff > B,800,11,4,20,-7,3,L,100,89,H,0,0,16,47,Can pass through opponent
+Ride Staff > C,900,17,3,16,0,4,N,90,92,H,0,0,18,41,
+Ride Staff > D,600*2,8,7 (6) 3,9,5,3,L,90,89,"H, F",0,0,16,40,Can pass through opponent until L
+Additinal Backdash,0,0,0,43,0,0,0,0,0,0,1-9 All,0,0,0,Can cancel into air actions 20-until L
+All Terminals,"500, 300*12, 2400",14,6,27,-16,4,N,80,96*14,B,1-19 All,0,16,0,"With Staff equipped, hold D to plant staff"
+All Terminals OD,"500, 300*7, 100*8, 150*16, 300*2, 1800",14,6,27,-16,4,N,80,"96*8, 99*24, 96*2",B,1-19 All,0,16,0,"With Staff equipped, hold D to plant staff"
+All Green,2000,8,12,43,7,4,N,80,92,P2,1-7 All,0,18+4 Hitstop,40+4 Hitstop,
+All Green OD,"520*9, 2000",8,"6, 3*7, 18, 21",43,0,4,N,92,92,P2,1-7 All,0,18+4 Hitstop,60+4 Hitstop,
+Thirteen Orphans 5D,350*13,12,"1,2*12",46,0,3,N,100,69*13,P*,1-7 All,0,16+3 Hitstop,35+3 Hitstop,
+Thirteen Orphans 2D,300*13,37,see notes, 63,0,3,N,100,69*13,P*,1-7 All,0,16+3 Hitstop,30+3 Hitstop,Active Frames 2 (6) 2 (8) 2 (8) 2 (8) 2 (6) 2 (8) 2 (8) 2 (8) 2 (6) 2 (8) 2 (8) 2 (8) 2
+OD Staff,600,13,8,23,0,3,N,80,89,P1,0,0,16+6 Hitstop,36+6 Hitstop,startup/active/recovery values are for the staff. Litchi is free to move.
+EA,"Normal: 600, 100*7, 1634 AF: 600, 100*13, 3610",10,3,34,-10,100,0,100,0,B,Fast: 1-12 All<br/>Slow: 1-22 All,0,26,0,10% Minimum Damage
+Astral,20000,26,Until L,75,0,4,0,0,0,H,0,0,0,0,

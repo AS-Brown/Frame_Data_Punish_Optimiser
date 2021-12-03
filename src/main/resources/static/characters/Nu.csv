@@ -1,67 +1,67 @@
 Move,Damage,Startup,Active,Recovery,FrameAdvantage,Level ,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
-5A,300,6,3,12,-3,1,N,100,77,B,,,11,12,
-5B,510,8,3,14,0,3,L,100,89,B,,,16,17,
-5C,160*8,16,3,71,-8,3,L,100,89,P1,,,16+3,23+3,Swords appear in 4F intervals? Each sword is active for 3
-2A,300,7,4,12,-4,1,N,100,77,F,,,11,12,
-2B,480,9,4,11,-1,2,L,90,85,F,,,13,14,
-2C,140*8,14,"1*6,2*2",24,-9,3,L,90,89,B,11-17 H,,16,23,
-6A,670,11,6,17,-6,3,L,90,89,B,5-11 H,,16,26,
-6B,740,10,5,15,-3,3,L,100,89,B,,,16,17,
-6C,180*8,22,1*8,24,-6,4,L,100,82,B,,,21,"36, Slide 10",
-3C,140*8,11,1*8,22,-6,3,L,90,89,F,,,16,36,
-j.A,300,8,2,10,,1,N,80,77,H,,,11,12,
-j.B,590,9,4,12,,3,L,80,89,H,,,16,17,
-j.C,150*8,9,"1*2,2*6",25,,3,L,80,89,H,,,16,20,
-j.2C,150*8,15,1*8,10,,3,L,80,89,H,,,16,24,
-5D,600,15,13,48,-13,4,N,80,92,P1,,,16+4,17+4,"Can cancel into dashes on hit/block~36F. During first 6 active frames, Projectile Lv2. During OD, always Projectile Lv2"
-5D OD,600,15,13,48,-8,4,N,80,92,P1,,,16+4,17+4,"Can cancel into dashes on hit/block~36F. During first 6 active frames, Projectile Lv2. During OD, always Projectile Lv2"
-5DD,300,13,6,48,-11,4,N,80,92,P1,,,20+4,25+4,Can cancel into dashes on hit/block~36F
-5DD OD,300,13,6,48,-10,4,N,80,92,P1,,,20+4,25+4,Can cancel into dashes on hit/block~36F
-2D,600,11,11,45,-144,N,80,92,P1,,,16+4,17+4,"Can cancel into dashes on hit/block~33F. During first 5 active frames, Projectile Lv2. During OD, always Projectile Lv2"
-2D OD,600,11,11,45,-9,4,N,80,92,P1,,,16+4,17+4,"Can cancel into dashes on hit/block~33F. During first 5 active frames, Projectile Lv2. During OD, always Projectile Lv2"
-2DD,300,13,6,51,-14,4,N,80,92,P1,,,20+4,25+4,Can cancel into dashes on hit/block~39F
-2DD OD,300,13,6,51,-13,4,N,80,92,P1,,,20+4,25+4,Can cancel into dashes on hit/block~39F
-6D,600,13,13,45,-124,N,80,92,P1,,,16+4,17+4,"Can cancel into dashes on hit/block~36F. During first 3 active frames, Projectile Lv2. During OD, always Projectile Lv2"
-6D OD,600,13,13,45,-7,4,N,80,92,P1,,,16+4,17+4,"Can cancel into dashes on hit/block~36F. During first 3 active frames, Projectile Lv2. During OD, always Projectile Lv2"
-6DD,300,13,6,56,-19,4,N,80,92,P1,,,20+4,25+4,Can cancel into dashes on hit/block~44F
-6DD OD,300,13,6,56,-18,4,N,80,92,P1,,,20+4,25+4,Can cancel into dashes on hit/block~44F
-4D,600,27,3,57,-10,4,N,80,92,P1,,,16+4,17+4,Can cancel into dashes on hit/block~48F. Fatal Counter
-4D OD,600,27,3,57,-5,4,N,80,92,P1,,,16+4,17+4,Can cancel into dashes on hit/block~48F. Fatal Counter
-4DD,300,13,6,50,-13,4,N,80,92,P1,,,20+4,25+4,Can cancel into dashes on hit/block~38F
-4DD OD,300,13,6,50,-12,4,N,80,92,P1,,,20+4,25+4,Can cancel into dashes on hit/block~38F
-j.D,600,13,10,55,,4,N,80,92,P1,,,16+4,17+4,"Can cancel into dashes on hit/block~38F. During first 2 active frames, Projectile Lv2. During OD, always Projectile Lv2"
-j.DD,300,13,6,38,,4,N,80,92,P1,,,20+4,25+4,Can cancel into dashes on hit/block~23F
-j.2D,600,11,8,55,,4,N,80,92,P1,,,16+4,17+4,"Can cancel into dashes on hit/block~40F. During first 2 active frames, Projectile Lv2. During OD, always Projectile Lv2"
-j.2DD,300,13,6,51,,4,N,80,92,P1,,,20+4,25+4,Can cancel into dashes on hit/block~39F
-j.6D,600,13,6,55,,4,N,80,92,P1,,,16+4,17+4,"Can cancel into dashes on hit/block~38F. During first 2 active frames, Projectile Lv2. During OD, always Projectile Lv2"
-j.6DD,300,13,6,38,,4,N,80,92,P1,,,20+4,25+4,Can cancel into dashes on hit/block~23F
-xD OD Followup,300,5 after previous sword,,,,4,N,80,92,P1,,,16+4,17+4,Active frames same as previous sword
-xDD OD Followup,300,1 after previous sword,13,,,4,N,80,92,P1,,,24+0,29+0,
-Ground Throw,1500,7,3,23,,4,N,100,50,T,,,,"40, Wall 100",
-Air Throw,1500,7,3,26,,4,N,100,50,T,,,,53,
-Counter Assault,0,13,2,32,-15,4,VS,50,92,B,1-20 All,,18,19,
-Crush Trigger,1000,20,1,25,0,,N,80,60,B,,,24,"60, Slide 15",
-Crush Trigger Charged,1000,30,1,25,0,,L,80,100,B,,,24,"60, Slide 15",
-D >Forward Dash,,,,41,,,,,,,,,,,Can pass through opponent 12-24
-D >Back Dash,,,,30,,,,,,,1-8 All,,,,
-Air D>Forward Dash,,,,37,,,,,,,,,,,Can pass through opponent 9-19
-Air D>Back Dash,,,,33,,,,,,,,,,,
-Sickle Storm,800,16,Until Offscreen,62,-19,3,N,80,89,P1,,,16+11,40+11,"Fatal Counter. Can cancel into Slow Field, Luminous on hit/block. During OD, can cancel into dash on whiff"
-Sickle Storm Hold,980,33,Until Offscreen,60,3,4,N,80,92,P1,,,18+12,48+12,"Fatal Counter. Can cancel into Slow Field, Luminous on hit/block. During OD, can cancel into dash on whiff"
-Sickle Storm~C,800,24,Until Offscreen,63,-12,3,N,80,89,P1,,,16+11,40+11,
-Crescent Saber,Normal: 1000 OD: 1100,19,6,64,,3,N,80,89,P1,,,16+11,Normal: 40+11<br/>OD: 70+11,
-Crescent Saber Hold,Normal: 1200 OD: 1320,35,6,64,,3,N,80,89,P1,,,16+11,Normal: 40+11<br/>OD: 70+11,
-Crescent Saber~C,,,,55,,,,,,,,,,,"Can cancel into anything except blocking, double jump 14F onwards. Can only be used oncer per jump"
-Luminous Slave,800,51,Until Offscreen,52,,4,S,80,92,P1,,,18+12,33+12,"During OD, fires a second shot 10F after first"
-Luminous Slave Hold,800,,Until Offscreen,61,,4,S,80,92,P1,,,18+12,33+12,"Shot fires 38F after pressing D again. During OD, fires a second shot 10F after first"
-Luminous Slave~C,800,31,Until Offscreen,61,,4,S,80,92,P1,,,18+12,33+12,"During OD, fires a second shot 10F after first"
-Supra Rage,"700, 140*7",12,1*8,37,-21,3,VS,80,89,B,5-15 H,,16,49,First hit to hit opponent always does 700. Remaining hits do 140
-Air Supra Rage,"700, 140*7",9,1*8,24,,3,L,90,89,H,1-12 T,,16,40,First hit to hit opponent always does 700. Remaining hits do 140
-Gravity Seed,,13,,42,,,,,,,,,,,
-Super Calamity Sword,2400,11,9,52,-11,4,N,70,82,P2,1-11 All,,18+12,100+12,Minimum Damage 40%
-Super Calamity Sword OD,1400*4,11,9,84,-9,4,N,70,82,P2,1-11 All,,18+2,100+2,Minimum Damage 23%. Swords appear in 15F intervals
-Air Super Calamity Sword,2400,13,9,Until L+3,,4,N,70,82,P2,,,18+12,100+12,Minimum Damage 40%
-Air Super Calamity Sword OD,1400*4,13,9,Until L+5,,4,N,70,82,P2,,,18+1,100+1,Minimum Damage 23%. Swords appear in 15F intervals
-Legacy Edge,Normal: 130*24 >OD: 130*37,36,Until Offscreen,57,79,3,N,100,79,P2,1-19 All,,16+2,40+2,Minimum Damage 10%. Swords appear in 4F intervals
-EA,"Normal: 600, 197*12 AF: 600, 170*30",10,10,Fast: 51<br/>Slow: 61,-15,,L,100,100,HBFP,Fast: 1-19 All<br/>Slow: 1-29 All,,26,,Nu is also frozen during hitstop
-Astral,40000,13+7,9,21,,,L,,,B,13-28 All,,,,
+5A,300,6,3,12,-3,1,N,100,77,B,0,0,11,12,
+5B,510,8,3,14,0,3,L,100,89,B,0,0,16,17,
+5C,160*8,16,3,71,-8,3,L,100,89,P1,0,0,16+3,23+3,Swords appear in 4F intervals? Each sword is active for 3
+2A,300,7,4,12,-4,1,N,100,77,F,0,0,11,12,
+2B,480,9,4,11,-1,2,L,90,85,F,0,0,13,14,
+2C,140*8,14,"1*6,2*2",24,-9,3,L,90,89,B,11-17 H,0,16,23,
+6A,670,11,6,17,-6,3,L,90,89,B,5-11 H,0,16,26,
+6B,740,10,5,15,-3,3,L,100,89,B,0,0,16,17,
+6C,180*8,22,1*8,24,-6,4,L,100,82,B,0,0,21,"36, Slide 10",
+3C,140*8,11,1*8,22,-6,3,L,90,89,F,0,0,16,36,
+j.A,300,8,2,10,0,1,N,80,77,H,0,0,11,12,
+j.B,590,9,4,12,0,3,L,80,89,H,0,0,16,17,
+j.C,150*8,9,"1*2,2*6",25,0,3,L,80,89,H,0,0,16,20,
+j.2C,150*8,15,1*8,10,0,3,L,80,89,H,0,0,16,24,
+5D,600,15,13,48,-13,4,N,80,92,P1,0,0,16+4,17+4,"Can cancel into dashes on hit/block~36F. During first 6 active frames, Projectile Lv2. During OD, always Projectile Lv2"
+5D OD,600,15,13,48,-8,4,N,80,92,P1,0,0,16+4,17+4,"Can cancel into dashes on hit/block~36F. During first 6 active frames, Projectile Lv2. During OD, always Projectile Lv2"
+5DD,300,13,6,48,-11,4,N,80,92,P1,0,0,20+4,25+4,Can cancel into dashes on hit/block~36F
+5DD OD,300,13,6,48,-10,4,N,80,92,P1,0,0,20+4,25+4,Can cancel into dashes on hit/block~36F
+2D,600,11,11,45,-144,N,80,92,P1,0,0,16+4,17+4,"Can cancel into dashes on hit/block~33F. During first 5 active frames, Projectile Lv2. During OD, always Projectile Lv2"
+2D OD,600,11,11,45,-9,4,N,80,92,P1,0,0,16+4,17+4,"Can cancel into dashes on hit/block~33F. During first 5 active frames, Projectile Lv2. During OD, always Projectile Lv2"
+2DD,300,13,6,51,-14,4,N,80,92,P1,0,0,20+4,25+4,Can cancel into dashes on hit/block~39F
+2DD OD,300,13,6,51,-13,4,N,80,92,P1,0,0,20+4,25+4,Can cancel into dashes on hit/block~39F
+6D,600,13,13,45,-124,N,80,92,P1,0,0,16+4,17+4,"Can cancel into dashes on hit/block~36F. During first 3 active frames, Projectile Lv2. During OD, always Projectile Lv2"
+6D OD,600,13,13,45,-7,4,N,80,92,P1,0,0,16+4,17+4,"Can cancel into dashes on hit/block~36F. During first 3 active frames, Projectile Lv2. During OD, always Projectile Lv2"
+6DD,300,13,6,56,-19,4,N,80,92,P1,0,0,20+4,25+4,Can cancel into dashes on hit/block~44F
+6DD OD,300,13,6,56,-18,4,N,80,92,P1,0,0,20+4,25+4,Can cancel into dashes on hit/block~44F
+4D,600,27,3,57,-10,4,N,80,92,P1,0,0,16+4,17+4,Can cancel into dashes on hit/block~48F. Fatal Counter
+4D OD,600,27,3,57,-5,4,N,80,92,P1,0,0,16+4,17+4,Can cancel into dashes on hit/block~48F. Fatal Counter
+4DD,300,13,6,50,-13,4,N,80,92,P1,0,0,20+4,25+4,Can cancel into dashes on hit/block~38F
+4DD OD,300,13,6,50,-12,4,N,80,92,P1,0,0,20+4,25+4,Can cancel into dashes on hit/block~38F
+j.D,600,13,10,55,0,4,N,80,92,P1,0,0,16+4,17+4,"Can cancel into dashes on hit/block~38F. During first 2 active frames, Projectile Lv2. During OD, always Projectile Lv2"
+j.DD,300,13,6,38,0,4,N,80,92,P1,0,0,20+4,25+4,Can cancel into dashes on hit/block~23F
+j.2D,600,11,8,55,0,4,N,80,92,P1,0,0,16+4,17+4,"Can cancel into dashes on hit/block~40F. During first 2 active frames, Projectile Lv2. During OD, always Projectile Lv2"
+j.2DD,300,13,6,51,0,4,N,80,92,P1,0,0,20+4,25+4,Can cancel into dashes on hit/block~39F
+j.6D,600,13,6,55,0,4,N,80,92,P1,0,0,16+4,17+4,"Can cancel into dashes on hit/block~38F. During first 2 active frames, Projectile Lv2. During OD, always Projectile Lv2"
+j.6DD,300,13,6,38,0,4,N,80,92,P1,0,0,20+4,25+4,Can cancel into dashes on hit/block~23F
+xD OD Followup,300,5,0,0,0,4,N,80,92,P1,0,0,16+4,17+4,Active frames same as previous sword
+xDD OD Followup,300,1,13,0,0,4,N,80,92,P1,0,0,24+0,29+0,
+Ground Throw,1500,7,3,23,0,4,N,100,50,T,0,0,0,"40, Wall 100",
+Air Throw,1500,7,3,26,0,4,N,100,50,T,0,0,0,53,
+Counter Assault,0,13,2,32,-15,4,VS,50,92,B,1-20 All,0,18,19,
+Crush Trigger,1000,20,1,25,0,0,N,80,60,B,0,0,24,"60, Slide 15",
+Crush Trigger Charged,1000,30,1,25,0,0,L,80,100,B,0,0,24,"60, Slide 15",
+D >Forward Dash,0,0,0,41,0,0,0,0,0,0,0,0,0,0,Can pass through opponent 12-24
+D >Back Dash,0,0,0,30,0,0,0,0,0,0,1-8 All,0,0,0,
+Air D>Forward Dash,0,0,0,37,0,0,0,0,0,0,0,0,0,0,Can pass through opponent 9-19
+Air D>Back Dash,0,0,0,33,0,0,0,0,0,0,0,0,0,0,
+Sickle Storm,800,16,Until Offscreen,62,-19,3,N,80,89,P1,0,0,16+11,40+11,"Fatal Counter. Can cancel into Slow Field, Luminous on hit/block. During OD, can cancel into dash on whiff"
+Sickle Storm Hold,980,33,Until Offscreen,60,3,4,N,80,92,P1,0,0,18+12,48+12,"Fatal Counter. Can cancel into Slow Field, Luminous on hit/block. During OD, can cancel into dash on whiff"
+Sickle Storm~C,800,24,Until Offscreen,63,-12,3,N,80,89,P1,0,0,16+11,40+11,
+Crescent Saber,Normal: 1000 OD: 1100,19,6,64,0,3,N,80,89,P1,0,0,16+11,Normal: 40+11<br/>OD: 70+11,
+Crescent Saber Hold,Normal: 1200 OD: 1320,35,6,64,0,3,N,80,89,P1,0,0,16+11,Normal: 40+11<br/>OD: 70+11,
+Crescent Saber~C,0,0,0,55,0,0,0,0,0,0,0,0,0,0,"Can cancel into anything except blocking, double jump 14F onwards. Can only be used oncer per jump"
+Luminous Slave,800,51,Until Offscreen,52,0,4,S,80,92,P1,0,0,18+12,33+12,"During OD, fires a second shot 10F after first"
+Luminous Slave Hold,800,0,Until Offscreen,61,0,4,S,80,92,P1,0,0,18+12,33+12,"Shot fires 38F after pressing D again. During OD, fires a second shot 10F after first"
+Luminous Slave~C,800,31,Until Offscreen,61,0,4,S,80,92,P1,0,0,18+12,33+12,"During OD, fires a second shot 10F after first"
+Supra Rage,"700, 140*7",12,1*8,37,-21,3,VS,80,89,B,5-15 H,0,16,49,First hit to hit opponent always does 700. Remaining hits do 140
+Air Supra Rage,"700, 140*7",9,1*8,24,0,3,L,90,89,H,1-12 T,0,16,40,First hit to hit opponent always does 700. Remaining hits do 140
+Gravity Seed,0,13,0,42,0,0,0,0,0,0,0,0,0,0,
+Super Calamity Sword,2400,11,9,52,-11,4,N,70,82,P2,1-11 All,0,18+12,100+12,Minimum Damage 40%
+Super Calamity Sword OD,1400*4,11,9,84,-9,4,N,70,82,P2,1-11 All,0,18+2,100+2,Minimum Damage 23%. Swords appear in 15F intervals
+Air Super Calamity Sword,2400,13,9,3,0,4,N,70,82,P2,0,0,18+12,100+12,Minimum Damage 40%
+Air Super Calamity Sword OD,1400*4,13,9,5,0,4,N,70,82,P2,0,0,18+1,100+1,Minimum Damage 23%. Swords appear in 15F intervals
+Legacy Edge,Normal: 130*24 >OD: 130*37,36,Until Offscreen,57,79,3,N,100,79,P2,1-19 All,0,16+2,40+2,Minimum Damage 10%. Swords appear in 4F intervals
+EA,"Normal: 600, 197*12 AF: 600, 170*30",10,10,51,-15,0,L,100,100,HBFP,Fast: 1-19 All<br/>Slow: 1-29 All,0,26,0,Nu is also frozen during hitstop
+Astral,40000,20,9,21,0,0,L,0,0,B,13-28 All,0,0,0,

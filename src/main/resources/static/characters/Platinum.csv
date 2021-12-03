@@ -1,79 +1,79 @@
 Move,Damage,Startup,Active,Recovery,FrameAdvantage,Level ,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
-5A,300,6,2,11,-1,1,N,100,77,B,,,11,12,
-5B,580,11,6,15,-4,3,L,100,89,B,,,16,17,
-5C,810,9,6,19,-8,3,L,100,89,B,,,16,19,
-2A,300,8,3,10,-1,1,N,80,77,F,,,11,12,
-2B,560,10,3,21,-10,2,L,90,85,F,,,13,14,
-2C,870,15,8,24,-13,4,L,90,82,B,9-22 H,,18,44,
-6A,630,12,4,22,-9,3,L,90,89,B,6-15 H,,16,26,
-6B,640,20,12,7,-3,3,N,90,79,H,,,16,33,"On whiff, recovery is 19. Bonus Proration 110%"
-6C,950,19,5,26,-11,5,L,90,84,B,3-26 F,,20,40,Fatal Counter
-3C,850,12,3,24,-8,4,L,90,92,F,,,18,30,
-j.A,300,7,2,9,,1,N,80,77,H,,,11,12,
-j.AA,300,6,2,9,,1,N,80,77,H,,,11,12,
-j.B,540,8,6,9,,2,L,80,85,H,,,13,17,
-j.C,830,12,4,17,,3,L,80,89,H,,,16,23,
-j.2C,450*3,12,"4,4,4",18+2L,,1,L,80,77,H,,,11,14,
-Forward Throw,"0, 1500",7,3,23,,4,N,100,50,T,,,,,
-Back Throw,"0, 1500",7,3,23,,4,N,100,50,T,,,,100,
-Air Throw,"0, 1500",7,3,26,,4,N,100,50,T,,,,100,
-Counter Assault,0,13,4,29,-14,4,VS,50,92,B,1-20 All,,18,19,
-Crush Trigger,1000,20,1,25,0,,N,80,60,B,,,24,"60, Slide 15",
-Crush Trigger Charged,1000,30,1,25,0,,L,80,100,B,,,24,"60, Slide 15",
-5D,,,,29,,,,,,,,,,,
-j.D,,,,28,,,,,,,,,,,
-5D Hammer,1200,16,5,17,1,4,L,80,82,B,,,22,28,
-j.D Hammer Level 1,"700, see notes",12,"Until L, 3",20,2,4,L,80,82,H,,,18,30,Second hit does more damage increases the higher Platinum falls. Damage is 800/900/1000
-j.D Hammer Level 2,"700, see notes",12,"Until L, 3",20,4,4,L,80,82,H,,,18,30,Second hit does more damage increases the higher Platinum falls. Damage is 800/900/1000
-j.D Hammer Level 3,"700, see notes",12,"Until L, 3",20,6,4,L,80,82,H,,,18,30,Second hit does more damage increases the higher Platinum falls. Damage is 800/900/1000
-5D Super Hammer,1500,16,5,18,3,5,L,80,84,B,,,25,28,
-j.D Super Hammer Level 1,"900, see notes",12,"Until L, 3",20,4,5,L,80,84,H,,,20,28,Second hit does more damage increases the higher Platinum falls. Damage is 1300/1500/1700. Bonus proration 110%
-j.D Super Hammer Level 2,"900, see notes",12,"Until L, 3",20,6,5,L,80,84,H,,,20,28,Second hit does more damage increases the higher Platinum falls. Damage is 1300/1500/1700. Bonus proration 110%
-j.D Super Hammer Level 3,"900, see notes",12,"Until L, 3",20,8,5,L,80,84,H,,,20,28,Second hit does more damage increases the higher Platinum falls. Damage is 1300/1500/1700. Bonus proration 110%
-5D Super Hammer (Quake),0,21,1,,,5,L,70,84,P2,,,,,Quake only appears if hammer strike whiffs
-5D Cat,950,11,8,20,-11,3,L,80,79,B,,,16,40,
-j.D Cat,950,16,5,20,,3,L,80,89,H,,,16,40,
-5D Super Cat,1200,11,5,20,-10,4,L,80,82,B,,,18,50,Bonus proration 110%
-j.D Super Cat,1200,14,5,20,,4,L,80,94,H,,,18,40,Bonus proration 110%
-5D Fry Pan,850,10,6,18,-7,3,L,100,79,B,,,16,40,
-j.D Fry Pan,850,14,4,20,,3,N,80,79,H,,,16,50,
-5D Super Fan,1300,10,6,18,-5,4,L,100,82,B,,,18,60,Bonus proration 110%
-j.D Super Fan,1300,13,4,20,,4,N,80,82,H,,,18,65,Fatal Counter. Bonus proration 110%
-5D Bat,900,11,4,26,-16,2,VS,60,75,B,1-11 All,,13,"30, Wall 40",
-j.D Bat,900,11,4,26,,2,VS,60,75,H,1-11 All,,13,"30, Wall 40",
-5D Super Bat,1200,11,5,24,-10,4,VS,60,82,B,1-15 All,,18,"30, Wall 40",Bonus proration 110%
-j.D Super Bat,1200,11,5,26,,4,VS,60,82,H,1-15 All,,18,"30, Wall 40",Bonus proration 110%
-5D/j.D Bomb,"450, 800",19,Until Contact (7) 15,40,,"1,3",N,80,"80, 80",P1,,,"11+5, 16+0","14+5, 40+0",
-5D/j.D Super Bomb,"550, 1200",19,Until Contact (7) 15,40,,"1,3",N,80,"80, 80",P1,,,"11+9, 16+0","14+9, 40+0",Bonus proration 110%
-5D/j.D Missile,"550, 600",19,"Until Offscreen, 10",Total 40,,3,N,80,"80, 80",P2,,,"16+6, 16+0","16+6, 40+0",
-5D/j.D Super Missile,"650, 1100",19,"Until Offscreen, 10",40,,"4, 3",N,80,"80, 80",P2,,,"18+6, 16+0","18+6, 55+0",Bonus proration 110%
-5D Box Summon,,20,,Total 33,,,,,,,,,,,
-j.D Box Summon,,22,,Total 47,,,,,,,,,,,
-Box,1000,7,15,,,3,N,70,89,P1,,,16+0,55+0,
-Super Box,"900, 800",8,"20, 72",,,3,N,"80, 70",89,P2,,,16+0,55+0,Bonus proration 110%
-5D/j.D Halo,800,21,Until Offscreen,42,-4,3,N,90,79,P1,,,16+1,55+1,
-5D/j.D Super Halo,1100,21,Until Offscreen,42,-2,4,N,90,82,P2,,,18+1,60+1,Bonus proration 110%
-Bubble,800,28,Until Offscreen,48,-6,0,N,80,95,P1,,,9+5,,
-Hop,,,,37,,,,,,,5-31 P,,,,Can cancel into folloups 12F until landing
-Air Hop,,,,6,,,,,,,,,,,Can cancel into folloups 7F until landing
-Hop A (1-2),450,6,6,7,,2,L,90,94,H,,,13,20,
-Hop A (3),500,6,6,7,,2,L,90,84,H,,,13,"20, Slide 10",
-Hop B (1-2),450,6,6,7,,2,L,90,94,H,,,13,20,
-Hop B (3),500,6,6,7,,2,L,90,84,H,,,13,45,
-Hop C (1-2),450,6,6,7,,2,L,90,94,H,,,13,20,
-Hop C (3),500,6,6,7,,2,L,90,84,H,,,13,"30, Slide 15",
-Heart Car Horiz,1100,13,15,28,-10,4,L,90,92,F,,,18,"40, Slide 9","Fatal Counter. On hit/block, transitions into recovery animation (28F)"
-Heart Car Vert,1300,20,19,19,,4,N,90,92,H,1-9 B,,18,60,Fatal Counter. Frame Adv listed is tested on standing Ragna
-Dramatic Sammy,1500,,,,,3,N,100,60,T,,,,100,Minimum Damage 100%
-Falling Melody,800,,,,,5,L,100,94,,,,,33,
-Swallow Moon,,,,,,,,,,,,,,,Can cancel into attacks on 14F
-Happy Magicka,,,,135,,,,,D,,1-105 Guard HBFP,,,,
-Happy Magicka >Attack,100,2, ,70,-52,0,N,100,,P1,1-29 All,,9+8,100+8,
-Mystique Momo,See notes,19,,40,12,5,N,80,94,P1,,,20+13,30+13,"Damage depends on item thrown. Halo or Frying Pan: 850, Bat: 900, Cat Stick 950, Hammer: 1200, Fan: 1300, Super Cat Stick: 1500, Super Bat: 1400, Super Hammer 1800"
-Mystique Momo Bomb/Missile/Box,See notes,19,,40,,,,,,See notes,,,,,"Projectiles appear on 19, 22, 25. Damage, P1, P2, hitstun, etc. is equal to the individual items thrown"
-Miracle Jeanne,,,,8,,,,,,,7-8 All,,,,
-Cure Dot Typhoon,440*13,16,"4 (12) 9*11,5",44,-30,4,N,80,82,B,1-16 All,,18,100,
-Air Cure Dot Typhoon,440*13,16,"4 (12) 9*11,5",44,,4,N,80,82,B,1-16 All,,18,100,
-Cure Dot Typhoon OD Followup,200*7,,,,,,,80,99,,,,,100,
-EA,"Normal: 600, 800*3 AF: 600, 800*4, 1950",10,3,34,-10,100,,100,,B,Fast: 1-12 All<br/>Slow: 1-22 All,,26,Slide 40,10% Minimum Damage
-Astral,30000,10+31,3,9,9,5,,,,P2,1-43 All,,20,,
+5A,300,6,2,11,-1,1,N,100,77,B,0,0,11,12,
+5B,580,11,6,15,-4,3,L,100,89,B,0,0,16,17,
+5C,810,9,6,19,-8,3,L,100,89,B,0,0,16,19,
+2A,300,8,3,10,-1,1,N,80,77,F,0,0,11,12,
+2B,560,10,3,21,-10,2,L,90,85,F,0,0,13,14,
+2C,870,15,8,24,-13,4,L,90,82,B,9-22 H,0,18,44,
+6A,630,12,4,22,-9,3,L,90,89,B,6-15 H,0,16,26,
+6B,640,20,12,7,-3,3,N,90,79,H,0,0,16,33,"On whiff, recovery is 19. Bonus Proration 110%"
+6C,950,19,5,26,-11,5,L,90,84,B,3-26 F,0,20,40,Fatal Counter
+3C,850,12,3,24,-8,4,L,90,92,F,0,0,18,30,
+j.A,300,7,2,9,0,1,N,80,77,H,0,0,11,12,
+j.AA,300,6,2,9,0,1,N,80,77,H,0,0,11,12,
+j.B,540,8,6,9,0,2,L,80,85,H,0,0,13,17,
+j.C,830,12,4,17,0,3,L,80,89,H,0,0,16,23,
+j.2C,450*3,12,"4,4,4",20,0,1,L,80,77,H,0,0,11,14,
+Forward Throw,"0, 1500",7,3,23,0,4,N,100,50,T,0,0,0,0,
+Back Throw,"0, 1500",7,3,23,0,4,N,100,50,T,0,0,0,100,
+Air Throw,"0, 1500",7,3,26,0,4,N,100,50,T,0,0,0,100,
+Counter Assault,0,13,4,29,-14,4,VS,50,92,B,1-20 All,0,18,19,
+Crush Trigger,1000,20,1,25,0,0,N,80,60,B,0,0,24,"60, Slide 15",
+Crush Trigger Charged,1000,30,1,25,0,0,L,80,100,B,0,0,24,"60, Slide 15",
+5D,0,0,0,29,0,0,0,0,0,0,0,0,0,0,
+j.D,0,0,0,28,0,0,0,0,0,0,0,0,0,0,
+5D Hammer,1200,16,5,17,1,4,L,80,82,B,0,0,22,28,
+j.D Hammer Level 1,"700, see notes",12,"Until L, 3",20,2,4,L,80,82,H,0,0,18,30,Second hit does more damage increases the higher Platinum falls. Damage is 800/900/1000
+j.D Hammer Level 2,"700, see notes",12,"Until L, 3",20,4,4,L,80,82,H,0,0,18,30,Second hit does more damage increases the higher Platinum falls. Damage is 800/900/1000
+j.D Hammer Level 3,"700, see notes",12,"Until L, 3",20,6,4,L,80,82,H,0,0,18,30,Second hit does more damage increases the higher Platinum falls. Damage is 800/900/1000
+5D Super Hammer,1500,16,5,18,3,5,L,80,84,B,0,0,25,28,
+j.D Super Hammer Level 1,"900, see notes",12,"Until L, 3",20,4,5,L,80,84,H,0,0,20,28,Second hit does more damage increases the higher Platinum falls. Damage is 1300/1500/1700. Bonus proration 110%
+j.D Super Hammer Level 2,"900, see notes",12,"Until L, 3",20,6,5,L,80,84,H,0,0,20,28,Second hit does more damage increases the higher Platinum falls. Damage is 1300/1500/1700. Bonus proration 110%
+j.D Super Hammer Level 3,"900, see notes",12,"Until L, 3",20,8,5,L,80,84,H,0,0,20,28,Second hit does more damage increases the higher Platinum falls. Damage is 1300/1500/1700. Bonus proration 110%
+5D Super Hammer (Quake),0,21,1,0,0,5,L,70,84,P2,0,0,0,0,Quake only appears if hammer strike whiffs
+5D Cat,950,11,8,20,-11,3,L,80,79,B,0,0,16,40,
+j.D Cat,950,16,5,20,0,3,L,80,89,H,0,0,16,40,
+5D Super Cat,1200,11,5,20,-10,4,L,80,82,B,0,0,18,50,Bonus proration 110%
+j.D Super Cat,1200,14,5,20,0,4,L,80,94,H,0,0,18,40,Bonus proration 110%
+5D Fry Pan,850,10,6,18,-7,3,L,100,79,B,0,0,16,40,
+j.D Fry Pan,850,14,4,20,0,3,N,80,79,H,0,0,16,50,
+5D Super Fan,1300,10,6,18,-5,4,L,100,82,B,0,0,18,60,Bonus proration 110%
+j.D Super Fan,1300,13,4,20,0,4,N,80,82,H,0,0,18,65,Fatal Counter. Bonus proration 110%
+5D Bat,900,11,4,26,-16,2,VS,60,75,B,1-11 All,0,13,"30, Wall 40",
+j.D Bat,900,11,4,26,0,2,VS,60,75,H,1-11 All,0,13,"30, Wall 40",
+5D Super Bat,1200,11,5,24,-10,4,VS,60,82,B,1-15 All,0,18,"30, Wall 40",Bonus proration 110%
+j.D Super Bat,1200,11,5,26,0,4,VS,60,82,H,1-15 All,0,18,"30, Wall 40",Bonus proration 110%
+5D/j.D Bomb,"450, 800",19,Until Contact (7) 15,40,0,"1,3",N,80,"80, 80",P1,0,0,"11+5, 16+0","14+5, 40+0",
+5D/j.D Super Bomb,"550, 1200",19,Until Contact (7) 15,40,0,"1,3",N,80,"80, 80",P1,0,0,"11+9, 16+0","14+9, 40+0",Bonus proration 110%
+5D/j.D Missile,"550, 600",19,"Until Offscreen, 10", 40,0,3,N,80,"80, 80",P2,0,0,"16+6, 16+0","16+6, 40+0",
+5D/j.D Super Missile,"650, 1100",19,"Until Offscreen, 10",40,0,"4, 3",N,80,"80, 80",P2,0,0,"18+6, 16+0","18+6, 55+0",Bonus proration 110%
+5D Box Summon,0,20,0, 33,0,0,0,0,0,0,0,0,0,0,
+j.D Box Summon,0,22,0, 47,0,0,0,0,0,0,0,0,0,0,
+Box,1000,7,15,0,0,3,N,70,89,P1,0,0,16+0,55+0,
+Super Box,"900, 800",8,"20, 72",0,0,3,N,"80, 70",89,P2,0,0,16+0,55+0,Bonus proration 110%
+5D/j.D Halo,800,21,Until Offscreen,42,-4,3,N,90,79,P1,0,0,16+1,55+1,
+5D/j.D Super Halo,1100,21,Until Offscreen,42,-2,4,N,90,82,P2,0,0,18+1,60+1,Bonus proration 110%
+Bubble,800,28,Until Offscreen,48,-6,0,N,80,95,P1,0,0,9+5,0,
+Hop,0,0,0,37,0,0,0,0,0,0,5-31 P,0,0,0,Can cancel into folloups 12F until landing
+Air Hop,0,0,0,6,0,0,0,0,0,0,0,0,0,0,Can cancel into folloups 7F until landing
+Hop A (1-2),450,6,6,7,0,2,L,90,94,H,0,0,13,20,
+Hop A (3),500,6,6,7,0,2,L,90,84,H,0,0,13,"20, Slide 10",
+Hop B (1-2),450,6,6,7,0,2,L,90,94,H,0,0,13,20,
+Hop B (3),500,6,6,7,0,2,L,90,84,H,0,0,13,45,
+Hop C (1-2),450,6,6,7,0,2,L,90,94,H,0,0,13,20,
+Hop C (3),500,6,6,7,0,2,L,90,84,H,0,0,13,"30, Slide 15",
+Heart Car Horiz,1100,13,15,28,-10,4,L,90,92,F,0,0,18,"40, Slide 9","Fatal Counter. On hit/block, transitions into recovery animation (28F)"
+Heart Car Vert,1300,20,19,19,0,4,N,90,92,H,1-9 B,0,18,60,Fatal Counter. Frame Adv listed is tested on standing Ragna
+Dramatic Sammy,1500,0,0,0,0,3,N,100,60,T,0,0,0,100,Minimum Damage 100%
+Falling Melody,800,0,0,0,0,5,L,100,94,0,0,0,0,33,
+Swallow Moon,0,0,0,0,0,0,0,0,0,0,0,0,0,0,Can cancel into attacks on 14F
+Happy Magicka,0,0,0,135,0,0,0,0,D,0,1-105 Guard HBFP,0,0,0,
+Happy Magicka >Attack,100,2, ,70,-52,0,N,100,0,P1,1-29 All,0,9+8,100+8,
+Mystique Momo,See notes,19,0,40,12,5,N,80,94,P1,0,0,20+13,30+13,"Damage depends on item thrown. Halo or Frying Pan: 850, Bat: 900, Cat Stick 950, Hammer: 1200, Fan: 1300, Super Cat Stick: 1500, Super Bat: 1400, Super Hammer 1800"
+Mystique Momo Bomb/Missile/Box,See notes,19,0,40,0,0,0,0,0,See notes,0,0,0,0,"Projectiles appear on 19, 22, 25. Damage, P1, P2, hitstun, etc. is equal to the individual items thrown"
+Miracle Jeanne,0,0,0,8,0,0,0,0,0,0,7-8 All,0,0,0,
+Cure Dot Typhoon,440*13,16,"4 (12) 9*11,5",44,-30,4,N,80,82,B,1-16 All,0,18,100,
+Air Cure Dot Typhoon,440*13,16,"4 (12) 9*11,5",44,0,4,N,80,82,B,1-16 All,0,18,100,
+Cure Dot Typhoon OD Followup,200*7,0,0,0,0,0,0,80,99,0,0,0,0,100,
+EA,"Normal: 600, 800*3 AF: 600, 800*4, 1950",10,3,34,-10,100,0,100,0,B,Fast: 1-12 All<br/>Slow: 1-22 All,0,26,Slide 40,10% Minimum Damage
+Astral,30000,41,3,9,9,5,0,0,0,P2,1-43 All,0,20,0,
