@@ -1,4 +1,4 @@
-Move,Damage,Startup,Active,Recovery,Frame Adv,Level ,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
+Move,Damage,Startup,Active,Recovery,FrameAdvantage,Level ,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
 5A,450,8,5,6,3,2,N,100,85,B,,,13,14,
 5B,770,9,6,16,-5,3,L,90,89,B,,,16,19,
 5C,1000,17,6,18,-5,4,L,100,92,B,,,18,19,

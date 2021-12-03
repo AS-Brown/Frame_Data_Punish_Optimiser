@@ -1,4 +1,4 @@
-Move,Damage,Startup,Active,Recovery,Frame Adv,Level ,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
+Move,Damage,Startup,Active,Recovery,FrameAdvantage,Level ,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
 5A,300,6,3,9,0,1,N,100,77,B,,,11,12,
 5B,600,8,5,14,-2,3,L,100,89,B,,,16,17,Hitbox fully extended on 10
 5C,500*2,12,"3,3",18,-2,4,L,100,92,B,,,18,19,
@@ -33,7 +33,6 @@ j.2D,900,18,3,16,,4,L,80,,HD,1-End Guard P,,18+12,,Relius has total animation 36
 j.2D OD,900,18,3,8,,4,L,80,,HD,1-End Guard P,,18+12,,Relius has total animation 36
 j.6D,900,16,4,16,,4,L,80,,HD,1-End Guard P,,18+12,,Relius has total animation 36
 j.6D OD,900,16,4,8,,4,L,80,,HD,1-End Guard P,,18+12,,Relius has total animation 36
-
 Led Ley,,,,35,,,,,,,1-31 HBFP,,,,Can pass through opponent 1-31
 Gad Leis,680x2,21,3 (6) 2,21,-4,4,,100,82,B,,,18,35,Fatal Counter
 Id Lauger,1000,16,6,36,-23,4,L,100,,B,,,18,45,"If Ignis is available, can cancel into Ignis Followups on hit (not on block)"
