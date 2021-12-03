@@ -28,17 +28,10 @@ public class CSVReader {
     @Autowired
     MoveRepository moveRepository;
 
-    private String Kagura_CSV = "/Users/codeclanstudent/Desktop/g27/codeclan_work/final_project/frameDataPunishOptimiser/src/main/resources/static/characters/Kagura.csv";
-    private String Azrael_CSV = "/Users/codeclanstudent/Desktop/g27/codeclan_work/final_project/frameDataPunishOptimiser/src/main/resources/static/characters/Azrael.csv";
     private String Names_CSV = "/Users/codeclanstudent/Desktop/g27/codeclan_work/final_project/frameDataPunishOptimiser/src/main/resources/static/misc/names.csv";
 
     public void runReader() throws IOException {
         try (
-                Reader reader = Files.newBufferedReader(Paths.get(Azrael_CSV));
-                CSVParser csvParserOfMoves = new CSVParser(reader, CSVFormat.DEFAULT
-                            .withFirstRecordAsHeader()
-                            .withIgnoreHeaderCase()
-                            .withTrim());
 
                 Reader nameReader = Files.newBufferedReader(Paths.get(Names_CSV));
                 CSVParser csvParserOfNames = new CSVParser(nameReader, CSVFormat.DEFAULT
@@ -50,6 +43,13 @@ public class CSVReader {
             gameRepository.save(BBCF);
                 for(CSVRecord csvRecordOfNames : csvParserOfNames){
                     String name = csvRecordOfNames.get("name");
+                    String Moves_CSV = "/Users/codeclanstudent/Desktop/g27/codeclan_work/final_project/frameDataPunishOptimiser/src/main/resources/static/characters/" + name + ".csv";
+                    Reader reader = Files.newBufferedReader(Paths.get(Moves_CSV));
+                    CSVParser csvParserOfMoves = new CSVParser(reader, CSVFormat.DEFAULT
+                            .withFirstRecordAsHeader()
+                            .withIgnoreHeaderCase()
+                            .withTrim());
+
                     Individual currentCharacter = new Individual(name, BBCF);
                     individualRepository.save(currentCharacter);
 
