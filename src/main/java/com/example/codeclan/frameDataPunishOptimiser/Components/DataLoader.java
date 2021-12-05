@@ -12,8 +12,6 @@ import java.io.IOException;
 @Component
 public class DataLoader implements ApplicationRunner {
 
-
-
     @Autowired
     CSVReader cvsReader;
 
