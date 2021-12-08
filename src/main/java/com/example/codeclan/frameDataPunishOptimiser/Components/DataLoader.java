@@ -1,6 +1,4 @@
 package com.example.codeclan.frameDataPunishOptimiser.Components;
-
-
 import com.example.codeclan.frameDataPunishOptimiser.CSVReader;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.ApplicationArguments;
