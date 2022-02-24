@@ -1,0 +1,67 @@
+Move,Damage,Startup,Active,Recovery,FrameAdvantage,Level ,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
+5A,300,5,3,9,0,1,N,100,77,B,0,0,11,12,
+5B,550,8,3,12,2,3,L,100,89,B,0,0,16,17,
+5C,450*2,10,1(1)6,24,-11,4,L,100,92,B,0,0,18,21,
+2A,300,6,2,11,-1,1,N,100,77,F,0,0,11,12,
+2B,550,10,2,17,-5,2,L,90,85,F,0,0,13,14,
+2C,800,13,4,36,-23,3,L,90,89,B,8-15 H,0,16,25,
+6A,700,22,3,17,-3,3,N,80,89,B,0,0,16,17,Bonus Proration 110
+6B,800,25,3,13,1,3,L,90,89,F,0,0,16,17,Fatal Counter
+6C,510*3,20,Until Ground,51,1,5,L,100,84,P,0,0,20+0 Hitstop,21,"Knives appear on 20, 23, 25"
+3C,840,14,4,21,-6,4,L,90,92,F,0,0,18,40,
+j.A,300,7,3,9,0,1,N,80,77,H,0,0,11,12,
+j.B,600,10,8,14,0,2,L,80,85,H,0,0,13,16,Last 4 active frames hit crossup
+j.C,600,10,2,23,0,3,L,80,89,H,0,0,16,17,
+j.CC,400,5,2,23,0,2,L,80,90,H,0,0,13,14,
+j.CCC,400,5,2,23,0,2,L,80,90,H,0,0,13,14,
+j.CCCC,400,6,3,23,0,2,L,80,90,H,0,0,13,14,
+j.CCCCC,700,5,2,26,0,3,L,80,94,H,0,0,16,17,
+j.2C,780,14,4,22,0,4,L,80,92,H,0,0,18,19,
+Forward Throw,1500,7,3,23,0,4,N,100,50,T,0,0,0,70,
+Back Throw,1500,7,3,23,0,4,N,100,50,T,0,0,0,"60, Slide 20",
+Air Throw,1500,7,3,26,0,0,N,100,50,T,0,0,0,65,
+Counter Assault,0,13,4,33,-18,4,VS,50,92,B,1-20 All,0,18,19,
+Crush Trigger,1000,20,1,25,0,0,N,80,60,B,0,0,24,60,
+Crush Trigger Charged,1000,30,1,25,0,0,L,80,100,B,0,0,24,60,
+5D Near,250,13,0,30,-21,1,N,80,92,P,0,0,9,12,"In OD, attack always has properties of Far version (except startup)"
+5D Far,500,21,0,30,-21,5,N,80,92,P,0,0,9,28,
+2D Near,400,9,0,25,-16,1,N,80,92,P,0,0,9,12,"In OD, attack always has properties of Far version (except startup)"
+2D Far,800,13,0,25,-16,5,N,80,92,P,0,0,9,28,
+6D Near,300,13,0,28,-19,1,N,80,92,P,0,0,9,12,"In OD, attack always has properties of Far version (except startup)"
+6D Far,600,21,0,28,-19,5,N,80,92,P,0,0,9,28,
+4D Near,300,10,0,28,-19,1,N,80,92,P,0,0,9,12,"In OD, attack always has properties of Far version (except startup)"
+4D Far,600,16,0,28,-19,5,N,80,92,P,0,0,9,28,
+j.D Near,250,10,0,44,0,1,N,80,92,P,0,0,9,12,"In OD, attack always has properties of Far version (except startup)"
+j.D Far,500,16,0,44,0,5,N,80,92,P,0,0,9,28,
+j.2D Near,250,10,0,44,0,1,N,80,92,P,0,0,9,12,"In OD, attack always has properties of Far version (except startup)"
+j.2D Far,500,16,0,44,0,5,N,80,92,P,0,0,9,28,
+j.4D Near,250,10,0,44,0,1,N,80,92,P,0,0,9,12,"In OD, attack always has properties of Far version (except startup)"
+j.4D Far,500,16,0,44,0,5,N,80,92,P,0,0,9,28,
+j.6D Near,250,10,0,44,0,1,N,80,92,P,0,0,9,12,"In OD, attack always has properties of Far version (except startup)"
+j.6D Far,500,16,0,44,0,5,N,80,92,P,0,0,9,28,
+j.8D Near,250,10,0,44,0,1,N,80,92,P,0,0,9,12,"In OD, attack always has properties of Far version (except startup)"
+j.8D Far,500,16,0,44,0,5,N,80,92,P,0,0,9,28,
+Followup A,0,0,0,15,0,0,0,0,0,0,0,0,0,0,"Immediately ends attack and goes into recovery animation. 5D duration 17F, 2D/6D/4D duration 15F. Air D duration 18F"
+Followup B,0,0,0,39,0,0,0,0,0,0,1-23 P,0,0,0,Can cancel into all actions except blocking on ??
+Followup C,0,0,0,24,0,0,0,0,0,0,0,0,0,0,Can cancel into all actions except blocking on ??
+Followup D,0,0,0,22,0,0,0,0,0,0,0,0,0,0,Can cancel into all actions except blocking on ??
+Stance,0,0,0,86,0,0,0,0,0,0,0,0,0,0,
+Serpent's Benediction >Falling Fang,700,18,4,11,1,4,N,100,80,H,0,0,Normal: 18<br/>Powered Up: 20,40,
+Serpent's Benediction >Falling Fang Powered,850,18,4,11,3,5,N,100,80,H,0,0,Normal: 18<br/>Powered Up: 20,40,
+Serpent's Benediction >Devouring Fang,700,16,4,20,-5,Normal: 4<br/>Powered Up: 5,L,100,0,F,1-19 B,0,Normal: 18<br/>Powered Up: 20,Normal: 40<br/>Powered Up: 60,
+Serpent's Benediction >Devouring Fang Powered,850,16,4,20,-3,Normal: 4<br/>Powered Up: 5,L,100,0,F,1-19 B,0,Normal: 18<br/>Powered Up: 20,Normal: 40<br/>Powered Up: 60,
+Serpent's Benediction >Rising Fang,900,9,8,15,-17,Normal: 4<br/>Powered Up: 5,N,90,Normal: 82<br/>Powered Up: 84,B,1-12 All,0,Normal: 18<br/>Powered Up: 20,Normal: 48<br/>Powered Up: 55,
+Serpent's Benediction >Rising Fang Powered,1080,9,8,15,-15,Normal: 4<br/>Powered Up: 5,N,90,Normal: 82<br/>Powered Up: 84,B,1-12 All,0,Normal: 18<br/>Powered Up: 20,Normal: 48<br/>Powered Up: 55,
+Serpent's Benediction >Serpent's Haste,0,0,0,18,0,0,0,0,0,0,0,0,0,0,
+Serpent's Benediction >Serpent's Redemption Forward,0,0,0,31,0,0,0,0,0,0,0,0,0,0,
+Serpent's Benediction >Serpent's Redemption Backward,0,0,0,32,0,0,0,0,0,0,0,0,0,0,
+Vengeful Viper,800,15,4,91,0,3,L,100,79,B,0,0,16,40,Enters Stance afterwards. Can cancel into Stance attacks 22 onwards
+Bloody Fangs Gasaishou,0, 600,11,2,31,0,3,N,100,60,T,0,0,16,40,
+Shadow Serpent,900,10,Until L,16,-6,3,L,80,89,H,0,0,16,50,"Frame Adv listed is on standing Ragna. Against crouching Ragna, it is -2"
+Venom Sword,680,15,2,21,-1,3,L,100,79,BP,0,0,21,"35, Slide 25",
+Hungry Coils,"0, 2000",11,13,53,0,0,L,100,82,P,0,0,0,"120, Slide 25",
+Serpent's Infernal Rapture,Normal:1950 OD: 2100,4,3,51,-33,5,N,50,94,B,3 All,0,16,120,Fatal Counter
+Eternal Coils of the Dragon Serpent,"Normal: 800, 200*8, 2000 OD: 800, 90*24, 1000*2",16,2,70,-46,1,N,80,80,P2,1 All<br/>2-19 P,0,11+0 Hitstop,0,
+The Serpent's Unholy Wrath,"Normal: 0*2, 280*3, 57*9, 400, 800<br/>OD: 0*2, 280*3, 57*17, 400, 800",12,3,40,0,0,L,100,0,T,1-14 All,0,0,0,
+EA,"Normal: 600, 400*3, 1000 AF: 600, 400*5, 700*4",10,3,34,-10,100,0,100,0,B,Fast 1-22 All<br/>Slow 1-12 All,0,26,0,10% Minimum Damage
+Astral,30000,17,0,161,0,3,0,0,0,P*,1-91 All,0,16,0,

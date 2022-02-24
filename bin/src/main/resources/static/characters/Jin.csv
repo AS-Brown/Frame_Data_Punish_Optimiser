@@ -1,0 +1,49 @@
+Move,Damage,Startup,Active,Recovery,FrameAdvantage,Level ,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
+5A,300,6,3,11,-2,1,N,100,77,B,0,0,11,12,
+5B,400*2,8,4 (2) 1,16,-3,2,L,100,85,B,0,0,13,14,
+5C,800,10,4,19,-6,3,L,100,89,B,0,0,16,20,"During OD, freezes for 30, Freeze Count 3. Hitbox fully extended on 12"
+2A,300,7,4,9,-1,1,N,100,77,F,0,0,11,12,
+2B,600,9,2,15,-3,2,L,90,85,F,0,0,13,14,
+2C,930,17,3,31,-17,3,L,90,89,B,9-19 H,0,16,24,"During OD, freezes for 30, Freeze Count 3"
+6A,640,19,3,20,-4,4,N,80,89,B,0,0,18,19,Bonus Proration 110
+6B,840,19,4,18,-3,4,L,90,92,H,4-22 F,0,18,26,
+6C,1060,19,3,31,-13,5,L,100,84,B,0,0,20,36,"During OD, freezes for 45, Freeze Count 3"
+3C,900,13,4,28,-15,3,L,90,89,F,0,0,16,26,"During OD, freezes for 30, Freeze Count 3"
+j.A,300,7,3,9,0,1,N,80,77,H,0,0,11,12,
+j.B,600,9,7,30,0,3,L,80,89,H,0,0,16,17,
+j.C,850,10,3,24,0,3,L,80,89,H,0,0,16,17,"During OD, freezes for 30, Freeze Count 3"
+j.2C,850,13,5,24,0,3,L,80,89,H,0,0,16,19,"During OD, freezes for 30, Freeze Count 3"
+Forward Throw,1500,7,3,23,0,4,N,100,50,T,0,0,0,19,Freezes for 55. Freeze Count 3
+Back Throw,1500,7,3,23,0,4,N,100,50,T,0,0,0,19,Freezes for 55. Freeze Count 3
+Air Throw,1500,7,3,26,0,4,N,100,50,T,0,0,0,19,Freezes for 65. Freeze Count 3
+Counter Assault,0,13,5,34,-20,4,VS,50,92,B,1-20 All,0,18,19,
+Crush Trigger,1000,20,1,25,0,0,N,80,60,B,0,0,24,60,Freezes for 60. Freeze Count 3
+Crush Trigger Charged,1000,30,1,25,0,0,L,80,100,B,0,0,24,60,Freezes for 60. Freeze Count 3
+5D,960,17,8,20,-11,3,L,100,79,BP,0,0,16,17,Freezes for 26. Freeze Count 1. During OD freezes for 36. Freeze Count 3
+2D,960,22,3,57,1,4,L,90,82,P1,0,0,18+18 Hitstop,19+18 Hitstop,Freezes for 40. Freeze Count 1. During OD freezes for 55. Freeze Count 3
+6D,1000,31,9,65,6,5,L,100,84,P1,0,0,20+20 Hitstop,26+20 Hitstop,Freezes for 45. Freeze Count 1. During OD freezes for 55. Freeze Count 3. Bonus Proration 110
+j.D,970,16,3,34,0,4,L,80,82,HP,0,0,18,19,Freezes for 50. Freeze Count 1. During OD freezes for 60. Freeze Count 3
+Hishousetsu (Snowflake),600*3,18,??,52,27,3,N,90,89,P1,0,0,16+11 Hitstop,17+11 Hitstop,Freezes for 36. Freeze Count 10
+Air Hishousetsu (Snowflake),600*3,24,??,48,0,3,N,90,89,P1,0,0,16+11 Hitstop,17+11 Hitstop,Freezes for 36. Freeze Count 10
+Hirensou,"900, 1200",13,2 (23~77) 3,42,-26,4,"VS, L",70,92,B,1-21 All,0,18,"44, Wall 44, Slide 30",First hit freezes for 50. Freeze Count 10. Second hit is Unblockable and Fatal Counter if fully charged
+Musou Tosshougeki,640,17,10,23,-10,3,N,90,89,F,0,0,16,17,"Freezes for 45. Freeze Count 10. On hit/block, goes into recovery animation"
+Musou Tosshougeki with followup,1200,14,3,27,-13,3,L,90,89,H,0,0,16,"50, Slide 15",
+Hizangeki,"600, 1200",9,8,27,0,4,0,90,100,H,0,0,18,19,First hit freezes for 80. Freeze Count 10
+Musou Senshouzan,640,17,8,24,-10,3,0,90,89,F,0,0,16,26,"On hit/block, goes into recovery animation. During OD freezes for 45. Freeze Count 5"
+Musou Senshouzan with followup,1000,14,4,26,-13,3,L,90,89,H,0,0,16,30,During OD freezes for 45. Freeze Count 5
+Sekkajin,385*4,8,2 (3) 2 (3) 2 (3) 2,28,-13,3,L,100,89,B,0,0,16,"17*3, 40","Fatal Counter. If opponent was frozen, then last hit freezes for 50. Freeze Count 3. During OD, freezes for 50. Freeze Count 5. If too far away from opponent Jin does not attack, total duration 37"
+Sekkajin Followup,"Normal: 400, 800 OD: 200*6, 800",25,8,68,0,3,L,100,"100, 74",B,0,0,16,60,All hits except last hit freeze for 70. Freeze Count 10. Second hit only occurs if first hits opponent. Recovery on block is 52
+Fubuki,950,8,3,33,-17,4,N,80,82,B,5-10 H,0,18,45,During OD freezes for 55. Freeze Count 5
+Rehhyou,1300,13,3,45,-29,4,VS,60,92,B,1-15 All,0,18,56,During OD freezes for 70. Freeze Count 5
+Hishouken,600,13,Until Offscreen,44,-7,3,N,90,89,P1,0,0,16+8 Hitstop,17+8 Hitstop,"During OD freezes for 30. Freeze Count 5. During the first 9? active frames, damage 800 and floats opponent on CH"
+Air Hishouken,600,20,Until Offscreen,57,0,3,N,90,89,P1,0,0,16+8 Hitstop,17+8 Hitstop,"During OD freezes for 30. Freeze Count 5. During the first 9? active frames, damage 800"
+Hizansen,1000,13,3,7,0,4,N,90,82,H,0,0,18,36,During OD freezes for 55. Freeze Count 5
+Dash Cancel,0,0,0,22,0,0,0,0,0,0,0,0,0,0,
+Touga Hyojin,"1600, 400*N",9,Until Offscreen,44,-16,4,N,80,72,P2,1-2 All,0,18+0 Hitstop,"28+0 Hitstop, Slide 20",During OD freezes for 100. Freeze Count 20
+Touga Hyojin Followup OD,"400*3, 1200",0,0,0,0,4,N,0,0,P2,0,0,0,0,All except final hit Freeze for 120. Freeze Count 100
+Hiyoku Getsumei,"Normal: 1000, 200*14, 1100 OD: 1000, 200*20, 1100",10,Until Offscreen,108,-80,4,N,80,82,P2,1-11 All,0,18+0 Hitstop,80+0 Hitstop,First hit freezes for 45. Freeze Count 20. Minimum Damage 15%
+Air Hiyoku Getsumei,"Normal: 1000, 200*14, 1100 OD: 1000, 200*20, 1100",10,Until Ground,15,0,4,N,80,82,P2,1-13 All,0,18+0 Hitstop,80+0 Hitstop,First hit freezes for 45. Freeze Count 20. Minimum Damage 15%
+Yukikaze Catch,0,0,0,34,0,0,0,0,0,0,1-14 Guard HBFP,0,0,0,"If an attack is caught on 1F, then the startup of the attack is reduced to 21."
+Yukikaze Attack,"Normal: 500, 3500 OD: 500*5, 3500",57,15,77,0,4,N,100,"100, 60",B,1-End All,0,0,0,First hit Fatal Counter. All except last hit Freeze for 180. Freeze Count 60. Immediately enters recovery once hitting opponent
+EA,"Normal: 600, 300*4, 1250 AF: 600, 400*10, 1250",10,3,34,-10,100,L,100,0,B,Fast: 1-12 All<br/>Slow: 1-22 All,0,26,0,10% Minimum Damage
+Astral,27315,31,10,95,-86,4,L,0,0,F,1-30 All,0,0,0,

@@ -1,0 +1,51 @@
+Move,Damage,Startup,Active,Recovery,FrameAdvantage,Level,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
+5A,300,6,3,10,-1,1,N,100,77,B,,,11,14,
+5B,520,9,2,16,-1,3,L,100,89,B,,,16,17,
+5C,780,13,3,20,-6,3,L,100,89,B,,,16,19,
+2A,300,7,3,10,-1,1,N,100,77,F,,,11,14,
+2B,480,9,4,15,-2,3,L,100,90,F,,,16,17,
+2C,760,14,3,24,-8,4,L,90,82,B,8-16 H,,18,29,
+6A,600,11,4,24,-11,3,L,90,89,B,5-14 H,,16,17,
+6B,650,17,4,16,-3,3,L,95,89,F,,,16,17,
+6C,800,24,6,16,-5,3,N,90,89,B,7-22 FT,,16,35,Fatal Counter
+3C,720,14,10,20,-13,3,L,90,89,F,,,16,40,
+j.A,300,6,4,9,0,1,N,80,77,H,,,11,14,
+j.B,550,9,3,24,0,2,L,80,85,H,,,13,14,
+j.C,820,10,5,21,0,3,L,80,89,H,,,16,17,
+j.2C,850,10,Until L,28,0,3,L,80,89,H,,,16,28,"On hit/block, Carl bounces and recovers in the air, recovery 26f"
+Counter Assault,0,13,3,32,-16,4,VS,50,92,B,1-20 All,,18,19,
+Crush Trigger,1000,20,1,25,0,,N,80,60,B,,,24,60,
+Crush Trigger Charged,1000,30,1,25,0,,L,80,100,B,,,24,60,
+Forward Throw,1500,7,3,23,0,4,N,100,50,T,,,,,
+Back Throw,1500,7,3,23,0,4,N,100,50,T,,,,100,
+Air Throw,1500,7,3,26,0,4,N,100,50,T,,,,80,
+Nirvana Activate,0,16,0,0,0,0,,,,,,,,,
+6D,940,29,8,60,0,3,N,80,79,BD,1-End? guard P,,16+11 Hitstop,"40+11 Hitstop, Slide 45",
+2D,510*4,33,4 (8) 4 (6) 4 (8) 4,58,0,4,N,80,92,BD,1-End? guard P,,18+1 Hitstop,"19*3, 40+1 Hitstop",
+3D,490*6,42,4*3 5,67,0,3,S,80,89,FD,1-End? guard P,,16+1 Hitstop,17+1 Hitstop,
+4D,1060,24,8,69,0,4,N,80,82,BD,1-End? guard BP,,18+12 Hitstop,40+12 Hitstop,Fatal Counter
+8D,760,33,3,36,0,3,N,80,89,BD,1-End? guard P,,16+0 Hitstop,100+0 Hitstop,
+8D Shockwave,620,37,28,0,0,3,N,80,89,P1,,,16+12 Hitstop,100+12 Hitstop,
+41236D,630*5,52,2*12 1,97,0,3,N,80,89,BD,1-End? guard P,,16+2 Hitstop,20+2 Hitstop,5 Hits max
+623D,1480*2,25,3 5,40,0,4,N,80,92,BD,1-End? guard HP,,18+12 Hitstop,"30+12 Hitstop, Wall 60",
+421D,1100,31,Until Offscreen,90,0,3,N,80,89,P1,1-End? guard P,,16+0 Hitstop,100+0 Hitstop,
+63214D,Normal: 0 2000 OD: 0 2500,19,3,68,0,3,N,100,72,HBFTD,1-End? guard HBFP,,16+3 Hitstop,,Fatal Counter. Nirvana automatically attacks after getting close to the opponent
+22D,0,0,0,69,0,,,,,,1-End? All,,,,
+Roll A,0,0,0,28,0,,,,,,1-16 P,,,,Can pass through opponent 1-18
+Roll B,0,0,0,39,0,,,,,,1-30 HB,,,,Can pass through opponent 1-24
+Allegretto,700*6,13,28,27,0,3,L,80,89,H,,,11+0,45+0,"Hits appear in 4F intervals, each hit has 5 Active Frames"
+Cantible,0 1800,11,15,44,-26,1,L,100,92,PD*,,,11,48,On block goes into 37F recovery animation
+Gear Super,250*20,11,155,0,-46,2,N,100,95,P2,8 All,,13+1 Hitstop,"48+1*19, 13+1","Frame Adv listed is when opponent blocks until they are pushed out normally. If opponent blocks all hits, then Frame Adv is +18"
+Gear Super OD,300*22,11,165,0,-74,2,N,100,95,P2,8 All,,13+1 Hitstop,"48+1*21, 13+1","Frame Adv listed is when opponent blocks until they are pushed out normally. If opponent blocks all hits, then Frame Adv is +18"
+Rhapsody of Memories Ground (Carl),0,0,0,79,235,,,,,,,,,,Frame Adv listed is when opponent blocks all hits. First hole that appears on normal block after blocking 8 hits (Normal) 16 hits (OD). Frame adv in this case is +59 (Normal) /+99 (OD)
+Rhapsody of Memories Air (Carl),0,0,0,63,235,,,,,,,,,,Frame Adv listed is when opponent blocks all hits. First hole that appears on normal block after blocking 8 hits (Normal) 16 hits (OD). Frame adv in this case is +59 (Normal) /+99 (OD)
+Rhapsody of Memories (Normal Nirvana),200*6 300*2 350*2 500,19,3 (12) 3 (12) 3 (9) 3 (12) 3 (12) 3 (12) 6 (9) 6 (20) 5 (26) 5 (38) 6,48,0,,N,"3*2, 4, 3*2, 4*5, 5",,BD,1-End? Guard HBFP,,"16+4*2, 18+4, 16+4*2, 18+4*5, 20+20","20+4*10, 60+20",Active Frames are: 3 (12) 3 (12) 3 (9) 3 (12) 3 (12) 3 (12) 6 (9) 6 (20) 5 (26) 5 (38) 6
+Rhapsody of Memories(OD Nirvana),200*12 300*4 350*2 500,19,2(8)2(8)2(6)2(8)2(8)2(6)2(8)2(8)2(6)2(8)2(8)2(8)4(6)4(6)4(6)4(21)5(24)5(54)6,68,0,,N,"2*12, 3*4, 4*2, 5",,BD,1-End? Guard HBFP,,"13+2*12, 16+2*4, 18+2*2, 20+20","20+2*18, 60+20",Active Frames are: 2(8)2(8)2(6)2(8)2(8)2(6)2(8)2(8)2(6)2(8)2(8)2(8)4(6)4(6)4(6)4(21)5(24)5(54)6
+Fermata Ground(Carl),0,0,0,44,14,,,,,,1 All,,,,
+Fermata Air(Carl),0,0,0,38,14,,,,,,1 All,,,,
+Fermata (Normal Nirvana),2500,17,6,124,0,5,N,80,84,BD,1-End? Guard P,,20+20 Hitstop,60+20 Hitstop,
+Fermata (OD Nirvana),3000,17,6,124,0,5,N,80,84,BD,1-End? Guard P,,20+30 Hitstop,80+30 Hitstop,
+Arpeggio of Oblivion (Carl),0,17,0,46,-30,,,,,,,,,,Immediately begins recovery animation on block for 46F
+Arpeggio of Oblivion (Nirvana),1600 3500,9,3,33,0,4,VS,80,92,BD,,,18+0 Hitstop,200+0 Hitstop,First hit Minimum Damage 10%. Second hit Minimum Damage 25%
+EA,"Normal: 600*2, 400*2, 1000 AF: 600, 240*15, 1000",10,3,34,-10,100,,100,,B,Fast 1-22 All<br/>Slow 1-12 All,,26,,10% Minimum Damage
+Astral,21850,18,??,78,-30,4,,,,P2,1-68 All,,30+0 Hitstop,,

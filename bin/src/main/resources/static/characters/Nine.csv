@@ -1,0 +1,61 @@
+Move,Damage,Startup,Active,Recovery,FrameAdvantage,Level ,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
+5A,600,9,3,23,-9,3,L,100,89,BD,0,0,16,17,
+5B,600,12,6,21,-10,3,L,100,89,BD,0,0,16,17,
+5C,600,12,3,25,-11,3,L,100,89,BD,0,0,16,17,
+2A,550,10,3,23,-9,3,L,90,98,FD,0,0,16,17,
+2B,550,11,6,21,-10,3,L,90,98,FD,0,0,16,17,
+2C,550,11,3,25,-11,3,L,90,98,FD,0,0,16,17,
+3C,750,10,5,25,-13,3,L,90,98,FD,0,0,16,17,
+6A,900,11,4,23,-8,4,L,100,82,BD,0,0,18,29,
+6B,900,12,6,21,-8,4,L,100,82,BD,0,0,18,29,
+6C,900,13,4,25,-9,4,L,100,82,BD,0,0,18,29,
+4A,300,6,6,10,-2,2,N,100,85,BD,0,0,13,14,
+4B,300,6,8,10,-4,2,N,100,85,BD,0,0,13,14,
+4C,300,6,8,12,-6,2,N,100,85,BD,0,0,13,14,
+j.A,700,8,3,39,0,3,L,80,89,HD,0,0,16,22,
+j.B,700,10,9,38,0,3,L,80,89,HD,0,0,16,22,
+j.C,700,11,3,38,0,3,L,80,89,HD,0,0,16,22,
+j.2A,800,13,3,49,0,3,L,80,89,HD,0,0,16,22,
+j.2B,800,17,10,40,0,3,L,80,89,HD,0,0,16,22,
+j.2C,800,17,3,49,0,3,L,80,89,HD,0,0,16,22,
+Throw/Back Throw,"600, 900",7,3,23,0,2,N,100,"85, 50",T,0,0,0,"30, Wall 40",
+Air Throw,"50*8, 1100",7,3,26,0,4,N,100,50,T,0,0,0,60,
+Counter Assault,0,13,3,36,-18,4,VS,50,92,B,1-20 All,0,0,30,
+Crush Trigger,1000,20,1,25,0,0,N,80,60,B,0,0,24,0,
+Crush Trigger Charged,1000,30,1,25,0,0,L,80,100,B,0,0,24,0,
+Crimson Raider,"600, 950",7,15(6)1,24,-4,"3, 5",L,90,"89, 94",B,0,0,"16,20","70, 40","When first hit touches opponent, immediately goes into second hit with startup 7"
+Crimson Raider,"500, 950",7,15(6)1,0,0,"3, 5",L,90,"89, 94",H,0,0,"16,20","70, 40","When first hit touches opponent, immediately goes into second hit with startup 7. On hit/block, Nine recovers 22F after 2nd hit"
+Mauvette Roar,1100,13,19,53,-10,4,VS,90,82,P1,4-18 H,0,18+12,35+12,
+Navy Pressure,2500,27,5,63,-13,5,N,90,84,P1,0,0,20+13,35+13,
+Flax Nurture (with spell),800,22,1,23,-4,3,VS,60,89,P,1-24 All,0,19,30,
+Flax Nurture (without spell),0,0,0,64,0,0,0,0,0,0,0,0,0,0,Longer total time than (with spell) version
+Seamoss Gate,0,0,0, 25,0,0,0,0,0,0,0,0,0,0,"10F onwards can cancel into 5D, j.D"
+NNN,750,8,5,30,-18,3,L,90,89,P1,0,0,12,35,Bonus Proration 110%
+FNN,900,10,3,20,-6,3 / 4 / 5,L,100,69/72/74,P1,0,0,14/16/18,39/38/38,
+FFN,1200,10,3,20,-4,3 / 4 / 5,L,100,69/72/74,P1,0,0,14/16/18,39/38/38,
+FFF,1500,10,3,20,-2,3 / 4 / 5,L,100,69/72/74,P1,0,0,14/16/18,39/38/38,
+WNN,800,10,3,23,-4,3 / 4 / 5,L,100,69/72/74,P1,0,0,21/23/25,17/19/21,"freeze 36, freeze count 1"
+WWN,1000,10,3,23,-2,3 / 4 / 5,L,100,69/72/74,P1,0,0,21/23/25,17/19/21,"freeze 36, freeze count 1"
+WWW,1250,10,3,23,0,3 / 4 / 5,L,100,69/72/74,P1,0,0,21/23/25,17/19/21,"freeze 36, freeze count 1"
+ANN,700,14,9,18,-10,3,L,100,69,P1,0,0,16,"25, Slide 40",
+AAN,"500, 800",14,"4,5",18,-5,4,L,100,72,P1,0,0,17,"25, Slide 40",
+AAA,"350, 600, 1000",14,"4,3,2",18,0,5,L,100,74,P1,0,0,19,"25, Slide 40",
+FWN,1000,22,[10 (4)]*N,43,7,4,N,80,82,P1,0,0,28,100,Bonus Proration 110%
+FAN,700,13,0,44,0,4,0,80,0,0,0,0,0,0,
+FAN kick mirror,500,2,15,0,0,4,N,80,100,P2,0,0,0,"60, Wall 40",
+FAN reflect attack,650,11,30,0,0,3,N,50,94,P2,0,0,16+3,17+3,
+BAN,800,13,0,44,0,3,N,80,0,P1,0,0,16+11,30+11,
+FFB,1050*2,21,"until landing, 5",41,6,5,N,100,79,P1,0,0,"20+3, 11+3","60+3, 30+10",
+FFA,900*2,29,10 (13) 10,43,0,5,L,0,84,P1,0,0,20+0,21+0,
+WWF,300 per shot,91,See notes,41,0,2,N,80,0,P1,0,0,13+11,20+11,"Each shot lasts until offscreen. Shots appear on 92F, 150F, and 208F"
+WWA,0,428,30,41,0,3,VS,50,100,0,0,0,16+0,60+0,
+AAF,"400, 300*19",142, ,41,0,3,N,80,94,P*,0,0,16+0,25+0,
+AAW,"300, 250*15",0, ,52,0,3,N,100,92*16,P*,0,0,16+0,"30+0, Wall 60",Horzontal and Vertical parts of the cross do 8 hits each
+FAW,1500*5,618,"1,1,1,1,36",41,0,5,N,80,74,P2,0,0,20+2,120+2,Minimum Damage 20%
+Flame Punisher,"400*8, 325*8",17,40 (18) 56,34,0,"3*8,4*8",N,90,"79, 82",P2,1-2 All<br/>2-53 P,0,"16+0*8, 18+0*8",30+0,Superflash duration 56F
+Flame Punisher (OD),"400*8, 325*8",17,40 (18) 56,34,0,"3*8,4*8",N,90,"79, 82",P2,1-2 All<br/>2-53 P,0,"16+0*8, 18+0*8",30+0,Superflash duration 56F
+Flame Punisher (OD finisher),200*12,0,5*12,0,0,5,N,90,84,P2,0,0,0,0,
+Cardinal Nova,"Normal: 2000 OD: 2000, 500*3",10,10,38,5,5,"Normal: VS<br/>OD: VS, N*3",70,"Normal: 84<br/>84, 96*3",P2,7-11 All,0,20+13,60+13,OD version only 1 hit on block
+Azurite Inferno,See notes,15,5,38,-29,2,L,0,0,F,1-18 All,0,20,60,"First 3 hits deal 100, 0*2 and have Minimum Damage 100%. Next part's damage depends on number of elements in Active Slot: 0-1 Elements: 250*5. 2 Elements: 250*7. 3 Elements: 250*9. Minimum Damage 20%. Next part's damage depends on number of elements in Stock Slot: 0 Elements: 1250*5. 1 Element: 1050*6. 2 Elements: 630*12. 3 Elements: 550*18. Minimum Damage 10%. During OD, adds 250*10 damage with minimum damage 20%. Consumes all elements in both slots on hit."
+EA,"Normal: 600, 2400 AF: 600, 2400, 2800",10,3,34,-10,0,0,100,100,B,Fast: 1-12 All<br/>Slow: 1-22 All,0,26,0,10% Minimum Damage
+Astral,30000,23,8,91,-41,3,0,0,0,P2,1-49 All,0,16+11,0,Superflash duration 52F

@@ -1,0 +1,52 @@
+Move,Damage,Startup,Active,Recovery,FrameAdvantage,Level ,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
+5A,300,6,3,11,-2,1,N,100,77,B,0,0,11,12,
+5B,600,11,3,19,-5,3,L,100,89,B,0,0,16,17,
+5C,800,14,2,23,-6,4,L,100,92,BP,0,0,18,19,
+2A,300,7,3,11,-2,1,L,100,77,F,0,0,11,12,
+2B,400,10,3 (6) 3,12,-1,2,L,90,85,F,0,0,13,14,
+2C,1080,19,3,15,1,4,L,100,82,F,0,0,18,19,
+6A,660,13,4,21,-8,3,L,90,89,B,7-13~22 H,0,16,17,Invincibility lasts until end of active frames
+6A max charge,770,23,4,21,-8,3,L,90,89,B,7-23 H,0,16,40,
+6B,500*2,25,2 (11) 2,26,-9,4,N,90,92,B,0,0,18,35,
+6B Hold,550*2,43,2 (15) 2,14,5,5,L,80,94,B,0,0,20,42,
+6C,1250,22,3,7,-2,4,L,90,82,H,4-24 FT,0,18,40,Fatal Counter
+3C,460*2,14,3 (6) 3,15,-1,3,L,90,89,F,0,0,16,34,
+j.A,"220, 110*5",7,3*6,12,0,1,N,80,77,H,0,0,11,12,"First hit will always have base damage 220, remaining hits 110"
+j.B,500*2,10,4 (3) 4,11,0,3,L,80,89,H,0,0,16,19,
+j.C,750,13,3,27,0,3,L,80,89,HP,0,0,16,40,
+j.2C,1000,17,4,26,0,4,N,90,82,H,0,0,18,30,Fatal Counter
+Forward Throw,"0, 1500",7,3,23,0,5,N,0,50,T,0,0,0,90,
+Back Throw,1500,7,3,23,0,5,N,0,50,T,0,0,0,90,
+Air Throw,1500,7,3,26,0,5,N,100,50,T,0,0,0,100,
+Counter Assault,0,15,3,33,-17,4,VS,50,92,B,1-20 All,0,18,19,
+Crush Trigger,1000,20,1,25,0,0,N,80,60,B,0,0,24,60,
+Crush Trigger Charged,1000,30,1,25,0,0,L,80,100,B,0,0,24,60,
+D summon,0,0,0,32,0,0,0,0,0,0,0,0,0,0,Gravitron appears on 15
+D unsummon,0,0,0,23,0,0,0,0,0,0,0,0,0,0,
+D activate,Normal: 600 OD: 900,0,0,23,0,4,0,100,92,0,0,0,0,60+0,Only attacks when opponent is in hitstun
+Armament No.4 Flame Cage v1.43 Ground,0,27,0,42,0,0,0,0,0,0,0,0,0,0,
+Armament No.4 Flame Cage v1.43 Air,0,27,0,52,0,0,0,0,0,0,0,0,0,0,
+Armament No.4 Flame Cage v1.43 Ball,360*4,0,0,0,0,2,N,80,75,P1,0,0,13+4 Hitstop,24+4 Hitstop,
+Reflected Armament No.4 Flame Cage v1.43,750,0,0,0,0,4,N,80,75,P1,0,0,18+5 Hitstop,"60+5 Hitstop, Wall 60",
+Armament No.2 Broken Bunker Assault v2.21,600*3,17,3,21,-5,4,L,100,"94, 94, 70",B,0,0,18,"36, 60, 35",
+Armament No.2 Broken Bunker Assault v2.21 Charged,600,17,3,21,-5,4,L,100,92,B,0,0,18,36,
+Armament No.2 Broken Bunker Assault v2.21 Delayed Explosion,600,192,1,0,0,4,N,100,70,P1,0,0,18+1 Hitstop,35+1 Hitstop,
+Fast Armament No.5 Banishing Rays v3.10,860,24,6, 42,0,2,N,80,85,P1,0,0,13+0 Hitstop,40+0 Hitstop,
+Slow Armament No.5 Banishing Rays v3.10 Set,0,0,0, 33,0,0,0,0,0,0,0,0,0,0,Lightning Rod is planted on 36
+Slow Armament No.5 Banishing Rays v3.10 Detonate,450*6,22,2*6,0,0,2,N,80,85,P1,0,0,13+0 Hitstop,40+0 Hitstop,
+Armament No.3 Absolute Zero v4.32,600,26,0,12,0,3,L,100,89,P,0,0,0,0,Freezes for 120. Freeze Count 5. Does N hits on block. On hit immediately goes into Machine Gun. Chip damage 10% of base damage
+Armament No.3 Absolute Zero v4.32 Followup,80*??,43,0,21,0,3,0,100,98,P1,0,0,0,50,"Startup listed is based on time between opponent getting hit and first bullet appearing. On hit and with 50 Heat, immediately goes into followup Super"
+Armament No.9 Aerial Powerdrive: Solid Wheel v3.37,300*14,19,"6*13,3",12,0,4,L,90,82,H,0,0,0,36,
+Armament No.6 Planar Haze v1.24,0,0,0,33,0,0,0,0,0,0,5-24 All,0,0,0,Can pass through opponent 5-24
+A Armament No.4 Pyro: Flaming Belobog v2.73 (physical hit),1250,10,3,33,-15,5,VS,60,0,B,1-12 All,0,20,90,Minimum Damage 15%. OD Version has Minimum Damage 20%
+B Armament No.4 Pyro: Flaming Belobog v2.73 (physical hit),1250,12,3,33,-15,5,VS,60,0,B,1-15 All,0,20,90,Minimum Damage 15%. OD Version has Minimum Damage 20%
+C Armament No.4 Pyro: Flaming Belobog v2.73 (physical hit),1250,16,3,33,-15,5,VS,60,0,B,1-18 All,0,20,90,Minimum Damage 15%. OD Version has Minimum Damage 20%
+Air Armament No.4 Pyro: Flaming Belobog v2.73 (physical hit),1250,10,3,29,0,5,VS,60,0,H,1-12 All,0,20,90,Minimum Damage 15%. OD Version has Minimum Damage 20%
+Armament No.4 Pyro: Flaming Belobog v2.73 (Ball),Normal: 360*12 OD: 360*18,0,0,0,0,3,N,80,60,P2,0,0,16+3 Hitstop,36+3 Hitstop,
+Armament No.4 Pyro: Flaming Belobog v2.73 Reflect,Normal: 1500 OD: 2000,0,0,0,0,5,N,80,60,P2,0,0,20+5 Hitstop,"90+3 Hitstop, Wall 60",
+Armament No.8 Crime of Greed v1.00,"Normal: 500, 100*5 OD: 500, 100*2, 500",0,0,0,0,4,0,100,92,0,0,0,0,Normal: 45<br/>OD: 50,Minimum Damage 100%
+Armament No.7 Jamming Dark v1.65,Normal: 1200 OD: 1800,53,0,0,0,0,L,100,100,0,0,0,0,0,
+Armament No.00 Dreadnought Destroyer, ,17,0,0,-63,5,L,100,97,P2,"1-5 All, see notes",0,20+ Hitstop 0,100+0 Hitstop,Also Full Inv from second superflash until Laser disappears. Hold button and spin stick to charge attack for more hits. Hold button for up to 58 hits. Spin stick while holding button for max duration for additinal hits. See damage table for damage values
+Armament No.01 Super Dreadnought Exterminator, ,17,0,0,-63,5,L,100,97,P2,"1-5 All, see notes",0,20+ Hitstop 0,100+0 Hitstop,Also Full Inv from second superflash until Laser disappears. Hold button and spin stick to charge attack for more hits. Hold button for up to 58 hits. Spin stick while holding button for max duration for additinal hits. See damage table for damage values
+EA,"Normal: 600, 60*29, 600 AF: 600, 60*71, 1000",10,3,34,-10,100,0,100,0,B,Fast: 1-12 All<br/>Slow: 1-22 All,0,26,0,10% Minimum Damage
+Astral,37100,10,12,18,0,0,0,0,0,T,0,0,0,0,

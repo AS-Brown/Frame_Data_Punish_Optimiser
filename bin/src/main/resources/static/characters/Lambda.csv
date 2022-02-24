@@ -1,0 +1,56 @@
+Move,Damage,Startup,Active,Recovery,FrameAdvantage,Level ,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
+5A,300,6,3,12,-3,1,N,100,77,B,0,0,11,12,
+5B,510,8,3,17,-3,3,L,100,89,B,0,0,16,17,
+5C,160*8,16,3,71,-8,3,L,100,89,P1,0,0,16+3,23+3,Swords appear in 4F intervals? Each sword is active for 3
+2A,300,7,4,12,-4,1,N,100,77,F,0,0,11,12,
+2B,480,9,4,13,0,3,L,90,85,F,0,0,16,14,
+2C,140*8,14,"1*6,2*2",24,-9,3,L,90,89,B,11-19 H,0,16,23,
+6A,620,11,6,17,-6,3,L,90,89,B,5-11 H,0,16,26,
+6B,680,24,2,23,-8,3,N,80,89,H,0,0,16,42,Bonus Proration 110%
+6C,180*8,22,1*6,24,-6,4,L,100,82,B,0,0,18,"36, Slide 5",
+3C,140*8,11,1*8,22,-6,3,L,90,89,F,0,0,16,36,
+j.A,300,8,2,10,0,1,N,80,77,H,0,0,11,12,
+j.B,600,9,4,12,0,3,L,80,89,H,0,0,16,17,
+j.C,150*8,9,"1*2,2*6",25,0,3,L,80,89,H,0,0,16,20,
+j.2C,150*8,15,1*8,10,0,3,L,80,89,H,0,0,16,24,
+5D,600,15,18,47,0,4,N,80,92,P1,0,0,18+10,19+10,"Automatically cancels into followup on hit/block. During first 6 active frames, Projectile Lv2. During OD, always Projectile Lv2"
+5D Followup,Normal: 300 OD: 600,17,13,42,-2,Normal: 4 OD: 5,N,80,Normal: 92 OD: 94,P1,0,0,Normal: 18+5 OD: 22+5,Normal: 25+5 OD: 27+5,
+5D Followup OD,600,17,13,42,2,Normal: 4 OD: 5,N,80,Normal: 92 OD: 94,P1,0,0,Normal: 18+5 OD: 22+5,Normal: 25+5 OD: 27+5,
+2D,600,12,25,44,0,4,N,80,92,P1,0,0,18+10,19+10,"Automatically cancels into followup on hit/block. During first 5 active frames, Projectile Lv2. During OD, always Projectile Lv2"
+2D Followup,Normal: 300 OD: 600,17,13,45,-5,Normal: 4 OD: 5,N,80,Normal: 92 OD: 94,P1,0,0,Normal: 18+5 OD: 22+5,Normal: 25+5 OD: 27+5,
+2D Followup OD,600,17,13,45,-1,Normal: 4 OD: 5,N,80,Normal: 92 OD: 94,P1,0,0,Normal: 18+5 OD: 22+5,Normal: 25+5 OD: 27+5,
+6D,600,14,22,44,0,4,N,80,92,P1,0,0,18+10,19+10,"Automatically cancels into followup on hit/block. During first 2 active frames, Projectile Lv2. During OD, always Projectile Lv2"
+6D Followup,Normal: 300 OD: 600,19,13,54,-12,Normal: 4 OD: 5,N,80,Normal: 92 OD: 94,P1,0,0,Normal: 18+5 OD: 22+5,Normal: 25+5 OD: 27+5,
+6D Followup OD,600,19,13,54,-8,Normal: 4 OD: 5,N,80,Normal: 92 OD: 94,P1,0,0,Normal: 18+5 OD: 22+5,Normal: 25+5 OD: 27+5,
+4D,600,27,3,56,0,4,N,80,92,P1,0,0,18+10,19+10,Automatically cancels into followup on hit/block
+4D Followup,Normal: 300 OD: 600,17,13,48,-8,4,N,80,Normal: 92 OD: 94,P1,0,0,Normal: 18+5 OD: 22+5,Normal: 25+5 OD: 27+5,
+4D Followup OD,600,17,13,48,-4,Normal: 4 OD: 5,N,80,Normal: 92 OD: 94,P1,0,0,Normal: 18+5 OD: 22+5,Normal: 25+5 OD: 27+5,
+j.D,600,13,10,56,0,4,N,80,92,P1,0,0,18+10,10+10,"Automatically cancels into followup on hit/block. During first 2 active frames, Projectile Lv2. During OD, always Projectile Lv2"
+j.D Followup,Normal: 300 OD: 600,18,13,43,0,Normal: 4 OD: 5,N,80,Normal: 92 OD: 94,P1,0,0,Normal: 18+5 OD: 22+5,Normal: 25+5 OD: 27+5,
+j.2D,600,11,25,56,0,4,N,80,92,P1,0,0,18+10,10+10,"Automatically cancels into followup on hit/block. During first 2 active frames, Projectile Lv2. During OD, always Projectile Lv2"
+j.2D Followup,Normal: 300 OD: 600,18,13,43,0,Normal: 4 OD: 5,N,80,Normal: 92 OD: 94,P1,0,0,Normal: 18+5 OD: 22+5,Normal: 25+5 OD: 27+5,
+j.2D Followup OD,600,18,13,43,0,5,N,80,Normal: 92 OD: 94,P1,0,0,Normal: 18+5 OD: 22+5,Normal: 25+5 OD: 27+5,
+j.6D,600,13,6,55,0,4,N,80,92,P1,0,0,18+10,10+10,"Automatically cancels into followup on hit/block. During first 2 active frames, Projectile Lv2. During OD, always Projectile Lv2"
+j.6D Followup,Normal: 300 OD: 600,18,13,43,0,Normal: 4 OD: 5,N,80,Normal: 92 OD: 94,P1,0,0,Normal: 18+5 OD: 22+5,Normal: 25+5 OD: 27+5,
+j.6D Followup OD,600,18,13,43,0,5,N,80,Normal: 92 OD: 94,P1,0,0,Normal: 18+5 OD: 22+5,Normal: 25+5 OD: 27+5,
+Ground Throw,1500,7,3,23,0,4,N,100,50,T,0,0,0,"40, 100 after Wall",
+Air Throw,1500,7,3,26,0,4,N,100,50,T,0,0,0,53,
+Counter Assault,0,13,2,32,0,4,VS,50,92,B,1-20 All,0,18,19,
+Crush Trigger,1000,20,1,25,0,0,N,80,60,B,0,0,24,"60, Slide 15",
+Crush Trigger Charged,1000,30,1,25,0,0,L,80,100,B,0,0,24,"60, Slide 15",
+Act Parser Zwei,0,0,0,34,0,0,0,0,0,0,0,0,0,0,"Can go through opponent 8-13. Can cancel into Throw, Back shot, EA, Astral 19~34"
+Act Parser Tri,800,18,3,19,-5,3,L,0,0,B,0,0,16,"31, Slide 5",Can cancel into Act Parser followups on hit/block. Can cancel into Act Parser followups on whiff ??-??
+Act Parser Tri: Spada,1100,21,4,25,-13,4,N,90,82,H,0,0,18,45,Can pass through opponent 1-42F
+Act Parser Tri: Blade,950,11,6,16,-5,3,L,90,79,F,0,0,16,40,
+Act Parser Tri: Cavalier,1500,30,4,22,-5,5,L,0,84,B,0,0,20,"60, Wall 36",
+Sickle Storm,400*4,37,Until Offscreen,61,0,3,L,80,79,P1,0,0,0,30+4,"Chip Dammage 20%. During OD, fires 2 blades with same properties"
+Crescent Saber,1000,16,9,9,0,3,N,80,0,P1,0,0,0,40+7,Hits crossup during last 4 active frames
+Spike Chaser,1200,27,Normal: 31 OD: Until Offscreen,69,0,5,L,80,0,P2,0,0,0,40+0,
+Exiga Nail,1000,26,30,59,-3,4,N,80,0,P1,1-7 All,0,18+12,"19+12, Ground 44",
+Exiga Nail OD,1000,26,30,39,0,4,N,80,0,P1,1-7 All,0,18+12,"19+12, Ground 44",
+Gravity Seed,300,13,3,18,0,4,L,80,99,B,0,0,0,45,Fatal Counter
+Calamity Sword,Normal: 2400 OD: 2800,11,9,52,-11,4,N,70,82,P2,1-11 All,0,18+12,100+12,Minimum Damage 40%. OD: Minimum Damage 45%
+Air Calamity Sword,Normal: 2400 OD: 2800,13,9,5,0,4,N,70,82,P2,0,0,18+12,100+12,Minimum Damage 40%. OD: Minimum Damage 45%
+Legacy Edge,Normal: 130*24 OD: 130*37,25,Until Offscreen,57,0,3,N,100,79,P2,1-19 All,0,16+2,40+2,Minimum Damage 10%. Swords appear in 4F intervals
+EA,"Normal: 600, 200*6, 1230 AF: 600,300*9, 2530",10,3,34,-10,0,L,100,100,B,Fast: 1-12 All Slow: 1-22 All,0,26,0,Minimum Damage 10%
+Astral,0,20,9,21,0,5,L,0,0,B,13-28 All,0,0,0,

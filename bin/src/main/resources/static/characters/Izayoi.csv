@@ -1,0 +1,54 @@
+Move,Damage,Startup,Active,Recovery,FrameAdvantage,Level ,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
+5A,300,6,3,9,0,1,N,100,77,B,0,0,11,12,
+5B,640,10,6,18,-10,2,L,100,85,B,0,0,13,14,
+5C,850,12,6,20,-9,3,L,100,89,B,0,0,16,17,
+5C GA,850,9,3,15,-1,3,L,100,89,B,0,0,16,19,
+2A,300,7,3,8,1,1,N,80,77,F,0,0,11,12,
+2B,550,9,2,18,-6,2,N,90,85,F,0,0,13,14,
+2C,830,12,6,15,-4,3,L,100,89,F,0,0,16,17,Fatal Counter
+2C GA,750*2,18,3 (6) 3,11,5,4,L,100,92,F,0,0,18,26,Fatal Counter
+6A,700,12,3,21,-7,3,L,100,89,B,0,0,16,26,
+6B,800,24,3,18,-2,4,N,80,92,H,4-23 F,0,18,19,Bonus Proration 110
+6[B],0,0,0,36,0,0,0,0,0,0,4-23 F,0,0,0,
+6C,900,19,3,30,-14,4,L,90,92,B,4-10 B,0,18,19,Fatal Counter
+6C GA,900,20,3,17,1,4,L,100,82,B,0,0,18,26,Fatal Counter
+3C,900,12,3,21,-7,3,L,90,89,F,0,0,16,40,
+3C GA,1000,16,6,21,-10,3,L,90,89,F,0,0,16,26,Fatal Counter
+j.A,300,6,3,9,0,1,N,80,77,H,0,0,11,12,
+j.B,600,10,6,15,0,2,L,80,85,H,0,0,13,14,
+j.C,900,12,3,18,0,3,L,80,89,H,0,0,16,40,
+j.C GA,800,12,5,21,0,3,L,80,89,H,0,0,16,20,
+Forward Throw,1500,7,3,23,0,4,N,100,50,T,0,0,0,"60, Slide 30",
+Back Throw,1500,7,3,23,0,4,N,100,50,T,0,0,0,"60, Slide 30",
+Air Throw,1500,7,3,26,0,4,N,100,50,T,0,0,0,200,
+Counter Assault,0,16,4,27,-12,4,VS,50,92,B,0,0,18,19,
+Crush Trigger,1000,20,1,25,0,0,N,80,60,B,0,0,24,60,
+Crush Trigger Charged,1000,30,1,25,0,0,L,80,100,B,0,0,24,60,
+Sonic Sabre A,800,20,Until Offscreen,43,-3,2,N,80,85,P1,0,0,13+7,19+7,Can cancel into D Warp on 16
+Sonic Sabre D,600 per shot,20,Until Offscreen,42,0,2,N,80,85,P1,0,0,13+10,19+10,"Fires 3 shots normally, 5 shots in OD. Can cancel into D Warp on 16"
+Air Sonic Sabre A,800,16,Until Offscreen,51,0,2,N,80,85,P1,0,0,13+10,22+10,Can cancel into D Warp on 16
+Air Sonic Sabre D,600 per shot,16,Until Offscreen,45,0,2,N,80,85,P1,0,0,13+10,22+10,"Fires 3 shots normally, 5 shots in OD. Can cancel into D Warp on 16"
+Crusade Seraphim Beta,900,11,3,24,-10,3,L,90,89,B,0,0,16,17,Press A to feint
+Crusade Seraphim Beta Feint,0,0,0,9,0,0,0,0,0,0,0,0,0,0,Fastest Slash > Feint is 17
+Crusade Seraphim Gamma,850,14,3,28,-14,3,L,90,79,F,0,0,16,30,Press A to feint
+Crusade Seraphim Gamma Feint,0,0,0,9,0,0,0,0,0,0,0,0,0,0,Fastest Slash > Feint is 17
+Crusade Seraphim Alpha,950,9,3,32,-18,3,N,80,89,B,4-11~92 H,0,16,41,Press A to feint
+Crusade Seraphim Alpha Feint,0,0,0,12,0,0,0,0,0,0,0,0,0,0,Fastest Slash > Feint is 17
+Crusade Seraphim Followup,1100,9,3,21,-5,4,L,100,72,B,0,0,18,44,Fatal
+Crusade Seraphim Followup OD,"1100, 150*4",9,3,21,-5,4,L,100,72,B,0,0,18,"44*3, 55",Fatal. Only does 1 hit on block
+Air Crusade Seraphim Beta,1050,11,3,0,0,3,L,90,89,H,0,0,16,44,
+Air Crusade Seraphim Alpha,1020,11,3,0,0,3,L,90,89,H,0,0,16,44,
+Air Crusade Seraphim Gamma,1080,11,3,0,0,3,L,90,89,H,0,0,16,43,
+Air Crusade Seraphim Followup,1300,25,0,27,0,4,L,90,92,H,0,0,18,100,
+Aegis Blade,1000,14,3,42,-28,3,VS,60,89,B,1-16 All,0,16,60,Press A to feint
+Aegis Blade Feint,0,0,0,24,0,0,0,0,0,0,0,0,0,0,Fastest DP > Feint is 35
+Mirage Thruster A,0,0,0,40,0,0,0,0,0,0,12-21 All,0,0,0,Can pass through opponent 12-21
+Mirage Thruster B,0,0,0,41,0,0,0,0,0,0,14-24 All,0,0,0,Can pass through opponent 14-24
+Mirage Thruster C,0,0,0,43,0,0,0,0,0,0,16-23 All,0,0,0,
+Mirage Thruster D,0,0,0,31,0,0,0,0,0,0,10-20 All,0,0,0,Can pass through opponent 10-20
+Air Mirage Thruster D,0,0,0,29,0,0,0,0,0,0,0,0,0,0,Can pass through opponent 10-20
+Justice Phorizer ,Normal: 2500 OD: 3000,7,9,49,-39,4,VS,80,82,B,1-15 All,0,18,"40, Slide 20",
+Trans AM,0,0,0,6,0,0,0,0,0,0,0,0,0,0,
+Trans AM bit,200 per hit,0,8,0,0,2,L,100,100,P1,0,0,13+5,17+5,
+EA,"Normal: 600, 450*2, 0, 1500 AF: 600, 450*6, 0, 2400",10,3,34,-10,100,0,100,0,B,Fast 1-22 All<br/>Slow 1-12 All,0,26,0,10% Minimum Damage
+Astral,27000,15,6,35,-22,4,0,0,0,B,0,0,18,0,

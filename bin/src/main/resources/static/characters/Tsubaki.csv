@@ -1,0 +1,66 @@
+Move,Damage,Startup,Active,Recovery,FrameAdvantage,Level ,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
+5A,300,6,3,11,-2,1,N,100,80,B,0,0,11,12,
+5B,550,10,5,17,-5,3,L,100,89,B,0,0,16,17,
+5BB,500,11,3,19,-8,2,L,100,85,B,0,0,13,14,
+5C,660,8,3,23,-9,3,L,100,89,B,0,0,16,17,
+5CC,600,12,3,27,-11,4,L,100,92,B,0,0,18,19,Fatal Counter
+2A,300,7,2,11,-1,1,N,100,80,F,0,0,11,12,
+2B,550,11,3,12,-1,2,L,90,85,F,0,0,13,14,
+2BB,500,10,3,18,-7,2,L,90,85,F,0,0,13,14,
+2C,660,13,3,22,-8,3,L,90,89,B,8-15 H,0,16,22,
+2CC,740,12,3,29,-15,3,L,100,89,B,1-17 H,0,16,22,
+6A,800,26,2,24,-9,3,N,80,89,B,0,0,16,17,Bonus Proration 110%. Fatal Counter
+6B,600,17,3,17,-3,3,L,90,89,F,0,0,16,17,
+6BB,600,11,4,15,-2,3,L,90,89,F,0,0,16,35,
+6C,200*6,23,1*6,38,-18,5,L,100,94,B,0,0,20,21,
+6CC,200*3,20,1*3,35,-15,5,L,100,84,B,0,0,20,21,Bonus proration 110%
+3C,800,18,8,24,-11,5,L,90,94,F,0,0,20,54,Fatal Counter
+3CC,800,17,4,35,-18,5,L,90,84,B,1-15 H,0,20,22,
+j.A,300,7,2,9,0,1,N,80,80,H,0,0,11,12,
+j.B,600,8,4,12,0,2,L,80,85,H,0,0,13,17,
+j.BB,750,7,3,24,0,3,L,80,89,H,0,0,16,17,
+j.C,700,11,4,23,0,3,L,80,89,H,0,0,16,17,
+j.CC,800,10,2,29,0,4,L,80,92,H,0,0,18,22,
+5D,0,0,0,18,0,0,0,0,0,0,0,0,0,0,
+2D,0,0,0,18,0,0,0,0,0,0,0,0,0,0,
+j.D,0,0,0,18,0,0,0,0,0,0,0,0,0,0,
+Forward Throw,1500,7,3,23,0,4,N,100,50,T,0,0,0,60,
+Back Throw,1500,7,3,23,0,4,N,100,50,T,0,0,0,Slide 20,
+Air Throw,1500,7,3,26,0,4,N,100,50,T,0,0,0,60,
+Counter Assault,0,13,4,35,0,4,VS,50,92,B,1-20 All,0,18,19,
+Crush Trigger,1000,20,1,25,0,0,N,80,60,B,0,0,24,60,
+Crush Trigger Charged,1000,30,1,25,0,0,L,80,100,B,0,0,24,60,
+Sanctus Aequum A,600,13,4,18,-5,3,L,90,79,B,0,0,16,30,
+Sanctus Aequum B,800,18,9,18,-8,4,L,90,82,B,0,0,18,30,
+Sanctus Aequum C,800,18,9,18,-8,4,L,90,82,B,0,0,18,40,"On hit/block, Tsubaki goes behind opponent. Recovery 26 in that case"
+Sanctus Aequum D,900,19,10,18,-7,5,L,90,94,B,0,0,20,50,Bonus Proration 110 during OD
+Shot >Sanctus Aequum D,"900, 250*6",19,"10,2*6",18,1,5,L,90,94,B,19-40 Guard P,0,20,50,
+Sanctus Veritas,800,21,3,23,-7,4,N,90,82,B,9-20 B,0,18,45,
+Sanctus Veritas D,1000,20,3,23,-7,4,N,90,92,B,6-22 B,0,18,60,
+Sanctus Veritas D Followup,900,17,3,23,-7,4,N,90,92,B,0,0,18,60,
+Benedictus Rex,850,10,40,64,-21,3,VS,50,89,B*,1-10 All,0,29+4,44+4 Hitstop,
+Benedictus Rex D,650*3,10,"3,3,3",73,-21,4,VS,50,92,B*,1-14 All,0,24+4,44+4 Hitstop,
+Aequum Elesion,"800, 500",16,3 (6) 90,5,0,3,L,"100, 90","79, 89","H, P1",0,0,16,"30, 20+0 Hitstop",Second hit is a projectile
+Aequum Elesion D,"800, 600",16,3 (6) 180,37,0,"4, 3",L,"100, 90","92, 89","H, P1",0,0,"18, 16+0","60, 20+0 Hitstop",Second hit is a projectile
+Aequum Elesion Followup D,"700, 600",16,3 (6) 180,0,0,"4, 3",L,"100, 90","92, 89","H, P1",0,0,"18, 16+0","60, 20+0 Hitstop",Second hit is a projectile
+Lux Aeterna A,600,9,Until L,22,0,4,N,80,82,H,0,0,18,60,
+Lux Aeterna B,700,11,Until L,24,0,4,N,80,82,H,0,0,18,60,
+Lux Aeterna C,800,17,Until L,33,0,4,N,80,82,H,0,0,18,62,
+Lux Aeterna EX,900,13,Until L,16,0,4,N,80,92,H,11-Until L P,0,18,60,
+Lux Aeterna Followup EX,800,9,Until L,29,0,4,L,80,92,H,11-Until L P,0,18,60,
+Lux Aeterna (Aura),250*7,9,Until L,29,0,4,L,80,92,H,11-Until L P,0,18,60,
+Sanctus Aerolata,"0, 100*12",11,3,30,0,3,VS,0,80,T,0,0,16,"40*12, 50",
+Lux Macto,500,25,70,54,-13,3,L,90,89,P1,0,0,16+0,20+0,
+Lux Macto D,600,13,95,47,-18,3,L,90,89,P1,0,0,16+0,20+0,
+Agnus Dei,800,28,6,11,0,3,N,90,79,H,7-38 F,0,16,44,
+Agnus Dei D,660*2,28,"3,3",13,3,4,N,90,92,H,5-36 FT,0,18,44,
+Agnus Dei Followup,660*2,22,"3,3",13,3,4,N,90,92,H,5-37 FT,0,18,44,
+Confutatis Maledictis C,1000*4,12,21?,51,-21,4,N,80,65,B*,1-14 All,0,18+0,50+3,Minimum Damage 15%
+Confutatis Maledictis D,"1000, See notes",5,18?,51,-28,4,N,80,65,B*,0,0,18+0,50,"Minimum Damage 15%. Damage of second hit depends on Install level. Lv0: 2500, Lv1: 3000, Lv2: 4000, Lv3: 5000, Lv4: 1200*5 Lv5: 1000*9"
+Confutatis Maledictis C OD,1000*5,12,21?,51,-21,4,N,80,65,B*,1-14 All,0,18+0,50+3,Minimum Damage 15%
+Confutatis Maledictis D OD,"1000, See notes, 1000",5,18?,51,-28,4,N,80,65,B*,0,0,18+0,50,"Minimum Damage 15%. Damage of middle hits depends on Install level. Lv0: 500*4, Lv1: 750*4, Lv2: 570*7, Lv3: 710*7, Lv4: 710*10 Lv5: 960*10"
+Macto Maledictis,0,0,0,11,0,0,0,0,0,0,0,0,0,0,
+Requiem Maledictus,450 per shot,41,0,58,0,2,VS,60,96,P2,16-58 All,0,13+0,36+0,7 shots total. Shots fire in 4F intervals starting on 41F
+Requiem Maledictus OD,600 per shot,41,0,58,0,4,VS,60,96,P2,16-58 All,0,18+2,36+2,8 shots total. Shots fire in 4F intervals starting on 41F
+EA,"Normal: 600, 120*20 AF: 600, 160*32",10,3,34,-10,0,L,100,100,B,Fast: 1-12 All<br/>Slow: 1-22 All,0,26,0,Minimum Damage 10%
+Astral,9000,20,10,23,-14,4,L,0,0,B,1-29 All,0,18,0,

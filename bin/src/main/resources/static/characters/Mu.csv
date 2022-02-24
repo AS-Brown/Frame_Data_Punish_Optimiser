@@ -1,0 +1,44 @@
+Move,Damage,Startup,Active,Recovery,FrameAdvantage,Level ,Starter,P1,P2,Attribute,Inv,Hitstun,Blockstun,Untechable,Notes
+5A,300,6,5,7,0,1,N,100,77,B,0,0,11,12,
+5B,600,8,3,20,-9,2,L,100,89,B,0,0,13,17,
+5C,860,12,3,22,-8,3,L,0,0,B,0,0,16,21,
+2A,300,7,4,10,-2,1,N,0,0,F,0,0,11,12,
+2B,560,8,4,10,0,2,L,90,0,F,0,0,13,0,
+2C,880,14,3,27,-11,4,L,90,0,B,11-16 H,0,18,36,
+6A,700,11,6,17,-6,3,L,90,0,B,5-16 H,0,16,26,
+6B,600*2,16,2 (4) 4,26,-13,3,"L, N",90,"85, 79",B,0,0,16,40,Fatal Counter
+6C,1000,18,6,42,-27,5,L,100,84,B,0,0,20,60,Fatal Counter
+3C,820,14,3,24,-10,3,L,0,0,F,0,0,16,40,
+j.A,300,8,2,10,0,1,N,80,0,H,0,0,11,14,
+j.B,580,10,6,21,0,2,L,80,0,H,0,0,13,17,
+j.C,840,12,6,12,0,3,L,80,0,H,0,0,16,21,
+j.2C,900,14,6,22,0,3,L,80,0,H,0,0,16,40,
+D Summon,500,144,12,41,0,2,N,70,92,P1,0,0,0,25+5,
+D Summon OD,850,76,40,41,0,4,N,70,92,P2,0,0,0,25+12,
+Charged D Summon,850,176,40,54,0,4,N,70,92,P2,0,0,0,25+12,
+Air D Summon,500,151,12, 43,0,2,N,70,92,P1,0,0,0,25+5,
+Air D Summon OD,850,84,40,43,0,4,N,70,92,P2,0,0,0,25+12,
+Air Charged D Summon,850,184,40,59,0,4,N,70,92,P2,0,0,0,25+12,
+Ground Throw,1500,7,3,23,0,4,N,100,50,T,0,0,0,100,
+Air Throw,1500,7,3,26,0,4,N,100,50,T,0,0,0,60,
+Counter Assault,0,13,3,32,-16,4,VS,50,92,B,1-20 All,0,18,19,
+Crush Trigger,1000,20,1,25,0,0,N,80,60,B,0,0,24,60,
+Crush Trigger Charged,1000,30,1,25,0,0,L,80,100,B,0,0,24,60,
+Origins ,1200,14,8,37,0,4,VS,60,0,B,1-7 All<br/>8-21 Guard All,0,18,"19, Wall 40",
+Air Origins ,1200,14,8,15,0,4,VS,60,0,H,1-7 All<br/>8-21 Guard All,0,18,"19, Wall 40",
+Totsuka Blade ,750,24,0,72,0,3,N,80,0,P1,0,0,16+0,25+0,
+Air Totsuka Blade ,750,24,0,5,0,3,N,80,0,P1,0,0,16+0,25+0,
+Tokotachi Blade,"Normal: 800 OD: 800, 700",30,0,39,0,3,N,80,"Normal: 85<br/>OD: 85, 94",P1,0,0,0,"Normal: 60+0<br/>OD: 60+0, 40+6",
+Air Tokotachi Blade,"Normal: 800 OD: 800, 700",30,0,44,0,3,N,80,"Normal: 85<br/>OD: 85, 94",P1,0,0,0,"Normal: 60+0<br/>OD: 60+0, 40+6",
+Sword of Decimation,1000,17,7,22,0,4,L,100,82,B,0,0,0,"46, Slide 10",Fatal Counter
+Sword of Decimation Charged,1500,40,7,22,0,5,L,100,82,B,0,0,0,"46, Wall 60",Fatal Counter
+Sword of Infinity,1100,31,3,0,0,5,N,100,74,H,0,0,0,49,
+Arrows of Heaven ,360*3,13,Until Ofscreen,51,0,3,N,80,0,P1,0,0,16+0,17+0,
+Air Arrows of Heaven ,360*3,13,Until Ofscreen,54,0,3,N,80,0,P1,0,0,16+0,17+0,
+Blessed Mirror,640,38,Until Offscreen,52,0,4,N,80,0,P2,0,0,0,40+0,"Startup listed is for the final, guaranteed laser. Shoots a laser for each bit deployed. Startup for these lasers are 5+9, 5+15, 5+21, 5+27. Lasers that go through bits can hit twice: once when traveling to bit, and again after being reflected"
+Blessed Mirror OD,760,38,Until Offscreen,52,0,4,N,80,0,P2,0,0,0,40+0,"Startup listed is for the final, guaranteed laser. Shoots 2 lasers for each bit deployed: one that travels to bit and is reflected, one that shoots directly at opponent. Startup for these lasers are 5+9, 5+15, 5+21, 5+27. Lasers that go through bits can hit twice: once when traveling to bit, and again after being reflected. Damage while traveling to bits is 640"
+Air Blessed Mirror,640,47,Until Offscreen,5,0,4,N,80,0,P2,0,0,0,40+0,"Startup listed is for the final, guaranteed laser. Shoots a laser for each bit deployed. Startup for these lasers are 5+18, 5+24, 5+30, 5+36. Lasers that go through bits can hit twice: once when traveling to bit, and again after being reflected"
+Air Blessed Mirror OD,640,47,Until Offscreen,5,0,4,N,80,0,P2,0,0,0,40+0,"Startup listed is for the final, guaranteed laser. Shoots 2 lasers for each bit deployed: one that travels to bit and is reflected, one that shoots directly at opponent. Startup for these lasers are 5+18, 5+24, 5+30, 5+36. Lasers that go through bits can hit twice: once when traveling to bit, and again after being reflected. Damage while traveling to bits is 640"
+Wisdom of the Divines,"Normal: 1200, 400*8 1400, 250*24",10,8,42,0,0,N,0,0,B,1-17 All,0,0,0,
+EA,"Normal: 600, 2430 AF: 600, 525*10",10,3,34,-10,0,L,100,100,B,Fast: 1-12 All<br/>Slow: 1-22 All,0,26,0,Minimum Damage 10%
+Astral,37000,17,4,50,0,4,L,0,0,F,8-25 All,0,0,0,
